@@ -346,7 +346,8 @@ li,
   --tp-common-paste: #43D4A0;
   --tp-common-paste-2: #0C5752;
   --tp-common-sky: #C5FCFC;
-  --tp-common-red: #FF4851;
+  /* --tp-common-red: #FF4851; */
+  --tp-common-red: #8cff00;
   --tp-common-red-2: #FF481F;
   --tp-common-red-3: #FF5722;
   --tp-common-blue: #7463FF;
