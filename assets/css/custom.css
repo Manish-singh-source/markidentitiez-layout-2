@@ -68,3 +68,30 @@
     overflow: hidden;
     margin-left: 0px;
 }
+
+@media (max-width: 767px) {
+    .tp-about-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tp-about-box > .row {
+        order: 1;
+    }
+
+    .tp-about-shape-1 {
+        position: relative;
+        left: auto;
+        bottom: auto;
+        display: flex;
+        justify-content: center;
+        order: 2;
+        width: 100%;
+        margin: 30px auto 40px;
+    }
+
+    .tp-about-shape-1 .mi-logo-animation {
+        width: 180px;
+        height: 180px;
+    }
+}
