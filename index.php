@@ -147,7 +147,7 @@ include('layouts/header.php'); ?>
                                             <div class="tp_text_anim">
                                                 <p>At Mark Identitiez, we combine strategy, creativity, and
                                                     digital expertise to create brand experiences that
-                                                    connect with your audience and support business growth.
+                                                    connect with your audience and support business growth. <br>
                                                     Every design, campaign, and digital solution is crafted
                                                     to make your brand more powerful and recognizable.</p>
                                             </div>
@@ -341,8 +341,7 @@ include('layouts/header.php'); ?>
                                                 </defs>
                                             </svg>
                                         </span>
-                                        <span class="tp-btn-black-filter d-inline-flex align-items-center"
-                                            style="filter: url(#buttonFilter2)">
+                                        <span class="tp-btn-black-filter d-inline-flex align-items-center">
                                             <span class="tp-btn-black-text">See Our Services</span>
                                             <span class="tp-btn-black-circle">
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
@@ -451,8 +450,7 @@ include('layouts/header.php'); ?>
                                                 </defs>
                                             </svg>
                                         </span>
-                                        <span class="tp-btn-black-filter d-inline-flex align-items-center"
-                                            style="filter: url(#buttonFilter3)">
+                                        <span class="tp-btn-black-filter d-inline-flex align-items-center">
                                             <span class="tp-btn-black-text">See Our Services</span>
                                             <span class="tp-btn-black-circle">
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
@@ -561,8 +559,7 @@ include('layouts/header.php'); ?>
                                                 </defs>
                                             </svg>
                                         </span>
-                                        <span class="tp-btn-black-filter d-inline-flex align-items-center"
-                                            style="filter: url(#buttonFilter4)">
+                                        <span class="tp-btn-black-filter d-inline-flex align-items-center">
                                             <span class="tp-btn-black-text">See Our Services</span>
                                             <span class="tp-btn-black-circle">
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
@@ -649,8 +646,7 @@ include('layouts/header.php'); ?>
                                                 </defs>
                                             </svg>
                                         </span>
-                                        <span class="tp-btn-black-filter d-inline-flex align-items-center"
-                                            style="filter: url(#buttonFilter5)">
+                                        <span class="tp-btn-black-filter d-inline-flex align-items-center">
                                             <span class="tp-btn-black-text">See Our Services</span>
                                             <span class="tp-btn-black-circle">
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
