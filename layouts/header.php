@@ -69,7 +69,7 @@
             <div class="tp-offcanvas-2-left left-box">
                 <div class="tp-offcanvas-2-left-wrap d-flex justify-content-between align-items-center">
                     <div class="tp-offcanvas-2-logo">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img class="logo-1" data-width="140" src="assets/img/new-images/mark.png" alt="">
                             <img class="logo-2" data-width="140" src="assets/img/logo/logo-black.png" alt="">
                         </a>
@@ -184,7 +184,7 @@
                         <div class="tp-header-14-wrapper d-flex align-items-center justify-content-between">
                             <div class="tp-header-14-left">
                                 <div class="tp-header-logo">
-                                    <a href="index.html"><img data-width="120" src="assets/img/new-images/mark.png"
+                                    <a href="index.php"><img data-width="120" src="assets/img/new-images/mark.png"
                                             alt=""></a>
                                 </div>
                             </div>
