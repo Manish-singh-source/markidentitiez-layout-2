@@ -19,11 +19,11 @@ include('layouts/header.php'); ?>
         </div>
         <div class="tp-portfolio-slider__wrap slider slider--bg">
             <div class="tp-portfolio-slider__item">
-                <video src="https://markidentitiez.com/img/video/banner03.mp4" autoplay muted loop
+                <video src="https://markidentitiez.com/img/video/banner01-1.mp4" autoplay muted loop
                     playsinline preload="auto"></video>
             </div>
             <div class="tp-portfolio-slider__item">
-                <video src="https://markidentitiez.com/img/video/banner01-1.mp4" autoplay muted loop
+                <video src="https://markidentitiez.com/img/video/banner02.mp4" autoplay muted loop
                     playsinline preload="auto"></video>
             </div>
             <div class="tp-portfolio-slider__item">
