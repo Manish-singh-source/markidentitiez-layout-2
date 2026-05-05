@@ -214,9 +214,9 @@
 
         <nav class="tp-mobile-menu-active d-none">
             <ul>
-                <li><a href="index-dark.html">Home</a></li>
-                <li><a href="index-dark.html">About Us</a></li>
-                <li><a href="index-dark.html">Services</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about-us.php">About Us</a></li>
+                <li><a href="service.php">Services</a></li>
                 <li><a href="index-dark.html">Portfolio</a></li>
                 <li><a href="index-dark.html">Contact</a></li>
                 <!-- <li class="has-dropdown p-static is-active">
