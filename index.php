@@ -113,7 +113,22 @@ include('layouts/header.php'); ?>
         <div class="container">
             <div class="tp-about-box p-relative">
                 <div class="tp-about-shape-1 tp-bounce d-none d-md-block">
-                    <img src="assets/img/home-01/about/about-shape-1.png" alt="">
+                    <div class="mi-logo-animation" aria-label="Mark Identitiez">
+                        <span class="mi-logo-swoosh mi-logo-swoosh-top" aria-hidden="true"></span>
+                        <span class="mi-logo-swoosh mi-logo-swoosh-bottom" aria-hidden="true"></span>
+                        <span class="mi-logo-leaf mi-logo-leaf-lg" aria-hidden="true"></span>
+                        <span class="mi-logo-leaf mi-logo-leaf-md" aria-hidden="true"></span>
+                        <span class="mi-logo-leaf mi-logo-leaf-sm" aria-hidden="true"></span>
+
+                        <div class="mi-logo-text">
+                            <div class="mi-logo-word mi-logo-mark" aria-hidden="true">
+                                <span>M</span><span>A</span><span>R</span><span>K</span>
+                            </div>
+                            <div class="mi-logo-word mi-logo-identitiez" aria-hidden="true">
+                                <span>I</span><span>D</span><span>E</span><span>N</span><span>T</span><span>I</span><span>T</span><span>I</span><span>E</span><span>Z</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-xl-3">
@@ -940,5 +955,37 @@ include('layouts/header.php'); ?>
     <!-- testimonial area end -->
 
 </main>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var logoAnimation = document.querySelector('.mi-logo-animation');
+
+        if (!logoAnimation) {
+            return;
+        }
+
+        var startAnimation = function () {
+            logoAnimation.classList.add('is-animated');
+        };
+
+        if (!('IntersectionObserver' in window)) {
+            startAnimation();
+            return;
+        }
+
+        var logoObserver = new IntersectionObserver(function (entries, observer) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    startAnimation();
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.45
+        });
+
+        logoObserver.observe(logoAnimation);
+    });
+</script>
 
 <?php include('layouts/footer.php'); ?>

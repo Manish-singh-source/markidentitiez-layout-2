@@ -14988,6 +14988,235 @@ body.tp-magic-cursor #magic-cursor {
 .tp-about-shape-1 img {
   animation: rotate2 5s linear infinite;
 }
+.mi-logo-animation {
+  --mi-white: #fbfbfb;
+  --mi-green: #94c83d;
+  --mi-blue: #34a9cf;
+  position: relative;
+  width: 230px;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+.mi-logo-animation::after {
+  content: "";
+  position: absolute;
+  inset: 7px;
+  border: 3px solid rgba(148, 200, 61, 0.78);
+  border-left-color: rgba(52, 169, 207, 0.9);
+  border-bottom-color: rgba(52, 169, 207, 0.9);
+  border-radius: 999px;
+  opacity: 0;
+  transform: scale(0.78) rotate(-32deg);
+  pointer-events: none;
+}
+.mi-logo-swoosh {
+  position: absolute;
+  border-radius: 999px;
+  opacity: 0;
+  transform: scale(0.62) rotate(-42deg);
+  pointer-events: none;
+}
+.mi-logo-swoosh-top {
+  inset: 12px 24px 54px 34px;
+  border-top: 7px solid var(--mi-green);
+  border-left: 4px solid transparent;
+  border-right: 4px solid var(--mi-blue);
+}
+.mi-logo-swoosh-bottom {
+  inset: 44px 20px 16px 28px;
+  border-bottom: 8px solid var(--mi-blue);
+  border-right: 5px solid var(--mi-green);
+  border-left: 4px solid transparent;
+}
+.mi-logo-leaf {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  border-radius: 100% 0 100% 0;
+  background:
+    linear-gradient(115deg, rgba(255, 255, 255, 0.72) 0 10%, transparent 11%),
+    linear-gradient(135deg, #d7ee70 0%, #99cb2f 42%, #3f9b2f 100%);
+  box-shadow: inset -7px -8px 12px rgba(31, 108, 34, 0.35);
+  opacity: 0;
+  transform: scale(0.45) rotate(-32deg);
+  transform-origin: 80% 90%;
+  pointer-events: none;
+}
+.mi-logo-leaf::after {
+  content: "";
+  position: absolute;
+  width: 78%;
+  height: 3px;
+  left: 12%;
+  top: 52%;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.48);
+  transform: rotate(-36deg);
+}
+.mi-logo-leaf-lg {
+  width: 44px;
+  height: 74px;
+  left: 22px;
+  bottom: 54px;
+}
+.mi-logo-leaf-md {
+  width: 34px;
+  height: 52px;
+  left: 67px;
+  bottom: 34px;
+  transform: scale(0.45) rotate(22deg);
+}
+.mi-logo-leaf-sm {
+  width: 24px;
+  height: 36px;
+  left: 85px;
+  bottom: 10px;
+  transform: scale(0.45) rotate(58deg);
+}
+.mi-logo-text {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+.mi-logo-word {
+  color: var(--mi-white);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.mi-logo-identitiez {
+  color: var(--mi-white);
+  font-size: 19px;
+}
+.mi-logo-word span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(22px);
+}
+.mi-logo-mark {
+  color: var(--mi-white);
+}
+.mi-logo-animation.is-animated::after {
+  animation:
+    miLogoBorderReveal 0.75s cubic-bezier(0.22, 1, 0.36, 1) 3.45s forwards,
+    miLogoCircleRotate 7s linear 4.2s infinite;
+}
+.mi-logo-animation.is-animated .mi-logo-swoosh-top {
+  animation: miLogoSwooshReveal 0.85s cubic-bezier(0.22, 1, 0.36, 1) 1.65s forwards;
+}
+.mi-logo-animation.is-animated .mi-logo-swoosh-bottom {
+  animation: miLogoSwooshReveal 0.85s cubic-bezier(0.22, 1, 0.36, 1) 1.95s forwards;
+}
+.mi-logo-animation.is-animated .mi-logo-leaf-lg {
+  animation: miLogoLeafReveal 0.55s cubic-bezier(0.22, 1, 0.36, 1) 2.55s forwards;
+}
+.mi-logo-animation.is-animated .mi-logo-leaf-md {
+  animation: miLogoLeafRevealMd 0.55s cubic-bezier(0.22, 1, 0.36, 1) 2.72s forwards;
+}
+.mi-logo-animation.is-animated .mi-logo-leaf-sm {
+  animation: miLogoLeafRevealSm 0.55s cubic-bezier(0.22, 1, 0.36, 1) 2.89s forwards;
+}
+.mi-logo-animation.is-animated .mi-logo-word span {
+  animation: miLogoChar 0.18s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+.mi-logo-mark span:nth-child(4) {
+  animation-delay: 0.1s;
+}
+.mi-logo-mark span:nth-child(3) {
+  animation-delay: 0.24s;
+}
+.mi-logo-mark span:nth-child(2) {
+  animation-delay: 0.38s;
+}
+.mi-logo-mark span:nth-child(1) {
+  animation-delay: 0.52s;
+}
+.mi-logo-identitiez span:nth-child(1) {
+  animation-delay: 0.82s;
+}
+.mi-logo-identitiez span:nth-child(2) {
+  animation-delay: 0.92s;
+}
+.mi-logo-identitiez span:nth-child(3) {
+  animation-delay: 1.02s;
+}
+.mi-logo-identitiez span:nth-child(4) {
+  animation-delay: 1.12s;
+}
+.mi-logo-identitiez span:nth-child(5) {
+  animation-delay: 1.22s;
+}
+.mi-logo-identitiez span:nth-child(6) {
+  animation-delay: 1.32s;
+}
+.mi-logo-identitiez span:nth-child(7) {
+  animation-delay: 1.42s;
+}
+.mi-logo-identitiez span:nth-child(8) {
+  animation-delay: 1.52s;
+}
+.mi-logo-identitiez span:nth-child(9) {
+  animation-delay: 1.62s;
+}
+.mi-logo-identitiez span:nth-child(10) {
+  animation-delay: 1.72s;
+}
+@keyframes miLogoChar {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes miLogoBorderReveal {
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }
+}
+@keyframes miLogoCircleRotate {
+  from {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+  }
+}
+@keyframes miLogoSwooshReveal {
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }
+}
+@keyframes miLogoLeafReveal {
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(-32deg);
+  }
+}
+@keyframes miLogoLeafRevealMd {
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(22deg);
+  }
+}
+@keyframes miLogoLeafRevealSm {
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(58deg);
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-about-title-box {
     margin-bottom: 20px;
