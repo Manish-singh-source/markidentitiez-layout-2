@@ -210,16 +210,16 @@ include('layouts/header.php'); ?>
                 <div class="studio-showcase-main d-flex">
                     <div class="studio-showcase-item d-none d-md-block" data-speed=".7">
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-2.jpg" alt="">
+                            <img src="assets/img/new-images/Portfolio-1.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-1.jpg" alt="">
+                            <img src="assets/img/new-images/Portfolio-1.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-7.jpg" alt="">
+                            <img src="assets/img/new-images/FP-7.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-2.jpg" alt="">
+                            <img src="assets/img/new-images/FP-8.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
                             <img src="assets/img/home-06/showcase/showcase-1.jpg" alt="">
@@ -230,16 +230,16 @@ include('layouts/header.php'); ?>
                     </div>
                     <div class="studio-showcase-item" data-speed="1.1">
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-5.jpg" alt="">
+                            <img src="assets/img/new-images/FP-4.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-4.jpg" alt="">
+                            <img src="assets/img/new-images/FP-2.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-6.jpg" alt="">
+                            <img src="assets/img/new-images/FP-5.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-5.jpg" alt="">
+                            <img src="assets/img/new-images/FP-3.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
                             <img src="assets/img/home-06/showcase/showcase-4.jpg" alt="">
@@ -268,16 +268,16 @@ include('layouts/header.php'); ?>
                     </div>
                     <div class="studio-showcase-item d-none d-md-block" data-speed=".7">
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-8.jpg" alt="">
+                            <img src="assets/img/new-images/Portfolio-3.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-6.jpg" alt="">
+                            <img src="assets/img/new-images/Portfolio-3.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-9.jpg" alt="">
+                            <img src="assets/img/new-images/Portfolio-2.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-8.jpg" alt="">
+                            <img src="assets/img/new-images/FP-1.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
                             <img src="assets/img/home-06/showcase/showcase-6.jpg" alt="">
