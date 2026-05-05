@@ -112,7 +112,7 @@ include('layouts/header.php'); ?>
     <div class="tp-about-area pt-140 pb-120 tp-bounce-trigger">
         <div class="container">
             <div class="tp-about-box p-relative">
-                <div class="tp-about-shape-1 tp-bounce d-none d-md-block">
+                <div class="tp-about-shape-1 tp-bounce d-md-block">
                     <div class="mi-logo-animation" aria-label="Mark Identitiez">
                         <span class="mi-logo-swoosh mi-logo-swoosh-top" aria-hidden="true"></span>
                         <span class="mi-logo-swoosh mi-logo-swoosh-bottom" aria-hidden="true"></span>
@@ -168,7 +168,7 @@ include('layouts/header.php'); ?>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-6 col-sm-6">
+                                            <div class="col-6 col-md-6">
                                                 <div class="tp-about-funcact-item tp_fade_anim mb-30"
                                                     data-delay=".3">
                                                     <span><i data-purecounter-duration="1"
@@ -177,7 +177,7 @@ include('layouts/header.php'); ?>
                                                     <p>Client Satisfaction <br> Rate</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 col-sm-6">
+                                            <div class="col-6 col-md-6">
                                                 <div class="tp-about-funcact-item tp_fade_anim mb-30"
                                                     data-delay=".5">
                                                     <span><i data-purecounter-duration="1"
@@ -188,7 +188,7 @@ include('layouts/header.php'); ?>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-6 col-sm-6">
+                                            <div class="col-6 col-md-6">
                                                 <div class="tp-about-funcact-item tp_fade_anim mb-30"
                                                     data-delay=".3">
                                                     <span><i data-purecounter-duration="1"
@@ -197,7 +197,7 @@ include('layouts/header.php'); ?>
                                                     <p>Industries <br> Served</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 col-sm-6">
+                                            <div class="col-6 col-md-6">
                                                 <div class="tp-about-funcact-item tp_fade_anim mb-30"
                                                     data-delay=".5">
                                                     <span><i data-purecounter-duration="1"

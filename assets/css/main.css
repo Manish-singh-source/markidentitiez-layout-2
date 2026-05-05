@@ -14931,6 +14931,14 @@ body.tp-magic-cursor #magic-cursor {
   .tp-about-funcact-wrap {
     margin-left: 0;
   }
+  .tp-about-funcact-item span {
+    font-size: 54px;
+    margin-bottom: 12px;
+  }
+  .tp-about-funcact-item p {
+    font-size: 16px;
+    line-height: 1.28;
+  }
 }
 .tp-about-funcact-item span {
   font-weight: 400;
