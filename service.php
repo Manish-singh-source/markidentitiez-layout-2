@@ -187,14 +187,14 @@ include("layouts/header.php"); ?>
                             <div class="col-xl-6">
                                 <div class="inner-service-1-thumb tp--hover-item">
                                     <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                        <img class="w-100" src="assets/img/inner-service/service-3.jpg" alt="">
+                                        <img class="w-100" src="assets/img/new-images/service-1-1.png" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-6">
                                 <div class="inner-service-1-thumb tp--hover-item">
                                     <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                        <img class="w-100" src="assets/img/inner-service/service-4.jpg" alt="">
+                                        <img class="w-100" src="assets/img/new-images/service-1-2.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -217,7 +217,15 @@ include("layouts/header.php"); ?>
                                     </div>
                                     <div class="inner-service-1-category">
                                         <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Logo Design</span>
+                                            <span>Product Mockups</span>
+                                            <i>
+                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </i>
+                                        </a>
+                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                            <span>Packaging Design Preview</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -226,14 +234,6 @@ include("layouts/header.php"); ?>
                                         </a>
                                         <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Visual Identity</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Color Palette</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -297,7 +297,7 @@ include("layouts/header.php"); ?>
                                     </div>
                                     <div class="inner-service-1-category">
                                         <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Social Media Management</span>
+                                            <span>Social Media Marketing</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -313,6 +313,22 @@ include("layouts/header.php"); ?>
                                             </i>
                                         </a>
                                         <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                            <span>Google Ads</span>
+                                            <i>
+                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </i>
+                                        </a>
+                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                            <span>Meta Ads</span>
+                                            <i>
+                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </i>
+                                        </a>
+                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Content Creation</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -321,15 +337,7 @@ include("layouts/header.php"); ?>
                                             </i>
                                         </a>
                                         <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Paid Advertising</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Analytics & Reporting</span>
+                                            <span>Lead Generation</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
