@@ -109,7 +109,7 @@ include('layouts/header.php'); ?>
     <!-- project slider area end -->
 
     <!-- about area start -->
-    <div class="tp-about-area pt-140 pb-120 tp-bounce-trigger">
+    <div class="tp-about-area pt-100 pb-120 tp-bounce-trigger">
         <div class="container">
             <div class="tp-about-box p-relative">
                 <div class="tp-about-shape-1 tp-bounce d-md-block">
@@ -219,7 +219,7 @@ include('layouts/header.php'); ?>
     <!-- about area end -->
 
     <!-- showcase area start -->
-    <div class="studio-showcase-area mb-100">
+    <div class="studio-showcase-area">
         <div class="container-fluid">
             <div class="studio-showcase-wrap">
                 <div class="studio-showcase-main d-flex">
@@ -237,7 +237,7 @@ include('layouts/header.php'); ?>
                             <img src="assets/img/new-images/FP-8.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-1.jpg" alt="">
+                            <img src="assets/img/new-images/Portfolio-1.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
                             <img src="assets/img/home-06/showcase/showcase-7.jpg" alt="">
@@ -256,26 +256,26 @@ include('layouts/header.php'); ?>
                         <div class="studio-showcase-thumb mb-30">
                             <img src="assets/img/new-images/FP-3.png" alt="">
                         </div>
-                        <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-4.jpg" alt="">
+                         <div class="studio-showcase-thumb mb-30">
+                            <img src="assets/img/new-images/FP-5.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
                             <img src="assets/img/home-06/showcase/showcase-5.jpg" alt="">
                         </div>
-                        <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-4.jpg" alt="">
+                         <div class="studio-showcase-thumb mb-30">
+                            <img src="assets/img/new-images/FP-5.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-6.jpg" alt="">
+                            <img src="assets/img/new-images/FP-2.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
                             <img src="assets/img/home-06/showcase/showcase-5.jpg" alt="">
                         </div>
-                        <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-4.jpg" alt="">
+                         <div class="studio-showcase-thumb mb-30">
+                            <img src="assets/img/new-images/FP-5.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-6.jpg" alt="">
+                            <img src="assets/img/new-images/FP-2.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
                             <img src="assets/img/home-06/showcase/showcase-5.jpg" alt="">
@@ -295,7 +295,7 @@ include('layouts/header.php'); ?>
                             <img src="assets/img/new-images/FP-1.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
-                            <img src="assets/img/home-06/showcase/showcase-6.jpg" alt="">
+                            <img src="assets/img/new-images/FP-2.png" alt="">
                         </div>
                         <div class="studio-showcase-thumb mb-30">
                             <img src="assets/img/home-06/showcase/showcase-9.jpg" alt="">
@@ -370,54 +370,7 @@ include('layouts/header.php'); ?>
                                     </a>
                                 </div>
                                 <!-- SERVICES -->
-                                <div class="row mt-5 g-3">
-                                    <div class="col-6 col-md-4">
-
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-magnifying-glass"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Market Research
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-users"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Audience Insights
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-chart-line"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Competitor Analysis
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="row mt-5 g-3">
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-bullseye"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Brand Positioning
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-brain"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Strategic Development
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-rocket"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Growth Execution
-                                        </div>
-                                    </div>
-                                </div>
+                               
                             </div>
                         </div>
                         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
@@ -479,54 +432,7 @@ include('layouts/header.php'); ?>
                                     </a>
                                 </div>
                                 <!-- SERVICES -->
-                                <div class="row mt-5 g-3">
-                                    <div class="col-6 col-md-4">
-
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-compass"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Creative Direction
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-eye"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Visual Branding
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-layer-group"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Design Systems
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="row mt-5 g-3">
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-palette"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Brand Aesthetics
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-book-open"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Style Guides
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-star"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Brand Experience
-                                        </div>
-                                    </div>
-                                </div>
+                               
                             </div>
                         </div>
                         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
@@ -588,31 +494,7 @@ include('layouts/header.php'); ?>
                                     </a>
                                 </div>
                                 <!-- SERVICES -->
-                                <div class="row mt-5 g-3">
-                                    <div class="col-6 col-md-4">
-
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-share-nodes"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Social Media
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-chart-line"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            SEO Optimization
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-bullhorn"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Audience Reach
-                                        </div>
-                                    </div>
-
-                                </div>
+                                
 
                             </div>
                         </div>
@@ -675,54 +557,8 @@ include('layouts/header.php'); ?>
                                     </a>
                                 </div>
                                 <!-- SERVICES -->
-                                <div class="row mt-5 g-3">
-                                    <div class="col-6 col-md-4">
-
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-magnifying-glass"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Market Research
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-users"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Audience Insights
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-chart-line"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Competitor Analysis
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="row mt-5 g-3">
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-bullseye"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Brand Positioning
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-brain"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Strategic Development
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <div class="service-box">
-                                            <i class="fa-solid fa-rocket"
-                                                style="color:#8cff00de; font-size:25px;"></i>
-                                            Growth Execution
-                                        </div>
-                                    </div>
-                                </div>
+                               
+                                
                             </div>
                         </div>
                         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
@@ -959,32 +795,28 @@ include('layouts/header.php'); ?>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         var logoAnimation = document.querySelector('.mi-logo-animation');
+        var restartDelay = 8500;
 
         if (!logoAnimation) {
             return;
         }
 
         var startAnimation = function () {
-            logoAnimation.classList.add('is-animated');
+            logoAnimation.classList.remove('is-animated');
+
+            requestAnimationFrame(function () {
+                requestAnimationFrame(function () {
+                    logoAnimation.classList.add('is-animated');
+                });
+            });
         };
 
-        if (!('IntersectionObserver' in window)) {
-            startAnimation();
-            return;
-        }
+        var keepAnimating = function () {
+            logoAnimation.classList.add('is-animated');
+            setInterval(startAnimation, restartDelay);
+        };
 
-        var logoObserver = new IntersectionObserver(function (entries, observer) {
-            entries.forEach(function (entry) {
-                if (entry.isIntersecting) {
-                    startAnimation();
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, {
-            threshold: 0.45
-        });
-
-        logoObserver.observe(logoAnimation);
+        keepAnimating();
     });
 </script>
 
