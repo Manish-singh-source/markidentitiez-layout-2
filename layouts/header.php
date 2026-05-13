@@ -37,12 +37,12 @@
     <!-- preloader -->
 
     <!-- preloader -->
-    <!-- <div id="preloader">
+    <div id="preloader">
         <div class="preloader">
             <span></span>
             <span></span>
         </div>
-    </div> -->
+    </div>
     <!-- preloader end  -->
     <!-- preloader end  -->
 
@@ -216,8 +216,22 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about-us.php">About Us</a></li>
-                <li><a href="service.php">Services</a></li>
-                <li><a href="index-dark.html">Portfolio</a></li>
+                <li class="has-dropdown p-static is-active">
+                    <a href="portfolio.php">Services</a>
+                    <ul class="tp-submenu submenu">
+                        <li><a href="brand-positioning.php">Brand Positioning</a></li>
+                        <li><a href="brand-identity.php">Brand Identity</a></li>
+                        <li><a href="brand-positioning.php">Brand Positioning</a></li>
+                        <li><a href="#">Visual Brand Language</a></li>
+                        <li><a href="#">Brand Architecture</a></li>
+                        <li><a href="#">Packaging Design</a></li>
+                        <li><a href="#">Brand Naming</a></li>
+                        <li><a href="#">Communication Design</a></li>
+                        <li><a href="#">Brand Tonality & Messaging</a></li>
+                        <li><a href="#">Logo Design & Brand Management</a></li>
+                    </ul>
+                </li>
+                <li><a href="service.php">Portfolio</a></li>
                 <li><a href="index-dark.html">Contact</a></li>
                 <!-- <li class="has-dropdown p-static is-active">
                     <a href="#">Home</a>
