@@ -8,7 +8,7 @@ include('layouts/header.php'); ?>
             <div class="ar-hero-area p-relative include-bg"
                 data-background="assets/img/blog/blog-masonry/blog-bradcum-bg.png">
                 <div class="ar-about-us-4-shape">
-                    <img src="assets/img/portfolio/portfolio-shape.png" alt="">
+                    <img src="assets/img/about-us/about-us-4/about-us-4-shape-2.png" alt="">
                 </div>
                 <div class="container container-1230">
                     <div class="ar-about-us-4-hero-ptb">
