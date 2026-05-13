@@ -3,7 +3,103 @@ $title = "Service";
 include("layouts/header.php"); ?>
 
 <main>
-
+ <!-- hero area start -->
+                <div class="ai-hero-area p-relative z-index-1">
+                    <div class="ai-hero-video">
+                        <video loop="" muted="" autoplay="" playsinline="">
+                            <source src="https://html.aqlova.com/videos/agntix/agntix-video.mov" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-xl-7 col-lg-6 col-md-6">
+                                <div class="ai-hero-ptb">
+                                    <div class="ai-hero-title-box">
+                                        <span class="ai-hero-subtitle tp_fade_anim" data-delay=".3">A Full-Service Branding Agency in Mumbai</span>
+                                        <h4 class="ai-hero-title tp_fade_anim" data-delay=".5">
+                                            Create <span class="brand-color-text">brand</span> <span class="d-none d-md-inline-block"><img src="assets/img/new-images/hero-text-img.png" alt=""></span> <span class="brand-color-text">identities</span> that leave a lasting impact.
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-5 col-lg-6 col-md-6">
+                                <div class="ai-hero-slider-main fix p-relative">
+                                    <div class="row gx-12">
+                                        <div class="col-6">
+                                            <div class="ai-hero-slider-wrap ai-hero-slider-1">
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s1.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s2.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s3.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s4.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s5.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s6.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s7.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s3.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s4.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s5.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="ai-hero-slider-wrap ai-hero-slider-2">
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s1.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s2.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s3.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s4.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s5.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s6.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s7.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s3.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s4.png" alt="">
+                                                </div>
+                                                <div class="ai-hero-slider-item">
+                                                    <img class="w-100" src="assets/img/new-images/s5.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- hero area end -->
     <!-- hero area start -->
     <div class="studio-hero-area p-relative fix pb-80">
         <div class="content z-index-2 d-none d-md-block">

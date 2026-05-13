@@ -21,6 +21,56 @@
     color: #8BD70D;
 }
 
+.portfolio-filter-nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px 38px;
+}
+
+.portfolio-filter-nav button {
+    position: relative;
+    padding: 0 0 13px;
+    border: 0;
+    background: transparent;
+    color: var(--tp-common-white);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.agntix-light .portfolio-filter-nav button {
+    color: #111;
+}
+
+.portfolio-filter-nav button::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    content: "";
+    background-color: #0986d8;
+    transition: width 0.25s ease;
+}
+
+.portfolio-filter-nav button.active::after,
+.portfolio-filter-nav button:hover::after {
+    width: 38px;
+}
+
+.portfolio-filter-hidden {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .portfolio-filter-nav {
+        gap: 18px 24px;
+    }
+}
+
 .tp-section-title {
     font-size: 50px;
     font-weight: 700;
@@ -60,6 +110,18 @@
 
 .agntix-dark .tp_text_invert > div {
     background-image: linear-gradient(to right, #8cff00 50%, #383C3E 50%);
+}
+
+.ai-hero-title-box .ai-hero-subtitle {
+    color: #ffffff;
+}
+
+.ai-hero-title-box .ai-hero-title {
+    color: #ffffff;
+}
+
+.ai-hero-title-box .brand-color-text {
+    color: #8dc63f;
 }
 
 .tp-about-thumb {
