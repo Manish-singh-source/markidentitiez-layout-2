@@ -218,7 +218,7 @@
                 <li><a href="about-us.php">About Us</a></li>
                 <li><a href="service.php">Services</a></li>
                 <li><a href="index-dark.html">Portfolio</a></li>
-                <li><a href="index-dark.html">Contact</a></li>
+                <li><a href="contactus.php">Contact</a></li>
                 <!-- <li class="has-dropdown p-static is-active">
                     <a href="#">Home</a>
                     <ul class="tp-submenu submenu">

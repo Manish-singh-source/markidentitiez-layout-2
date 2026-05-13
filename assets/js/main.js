@@ -296,13 +296,25 @@
 
 	// 17. scroll wrapper //
 	gsap.registerPlugin(ScrollTrigger, ScrollSmoother, ScrollToPlugin);
+	let tpSmoother = null;
 	if($('#smooth-wrapper').length && $('#smooth-content').length){
-		ScrollSmoother.create({
+		tpSmoother = ScrollSmoother.create({
 			smooth: 1.35,
 			effects: true,
 			smoothTouch: .1,
 			ignoreMobileResize: true
-		})
+		});
+
+		// Recalculate smoother after the full page and images finish loading
+		// so the final scroll height includes late-loading sections like the footer.
+		$(window).on('load', function () {
+			setTimeout(function () {
+				if (tpSmoother) {
+					tpSmoother.refresh();
+				}
+				ScrollTrigger.refresh();
+			}, 150);
+		});
 	}
 
 	// 18. webgl images hover animation //
