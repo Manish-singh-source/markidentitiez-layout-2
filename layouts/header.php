@@ -217,7 +217,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about-us.php">About Us</a></li>
                 <li class="has-dropdown p-static is-active">
-                    <a href="portfolio.php">Services</a>
+                    <a href="service.php">Services</a>
                     <ul class="tp-submenu submenu">
                         <li><a href="brand-positioning.php">Brand Positioning</a></li>
                         <li><a href="brand-identity.php">Brand Identity</a></li>
@@ -231,8 +231,8 @@
                         <li><a href="#">Logo Design & Brand Management</a></li>
                     </ul>
                 </li>
-                <li><a href="service.php">Portfolio</a></li>
-                <li><a href="index-dark.html">Contact</a></li>
+                <li><a href="portfolio.php">Portfolio</a></li>
+                <li><a href="contactus.php">Contact</a></li>
                 <!-- <li class="has-dropdown p-static is-active">
                     <a href="#">Home</a>
                     <ul class="tp-submenu submenu">
