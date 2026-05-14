@@ -143,9 +143,38 @@
 		$(this).css("background-color", $(this).attr("data-bg-color"));
 	});
 
-	$("[data-background").each(function () {
-		$(this).css("background-image", "url( " + $(this).attr("data-background") + "  )");
-	});
+	function getResponsiveAsset($element, type) {
+		const desktopValue = $element.attr("data-" + type) || "";
+		const tabletValue = $element.attr("data-tablet-" + type) || "";
+		const mobileValue = $element.attr("data-mobile-" + type) || "";
+		const viewportWidth = window.innerWidth || document.documentElement.clientWidth || 0;
+
+		if (viewportWidth <= 767 && mobileValue) {
+			return mobileValue;
+		}
+
+		if (viewportWidth <= 991 && tabletValue) {
+			return tabletValue;
+		}
+
+		return desktopValue;
+	}
+
+	function applyResponsiveBackgrounds() {
+		$("[data-background]").each(function () {
+			const $background = $(this);
+			const backgroundImage = getResponsiveAsset($background, "background");
+			const backgroundFit = getResponsiveAsset($background, "background-fit");
+			const backgroundPosition = getResponsiveAsset($background, "background-position");
+
+			$background.css("background-image", backgroundImage ? "url(" + backgroundImage + ")" : "");
+			$background.css("background-size", backgroundFit || "");
+			$background.css("background-position", backgroundPosition || "");
+		});
+	}
+
+	applyResponsiveBackgrounds();
+	$(window).on("resize", applyResponsiveBackgrounds);
 
 	$("[data-width]").each(function () {
 		$(this).css("width", $(this).attr("data-width"));

@@ -211,7 +211,7 @@ include('layouts/header.php');
         }
     </style>
 
-<section class="success-page">
+<section class="success-page pt-150 pb-100">
     <div class="container success-wrap">
         <div class="success-card">
             <span class="success-badge">Message Delivered</span>
