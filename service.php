@@ -7,7 +7,7 @@ include("layouts/header.php"); ?>
                 <div class="ai-hero-area p-relative z-index-1">
                     <div class="ai-hero-video">
                         <video loop="" muted="" autoplay="" playsinline="">
-                            <source src="https://html.aqlova.com/videos/agntix/agntix-video.mov" type="video/mp4">
+                            <source src="./assets/img/new-images/download.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="container-fluid">

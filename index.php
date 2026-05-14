@@ -6,9 +6,9 @@ include('layouts/header.php'); ?>
 
     <!-- project slider area start -->
     <div class="tp-portfolio-slider__main tp-portfolio-slider__style-2 fix">
-        <div class="tp-portfolio-slider__copyright">
-            <p>We love to create©2025</p>
-        </div>
+        <!-- <div class="tp-portfolio-slider__copyright">
+            <p>We Love to Create Brands</p>
+        </div> -->
         <div class="tp-portfolio-slider__mail">
             <a href="mailto:info@markidentitiez.com">info@markidentitiez.com</a>
         </div>
@@ -19,7 +19,7 @@ include('layouts/header.php'); ?>
         </div>
         <div class="tp-portfolio-slider__wrap slider slider--bg">
             <div class="tp-portfolio-slider__item">
-                <video src="assets/video/banner01-1.mp4" autoplay muted loop
+                <video src="assets/img/new-images/banner2.mp4" autoplay muted loop
                     playsinline preload="auto"></video>
             </div>
             <div class="tp-portfolio-slider__item">
@@ -61,7 +61,7 @@ include('layouts/header.php'); ?>
                         data-background="assets/img/project-slider-img/10-small.html"></div>
                 </div> -->
         </div>
-        <div class="tp-portfolio-slider-type">
+        <!-- <div class="tp-portfolio-slider-type">
             <div class="type__item">
                 <h4 class="tp-portfolio-slider-type-title"><a
                         href="portfolio-details-classic-stack.html">.</a></h4>
@@ -74,15 +74,13 @@ include('layouts/header.php'); ?>
                 <h4 class="tp-portfolio-slider-type-title"><a
                         href="portfolio-details-classic-stack.html">.</a></h4>
             </div>
-            <!-- <div class="type__item">
-                    <h4 class="tp-portfolio-slider-type-title"><a href="portfolio-details-classic-stack.html">Adaora
-                            Musa</a></h4>
+            <div class="type__item">
+                    <h4 class="tp-portfolio-slider-type-title"><a href="portfolio-details-classic-stack.html"></a></h4>
                 </div>
                 <div class="type__item">
-                    <h4 class="tp-portfolio-slider-type-title"><a href="portfolio-details-classic-stack.html">Mia
-                            Petković</a></h4>
-                </div> -->
-        </div>
+                    <h4 class="tp-portfolio-slider-type-title"><a href="portfolio-details-classic-stack.html"></a></h4>
+                </div>
+        </div> -->
         <nav class="slider-nav mb-80">
             <button class="slider-nav__item slider-nav__item--prev d-flex align-items-center ml-100">
                 <span class="icon-1">
