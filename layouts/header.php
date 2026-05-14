@@ -216,7 +216,7 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about-us.php">About Us</a></li>
-                <li class="has-dropdown p-static is-active">
+                <li class="p-static is-active">
                     <a href="service.php">Services</a>
                     <ul class="tp-submenu submenu">
                         <li><a href="brand-proposition.php">Brand Proposition</a></li>
