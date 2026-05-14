@@ -1,0 +1,27 @@
+Mark Identitiez Website Revamp 
+Start Data - 22/4/2026
+
+List of Pages
+
+- Home Page					Created
+
+- About Us Page					Created
+
+- Service Page					Created
+-- Brand Proposition			Created
+-- Brand Identity				Created
+-- Brand Positioning				Created
+-- Visual Brand Language			-
+-- Brand Architecture				-
+-- Packaging Design 				-
+-- Brand Naming 				-
+-- Communication Design				-
+-- Brand Tonality & Messaging			-
+-- Logo Design & Brand Management		-
+
+- Portfolio					Created
+-- Portfolio Detail Page (20)			-
+-- (fragomatix using Gsap)  			Created
+
+- Career					Created
+- Contact 					Created
