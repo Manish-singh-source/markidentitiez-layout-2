@@ -3,11 +3,11 @@ $title = "Brand Identity";
 include("layouts/header.php"); ?>
 
 <style>
-    .bi-hero-title {
+    /* .bi-hero-title {
         font-size: clamp(70px, 12vw, 120px);
-        line-height: .84;
+        line-height: .94;
         letter-spacing: 0;
-    }
+    } */
 
     .bi-kicker,
     .bi-eyebrow {
@@ -55,6 +55,10 @@ include("layouts/header.php"); ?>
         object-fit: cover;
     }
 
+    .bi-hero-img img {
+        height: 660px;
+    }
+
     .bi-stat {
         border-top: 1px solid rgba(255, 255, 255, .16);
         padding-top: 24px;
@@ -73,9 +77,9 @@ include("layouts/header.php"); ?>
 
     .bi-section-title {
         color: #fff;
-        font-size: clamp(42px, 8vw, 72px);
-        line-height: .92;
-        letter-spacing: 0;
+        font-size: clamp(42px, 8vw, 67px);
+        line-height: .9;
+        letter-spacing: 1;
     }
 
     .bi-pill-list {
@@ -151,6 +155,7 @@ include("layouts/header.php"); ?>
     }
 
     @media (max-width: 767px) {
+
         .bi-hero-img,
         .bi-image-card {
             min-height: 320px;
@@ -160,21 +165,156 @@ include("layouts/header.php"); ?>
             padding: 26px 0;
         }
     }
+
+    .bi-gallery-area,
+    .bi-banner-area {
+        background-color: #fff;
+    }
+
+    .bi-banner-area {
+        padding-top: 120px;
+    }
+
+    @media (min-width: 1400px) {
+        .bi-hero-title {
+            font-size: clamp(70px, 12vw, 100px);
+            line-height: .94;
+            letter-spacing: 0;
+        }
+
+        .bi-image-card {
+            min-height: 360px;
+        }
+    }
+
+    @media (min-width: 1200px) and (max-width: 1399px) {
+        .bi-hero-title {
+            font-size: clamp(70px, 12vw, 70px);
+            line-height: .94;
+            letter-spacing: 0;
+        }
+
+        .bi-hero-copy {
+            color: rgba(255, 255, 255, .78);
+            font-size: 15px;
+            line-height: 1.45;
+            max-width: 620px;
+        }
+
+        .bi-section-title {
+            color: #fff;
+            font-size: clamp(42px, 8vw, 52px);
+            line-height: .9;
+            letter-spacing: 1;
+        }
+
+        .bi-copy {
+            color: rgba(255, 255, 255, .74);
+            font-size: 14px;
+            line-height: 1.65;
+        }
+
+        .bi-image-card {
+            min-height: 260px;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .bi-hero-title {
+            font-size: clamp(60px, 12vw, 50px);
+            line-height: .94;
+            letter-spacing: 0;
+        }
+
+        .bi-hero-copy {
+            color: rgba(255, 255, 255, .78);
+            font-size: 13px;
+            line-height: 1.45;
+            max-width: 620px;
+        }
+
+        .bi-section-title {
+            color: #fff;
+            font-size: clamp(42px, 8vw, 45px);
+            line-height: .9;
+            letter-spacing: 1;
+        }
+
+        .bi-copy {
+            color: rgba(255, 255, 255, .74);
+            font-size: 12px;
+            line-height: 1.65;
+        }
+
+        .bi-image-card {
+            min-height: 160px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        .bi-hero-title {
+            font-size: clamp(60px, 12vw, 50px);
+            line-height: .94;
+            letter-spacing: 0;
+            margin-bottom: 15px;
+        }
+
+        .bi-section-title {
+            color: #fff;
+            font-size: clamp(42px, 8vw, 50px);
+            line-height: .9;
+            letter-spacing: 1;
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 767px) {
+        .bi-hero-title {
+            font-size: clamp(60px, 12vw, 40px);
+            line-height: .94;
+            letter-spacing: 0;
+            margin-bottom: 15px;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .bi-hero-title {
+            font-size: clamp(30px, 12vw, 35px);
+            line-height: .94;
+            letter-spacing: 1;
+            margin-bottom: 15px;
+        }
+
+        .bi-section-title {
+            color: #fff;
+            font-size: 26px;
+            line-height: 1;
+            letter-spacing: 1;
+        }
+
+        .bi-image-card {
+            min-height: 160px;
+        }
+
+        .bi-banner-area {
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+    }
 </style>
 
 <main>
 
     <!-- hero area start -->
-    <section class="bi-hero-area pt-180 pb-120 p-relative fix">
+    <section class="bi-hero-area pt-150 pb-80 pt-lg-180 pb-lg-120 p-relative fix">
         <div class="container container-1750">
             <div class="row align-items-end mb-70">
                 <div class="col-xl-8 col-lg-8">
                     <span class="bi-kicker d-inline-block mb-25">Brand Identity</span>
-                    <h1 class="bi-hero-title text-white tp-char-animation">A visual identity built to be remembered.</h1>
+                    <h1 class="bi-hero-title text-white tp-char-animation">Brand identities built for recognition, recall and consistency.</h1>
                 </div>
                 <div class="col-xl-4 col-lg-4">
                     <p class="bi-hero-copy mb-35">
-                        We design brand identity systems that make your business instantly recognizable, consistent, and ready for every real-world touchpoint.
+                        We design brand identity systems that make your business instantly recognizable, consistent and ready for every real-world touchpoint.
                     </p>
                     <a class="tp-btn-white-border tp-btn-transparent" href="mailto:info@markidentitiez.com">
                         <span>Create your identity</span>
@@ -184,28 +324,28 @@ include("layouts/header.php"); ?>
             <div class="row gx-30 align-items-stretch">
                 <div class="col-lg-8">
                     <div class="bi-hero-img tp_img_reveal mb-30">
-                        <img src="assets/img/portfolio/mark/aakriti.jpg" alt="Brand identity showcase">
+                        <img src="assets/img/new-images/brand-identity1.png" alt="Brand identity showcase">
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="row h-100">
-                        <div class="col-md-6 col-lg-12">
-                            <div class="bi-stat mb-45">
-                                <h4><span class="purecounter" data-purecounter-duration="1" data-purecounter-end="12">0</span>+</h4>
-                                <span>Identity applications planned before the system is handed over.</span>
-                            </div>
+                        <div class="bi-stat mb-35">
+                            <h4><span class="purecounter" data-purecounter-duration="1" data-purecounter-end="12">0</span>+</h4>
+                            <span>Brand touchpoints mapped for consistent real-world usage.</span>
                         </div>
-                        <div class="col-md-6 col-lg-12">
-                            <div class="bi-stat mb-45">
-                                <h4><span class="purecounter" data-purecounter-duration="1" data-purecounter-end="100">0</span>%</h4>
-                                <span>Designed for consistent use across print, digital, social, and space.</span>
-                            </div>
+
+                        <div class="bi-stat mb-35">
+                            <h4><span class="purecounter" data-purecounter-duration="1" data-purecounter-end="4">0</span></h4>
+                            <span>Core identity pillars: logo, color, typography, and visual language.</span>
                         </div>
-                        <div class="col-md-6 col-lg-12">
-                            <div class="bi-stat">
-                                <h4><span class="purecounter" data-purecounter-duration="1" data-purecounter-end="1">0</span></h4>
-                                <span>Clear visual language your customers and team can recognize fast.</span>
-                            </div>
+
+                        <div class="bi-stat mb-35">
+                            <h4><span class="purecounter" data-purecounter-duration="1" data-purecounter-end="1">0</span></h4>
+                            <span>Unified brand system built for digital, print, packaging, and social media.</span>
+                        </div>
+                        <div class="bi-stat">
+                            <h4><span class="purecounter" data-purecounter-duration="1" data-purecounter-end="100">0</span>%</h4>
+                            <span>Consistent brand presentation across every customer-facing touchpoint.</span>
                         </div>
                     </div>
                 </div>
@@ -215,24 +355,24 @@ include("layouts/header.php"); ?>
     <!-- hero area end -->
 
     <!-- identity overview area start -->
-    <section class="bi-overview-area pt-110 pb-100" data-bg-color="#111113">
+    <section class="bi-overview-area pt-70 pb-70 pt-lg-100 pb-lg-110" data-bg-color="#111113">
         <div class="container container-1430">
-            <div class="row align-items-start">
+            <div class="row align-items-center">
                 <div class="col-lg-5">
                     <span class="bi-eyebrow d-inline-block mb-25">Identity system</span>
                     <h2 class="bi-section-title mb-40">More than a logo. A complete brand language.</h2>
                 </div>
                 <div class="col-lg-7">
                     <p class="bi-copy mb-35">
-                        Brand identity turns strategy into something people can see, feel, and trust. We build the full visual system: logo, typography, colors, graphic assets, layouts, usage rules, and application examples that keep the brand sharp everywhere it appears.
+                        Brand identity turns your strategy into a visible system people can recognize and trust. We create the logo suite, typography, color palette, graphic assets, layout rules, image direction, and application examples that keep your brand consistent everywhere it appears.
                     </p>
                     <div class="bi-pill-list">
-                        <span>Logo design</span>
+                        <span>Logo suite</span>
                         <span>Color palette</span>
                         <span>Typography</span>
                         <span>Iconography</span>
-                        <span>Brand patterns</span>
-                        <span>Guidelines</span>
+                        <span>Visual language</span>
+                        <span>Brand guidelines</span>
                     </div>
                 </div>
             </div>
@@ -241,27 +381,27 @@ include("layouts/header.php"); ?>
     <!-- identity overview area end -->
 
     <!-- gallery area start -->
-    <section class="bi-gallery-area pt-120 pb-90">
+    <section class="bi-gallery-area pt-60 pb-60 pt-lg-120 pb-lg-90">
         <div class="container container-1750">
             <div class="row gx-30">
                 <div class="col-lg-4">
                     <div class="bi-image-card tp--hover-item mb-30">
                         <div class="tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                            <img src="assets/img/brand/brand-1.jpg" alt="Logo identity system">
+                            <img src="assets/img/new-images/brand-identity2.png" alt="Logo identity system">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="bi-image-card tp--hover-item mb-30">
                         <div class="tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                            <img src="assets/img/brand/brand-5.jpg" alt="Brand collateral design">
+                            <img src="assets/img/new-images/brand-identity3.png" alt="Brand collateral design">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="bi-image-card tp--hover-item mb-30">
                         <div class="tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                            <img src="assets/img/brand/brand-8.jpg" alt="Visual identity application">
+                            <img src="assets/img/new-images/brand-identity4.png" alt="Visual identity application">
                         </div>
                     </div>
                 </div>
@@ -271,7 +411,7 @@ include("layouts/header.php"); ?>
     <!-- gallery area end -->
 
     <!-- system area start -->
-    <section class="bi-system-area pt-70 pb-120">
+    <section class="bi-system-area pt-70 pb-70 pt-lg-70 pb-lg-100">
         <div class="container container-1430">
             <div class="row mb-60">
                 <div class="col-lg-7">
@@ -281,30 +421,46 @@ include("layouts/header.php"); ?>
             </div>
             <div class="bi-system-item">
                 <div class="row align-items-center">
-                    <div class="col-lg-3"><span>01</span></div>
-                    <div class="col-lg-4"><h4>Logo Suite</h4></div>
-                    <div class="col-lg-5"><p>Primary logo, secondary marks, icon versions, lockups, spacing rules, and usage guidance for clean application.</p></div>
+                    <div class="col-lg-1"><span>01</span></div>
+                    <div class="col-lg-4">
+                        <h4>Logo Suite</h4>
+                    </div>
+                    <div class="col-lg-7">
+                        <p>Primary logo, secondary logo, symbol mark, favicon/icon versions, clear-space rules, color variations, and export-ready files for print and digital use.</p>
+                    </div>
                 </div>
             </div>
             <div class="bi-system-item">
                 <div class="row align-items-center">
-                    <div class="col-lg-3"><span>02</span></div>
-                    <div class="col-lg-4"><h4>Visual Toolkit</h4></div>
-                    <div class="col-lg-5"><p>Color system, typography pairings, image direction, graphic elements, patterns, and design principles.</p></div>
+                    <div class="col-lg-1"><span>02</span></div>
+                    <div class="col-lg-4">
+                        <h4>Visual Toolkit</h4>
+                    </div>
+                    <div class="col-lg-7">
+                        <p>Color palette, typography system, image style, icon direction, graphic elements, layout examples, and design rules for consistent communication.</p>
+                    </div>
                 </div>
             </div>
             <div class="bi-system-item">
                 <div class="row align-items-center">
-                    <div class="col-lg-3"><span>03</span></div>
-                    <div class="col-lg-4"><h4>Brand Collateral</h4></div>
-                    <div class="col-lg-5"><p>Business cards, stationery, social templates, pitch deck styling, packaging cues, and launch-ready mockups.</p></div>
+                    <div class="col-lg-1"><span>03</span></div>
+                    <div class="col-lg-4">
+                        <h4>Brand Collateral</h4>
+                    </div>
+                    <div class="col-lg-7">
+                        <p>Business cards, letterheads, social templates, presentation styling, packaging cues, signage mockups, and launch-ready brand applications.</p>
+                    </div>
                 </div>
             </div>
             <div class="bi-system-item">
                 <div class="row align-items-center">
-                    <div class="col-lg-3"><span>04</span></div>
-                    <div class="col-lg-4"><h4>Guideline Document</h4></div>
-                    <div class="col-lg-5"><p>A practical brand guide your team, vendors, and marketing partners can follow without confusion.</p></div>
+                    <div class="col-lg-1"><span>04</span></div>
+                    <div class="col-lg-4">
+                        <h4>Guideline Document</h4>
+                    </div>
+                    <div class="col-lg-7">
+                        <p>A simple, practical brand guideline document that helps your team, vendors, printers, and marketing partners use the identity correctly.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -315,14 +471,14 @@ include("layouts/header.php"); ?>
     <section class="bi-banner-area pb-120">
         <div class="container container-1750">
             <div class="bi-wide-img">
-                <img data-speed=".8" src="assets/img/portfolio/mark/Linkpro-banner.png" alt="Brand identity banner">
+                <img data-speed=".8" src="assets/img/new-images/brand-identity5.png" alt="Brand identity banner">
             </div>
         </div>
     </section>
     <!-- banner area end -->
 
     <!-- process area start -->
-    <section class="bi-process-area pt-120 pb-120" data-bg-color="#1b1b1d">
+    <section class="bi-process-area pt-70 pb-70 pt-lg-120 pb-lg-120" data-bg-color="#1b1b1d">
         <div class="container container-1430">
             <div class="row align-items-end mb-70">
                 <div class="col-lg-7">
@@ -337,29 +493,29 @@ include("layouts/header.php"); ?>
                 <div class="col-lg-3 col-md-6 mb-30">
                     <div class="bi-process-card">
                         <span>01</span>
-                        <h4>Audit</h4>
-                        <p>Review the current brand, competitors, audience signals, and category design language.</p>
+                        <h4>Discover</h4>
+                        <p>We study your business, audience, competitors, existing touchpoints, and category design codes.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-30">
                     <div class="bi-process-card">
                         <span>02</span>
-                        <h4>Explore</h4>
-                        <p>Create visual routes with logo concepts, moodboards, type, color, and application samples.</p>
+                        <h4>Design Direction</h4>
+                        <p>We create logo routes, moodboards, type systems, color directions, and sample applications.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-30">
                     <div class="bi-process-card">
                         <span>03</span>
-                        <h4>Refine</h4>
-                        <p>Shape the chosen direction into a balanced, usable, and recognizable identity system.</p>
+                        <h4>System Build</h4>
+                        <p>We refine the selected route into a complete identity system that is balanced, flexible, and recognizable.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-30">
                     <div class="bi-process-card">
                         <span>04</span>
-                        <h4>Deliver</h4>
-                        <p>Package final files, guidelines, templates, and rollout examples for easy execution.</p>
+                        <h4>Handover</h4>
+                        <p>We deliver final files, brand guidelines, templates, and rollout examples so your team can execute with confidence.</p>
                     </div>
                 </div>
             </div>
@@ -375,11 +531,17 @@ include("layouts/header.php"); ?>
                     <div class="ar-about-us-4-text-warp">
                         <div class="swiper-container tp-brand-active">
                             <div class="swiper-wrapper slide-transtion">
-                                <div class="swiper-slide"><h2 class="ar-about-us-4-text-title">MAKE YOUR BRAND VISIBLE</h2></div>
-                                <div class="swiper-slide"><h2 class="ar-about-us-4-text-title">DESIGN A LASTING IDENTITY</h2></div>
-                                <div class="swiper-slide"><h2 class="ar-about-us-4-text-title">BUILD CONSISTENCY EVERYWHERE</h2></div>
-                                <div class="swiper-slide"><h2 class="ar-about-us-4-text-title">MAKE YOUR BRAND VISIBLE</h2></div>
-                                <div class="swiper-slide"><h2 class="ar-about-us-4-text-title">DESIGN A LASTING IDENTITY</h2></div>
+                                <div class="swiper-slide">
+                                    <h2 class="ar-about-us-4-text-title">MAKE YOUR BRAND VISIBLE</h2>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h2 class="ar-about-us-4-text-title">DESIGN A LASTING IDENTITY</h2>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h2 class="ar-about-us-4-text-title">BUILD CONSISTENCY EVERYWHERE</h2>
+                                </div>
+                                <!-- <div class="swiper-slide"><h2 class="ar-about-us-4-text-title">MAKE YOUR BRAND VISIBLE</h2></div>
+                                <div class="swiper-slide"><h2 class="ar-about-us-4-text-title">DESIGN A LASTING IDENTITY</h2></div> -->
                             </div>
                         </div>
                     </div>

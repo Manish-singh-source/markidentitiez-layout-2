@@ -219,7 +219,7 @@
                 <li class="has-dropdown p-static is-active">
                     <a href="service.php">Services</a>
                     <ul class="tp-submenu submenu">
-                        <li><a href="brand-positioning.php">Brand Positioning</a></li>
+                        <li><a href="brand-proposition.php">Brand Proposition</a></li>
                         <li><a href="brand-identity.php">Brand Identity</a></li>
                         <li><a href="brand-positioning.php">Brand Positioning</a></li>
                         <li><a href="#">Visual Brand Language</a></li>
