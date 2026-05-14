@@ -19,7 +19,7 @@ include('layouts/header.php'); ?>
         </div>
         <div class="tp-portfolio-slider__wrap slider slider--bg">
             <div class="tp-portfolio-slider__item">
-                <video src="assets/video/banner01-1.mp4" autoplay muted loop
+                <video src="assets/img/new-images/banner2.mp4" autoplay muted loop
                     playsinline preload="auto"></video>
             </div>
             <div class="tp-portfolio-slider__item">
