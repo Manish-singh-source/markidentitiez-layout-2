@@ -228,7 +228,7 @@
                         <li><a href="brand-naming.php">Brand Naming</a></li>
                         <!-- <li><a href="#">Communication Design</a></li> -->
                         <li><a href="brand-tonality-messaging.php">Brand Tonality & Messaging</a></li>
-                        <li><a href="#">Logo Design & Brand Management</a></li>
+                        <li><a href="logo-design-brand-management.php">Logo Design & Brand Management</a></li>
                     </ul>
                 </li>
                 <li><a href="portfolio.php">Portfolio</a></li>
