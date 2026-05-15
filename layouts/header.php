@@ -222,7 +222,7 @@
                         <li><a href="brand-proposition.php">Brand Proposition</a></li>
                         <li><a href="brand-identity.php">Brand Identity</a></li>
                         <li><a href="brand-positioning.php">Brand Positioning</a></li>
-                        <li><a href="#">Visual Brand Language</a></li>
+                        <li><a href="visual-brand-language.php">Visual Brand Language</a></li>
                         <li><a href="#">Brand Architecture</a></li>
                         <li><a href="#">Packaging Design</a></li>
                         <li><a href="#">Brand Naming</a></li>
