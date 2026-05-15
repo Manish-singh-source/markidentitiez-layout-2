@@ -223,7 +223,7 @@
                         <li><a href="brand-identity.php">Brand Identity</a></li>
                         <li><a href="brand-positioning.php">Brand Positioning</a></li>
                         <li><a href="visual-brand-language.php">Visual Brand Language</a></li>
-                        <li><a href="#">Brand Architecture</a></li>
+                        <li><a href="brand-architecture.php">Brand Architecture</a></li>
                         <li><a href="#">Packaging Design</a></li>
                         <li><a href="#">Brand Naming</a></li>
                         <li><a href="#">Communication Design</a></li>
