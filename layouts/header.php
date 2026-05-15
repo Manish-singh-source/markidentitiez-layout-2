@@ -226,8 +226,8 @@
                         <li><a href="brand-architecture.php">Brand Architecture</a></li>
                         <li><a href="packaging-design.php">Packaging Design</a></li>
                         <li><a href="brand-naming.php">Brand Naming</a></li>
-                        <li><a href="#">Communication Design</a></li>
-                        <li><a href="#">Brand Tonality & Messaging</a></li>
+                        <!-- <li><a href="#">Communication Design</a></li> -->
+                        <li><a href="brand-tonality-messaging.php">Brand Tonality & Messaging</a></li>
                         <li><a href="#">Logo Design & Brand Management</a></li>
                     </ul>
                 </li>
