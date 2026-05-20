@@ -318,8 +318,67 @@ include('layouts/header.php'); ?>
             <!-- digital idea area start -->
 
             <!-- digital idea area end -->
+
+            <!-- process area start -->
+            <section class="mi-process-area pt-120 pb-120">
+                <div class="container">
+                    <div class="row align-items-end mb-60">
+                        <div class="col-xl-7 col-lg-8">
+                            <div class="mi-process-title-box">
+                                <span class="tp-section-subtitle pre">Our Process</span>
+                                <h4 class="tp-section-title mi-process-title mt-20">How We Take Your Brand From Idea To Impact</h4>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-4">
+                            <div class="mi-process-intro">
+                                <p>Every project moves through a clear, collaborative system so you always know
+                                    what is happening, why it matters, and what comes next.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mi-process-grid">
+                        <div class="mi-process-card">
+                            <span class="mi-process-number">01</span>
+                            <div class="mi-process-content">
+                                <h5>Discovery</h5>
+                                <p>We understand your business, audience, goals, competitors and current brand challenges.</p>
+                            </div>
+                        </div>
+                        <div class="mi-process-card">
+                            <span class="mi-process-number">02</span>
+                            <div class="mi-process-content">
+                                <h5>Strategy</h5>
+                                <p>We define positioning, messaging, visual direction and the roadmap for the project.</p>
+                            </div>
+                        </div>
+                        <div class="mi-process-card">
+                            <span class="mi-process-number">03</span>
+                            <div class="mi-process-content">
+                                <h5>Design</h5>
+                                <p>We create brand identity, creative layouts and digital touchpoints aligned with the strategy.</p>
+                            </div>
+                        </div>
+                        <div class="mi-process-card">
+                            <span class="mi-process-number">04</span>
+                            <div class="mi-process-content">
+                                <h5>Review</h5>
+                                <p>We refine the work with your feedback, making every detail sharper and more useful.</p>
+                            </div>
+                        </div>
+                        <div class="mi-process-card">
+                            <span class="mi-process-number">05</span>
+                            <div class="mi-process-content">
+                                <h5>Final Delivery</h5>
+                                <p>We hand over ready-to-use files, guidelines and assets prepared for launch.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- process area end -->
+
             <!-- success area start -->
-            <div class="crp-success-area mb-70 p-relative">
+            <!-- <div class="crp-success-area mb-70 p-relative">
                 <div class="container-fluid p-0">
                     <div class="row gx-10">
                         <div class="col-xl-6">
@@ -328,7 +387,7 @@ include('layouts/header.php'); ?>
                                     <div class="crp-success-item about-us p-relative" data-bg-color="#1B1B1D"
                                         data-background="assets/img/new-images/ab1.png">
                                         <div class="crp-about-us-item-wrap">
-                                            <div class="crp-about-us-item-icon">
+                                            <div class="crp-about-us-item-icon"> -->
                                                 <!-- <span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="15"
                                                         viewBox="0 0 17 15" fill="none">
                                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -338,7 +397,7 @@ include('layouts/header.php'); ?>
                                                             d="M4.54315 4.32617C4.73732 3.90234 5.2732 3.78941 5.61389 4.10054L7.25538 5.59958C7.48022 5.80491 7.54785 6.13735 7.4219 6.41812L4.06045 14.5922C3.94893 14.8408 3.70695 15 3.44066 15L1.02887 15C0.528456 15 0.198165 14.4647 0.411397 13.9992L4.54315 4.32617Z"
                                                             fill="#F9F4E8" />
                                                     </svg></span> -->
-                                            </div>
+                                            <!-- </div> -->
                                             <!-- <h4 class="crp-about-us-item-title">Unique and <br>
                                                 New Business Tips</h4>
                                             <div class="crp-about-us-item-btn-box">
@@ -353,7 +412,7 @@ include('layouts/header.php'); ?>
                                                                 stroke-linejoin="round" />
                                                         </svg></span></a>
                                             </div> -->
-                                        </div>
+                                        <!-- </div>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 mb-10">
@@ -365,12 +424,12 @@ include('layouts/header.php'); ?>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 mb-10">
                                     <div class="crp-success-item about-us">
-                                        <img class="w-100 anim-zoomin" src="assets/img/new-images/ab2.png" alt="">
+                                        <img class="w-100 anim-zoomin" src="assets/img/new-images/ab2.png" alt=""> -->
                                         <!-- <div class="crp-success-video anim-zoomin-wrap">
                                             <video loop="" muted="" autoplay="" playsinline=""
                                                 src="assets/img/about-us/about-us-3.mp4"></video>
                                         </div> -->
-                                    </div>
+                                    <!-- </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 mb-10">
                                     <div class="crp-success-item about-us-img p-relative" data-bg-color="#1B1B1D">
@@ -387,10 +446,10 @@ include('layouts/header.php'); ?>
                     <div class="crp-success-video anim-zoomin-wrap">
                         <video loop="" muted="" autoplay="" playsinline=""
                             src="assets/img/new-images/download.mp4"></video>
-                    </div>
+                    </div> -->
                     <!-- <img class="w-100 anim-zoomin" src="assets/img/about-us/about-us-thumb-1.jpg" alt=""> -->
-                </div>
-            </div>
+                <!-- </div>
+            </div> -->
             <!-- success area end -->
 
             <!-- about area start -->

@@ -108,6 +108,414 @@
     margin-bottom: 15px;
 }
 
+.tp-industries-area {
+    position: relative;
+    overflow: hidden;
+    background: #f7f7f2;
+}
+
+.tp-industries-area::before {
+    position: absolute;
+    content: "";
+    top: -140px;
+    right: -120px;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    border: 70px solid rgba(140, 255, 0, 0.16);
+    pointer-events: none;
+}
+
+.tp-industries-title-box,
+.tp-industries-intro,
+.tp-industries-card {
+    position: relative;
+    z-index: 1;
+}
+
+.tp-industries-title-box .tp-section-title {
+    max-width: 760px;
+}
+
+.tp-industries-title-box .tp-section-subtitle {
+    display: inline-flex;
+    color: #11161c;
+}
+
+.tp-industries-title-box .tp-section-subtitle.pre::before {
+    background-color: #8cff00;
+}
+
+.tp-industries-title {
+    margin-bottom: 0;
+    color: #11161c;
+    font-size: 64px;
+    line-height: 1.08;
+    letter-spacing: 0;
+}
+
+.tp-industries-intro p {
+    margin-bottom: 0;
+    color: #4e565f;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.tp-industries-card {
+    height: 100%;
+    min-height: 245px;
+    padding: 30px 28px;
+    background: #ffffff;
+    border: 1px solid #e7e8df;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.tp-industries-card span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    margin-bottom: 36px;
+    border-radius: 50%;
+    background: #11161c;
+    color: #8cff00;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.tp-industries-card h5 {
+    margin-bottom: 16px;
+    color: #11161c;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: uppercase;
+}
+
+.tp-industries-card p {
+    margin-bottom: 0;
+    color: #5d646b;
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+.tp-industries-card:hover {
+    border-color: #8cff00;
+    background: #11161c;
+    transform: translateY(-6px);
+}
+
+.tp-industries-card:hover h5,
+.tp-industries-card:hover p {
+    color: #ffffff;
+}
+
+.tp-industries-card:hover span {
+    background: #8cff00;
+    color: #11161c;
+}
+
+.tp-industries-pagination {
+    display: none;
+}
+
+.mi-process-area {
+    position: relative;
+    overflow: hidden;
+    background: #11161c;
+}
+
+.mi-process-area::before {
+    position: absolute;
+    content: "";
+    top: -170px;
+    left: -110px;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    border: 72px solid rgba(140, 255, 0, 0.12);
+}
+
+.mi-process-area::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    width: 42%;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(140, 255, 0, 0), rgba(140, 255, 0, 0.65));
+}
+
+.mi-process-title-box,
+.mi-process-intro,
+.mi-process-grid {
+    position: relative;
+    z-index: 1;
+}
+
+.mi-process-title-box .tp-section-subtitle {
+    display: inline-flex;
+    color: #ffffff;
+}
+
+.mi-process-title-box .tp-section-subtitle.pre::before {
+    background-color: #8cff00;
+}
+
+.mi-process-title {
+    max-width: 830px;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 58px;
+    line-height: 1.08;
+    letter-spacing: 0;
+}
+
+.mi-process-intro p {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.mi-process-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    border-left: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.mi-process-card {
+    position: relative;
+    min-height: 330px;
+    padding: 34px 28px 30px;
+    border-right: 1px solid rgba(255, 255, 255, 0.12);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    transition: all 0.3s ease;
+}
+
+.mi-process-card::after {
+    position: absolute;
+    content: "";
+    top: 48px;
+    right: -13px;
+    z-index: 2;
+    width: 26px;
+    height: 26px;
+    border-top: 1px solid rgba(140, 255, 0, 0.5);
+    border-right: 1px solid rgba(140, 255, 0, 0.5);
+    background: #11161c;
+    transform: rotate(45deg);
+}
+
+.mi-process-card:last-child::after {
+    content: none;
+}
+
+.mi-process-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    margin-bottom: 70px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.06);
+    color: #8cff00;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.mi-process-content h5 {
+    margin-bottom: 18px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.mi-process-content p {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+.mi-process-card:hover {
+    background: #8cff00;
+}
+
+.mi-process-card:hover::after {
+    background: #8cff00;
+}
+
+.mi-process-card:hover .mi-process-number {
+    background: #11161c;
+    color: #8cff00;
+}
+
+.mi-process-card:hover h5,
+.mi-process-card:hover p {
+    color: #11161c;
+}
+
+.mi-branding-services-area {
+    position: relative;
+    overflow: visible;
+    background: #f7f7f2;
+    color: #11161c;
+}
+
+.mi-branding-services-area::before {
+    position: absolute;
+    content: "";
+    right: -120px;
+    top: -130px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 70px solid rgba(140, 255, 0, 0.15);
+}
+
+.mi-branding-services-title-box,
+.mi-brand-service-list,
+.mi-brand-service-row {
+    position: relative;
+    z-index: 1;
+}
+
+.mi-branding-services-title-box {
+    position: relative;
+}
+
+.mi-branding-services-title-box .tp-section-subtitle {
+    display: inline-flex;
+    color: #11161c !important;
+}
+
+.mi-branding-services-title-box .tp-section-subtitle.pre::before {
+    background-color: #8cff00;
+}
+
+.mi-branding-services-title {
+    max-width: 520px;
+    margin-bottom: 0;
+    color: #11161c !important;
+    font-size: 52px;
+    line-height: 1.08;
+    letter-spacing: 0;
+}
+
+.mi-branding-services-title-box p {
+    max-width: 420px;
+    margin-top: 28px;
+    margin-bottom: 0;
+    color: #4e565f !important;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.mi-brand-service-list {
+    border-top: 1px solid rgba(17, 22, 28, 0.14);
+}
+
+.mi-brand-service-row {
+    display: grid;
+    grid-template-columns: 72px minmax(220px, 1fr) minmax(250px, 0.9fr) 58px;
+    align-items: center;
+    gap: 24px;
+    min-height: 112px;
+    padding: 24px 0;
+    border-bottom: 1px solid rgba(17, 22, 28, 0.14);
+    transition: all 0.3s ease;
+}
+
+.mi-brand-service-row span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: #11161c;
+    color: #8cff00;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.mi-brand-service-row h5 {
+    margin-bottom: 0;
+    color: #11161c;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.05;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.mi-brand-service-row p {
+    margin-bottom: 0;
+    color: #5d646b;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: color 0.3s ease;
+}
+
+.mi-brand-service-row i {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    margin-left: auto;
+    border: 1px solid rgba(17, 22, 28, 0.18);
+    border-radius: 50%;
+    font-style: normal;
+    transition: all 0.3s ease;
+}
+
+.mi-brand-service-row i::before,
+.mi-brand-service-row i::after {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 1px;
+    background: #11161c;
+    transition: all 0.3s ease;
+}
+
+.mi-brand-service-row i::after {
+    width: 8px;
+    transform: translate(5px, -3px) rotate(45deg);
+}
+
+.mi-brand-service-row:hover {
+    padding-right: 24px;
+    padding-left: 24px;
+    background: #11161c;
+}
+
+.mi-brand-service-row:hover span,
+.mi-brand-service-row:hover i {
+    background: #8cff00;
+    color: #11161c;
+    border-color: #8cff00;
+}
+
+.mi-brand-service-row:hover h5,
+.mi-brand-service-row:hover p {
+    color: #ffffff;
+}
+
+.mi-brand-service-row:hover i::before,
+.mi-brand-service-row:hover i::after {
+    background: #11161c;
+}
+
 .agntix-dark .tp_text_invert > div {
     background-image: linear-gradient(to right, #8cff00 50%, #383C3E 50%);
 }
@@ -155,5 +563,190 @@
     .tp-about-shape-1 .mi-logo-animation {
         width: 180px;
         height: 180px;
+    }
+}
+
+@media (max-width: 991px) {
+    .tp-industries-title {
+        font-size: 48px;
+    }
+
+    .tp-industries-intro {
+        margin-top: 25px;
+    }
+
+    .mi-process-title {
+        font-size: 46px;
+    }
+
+    .mi-process-intro {
+        margin-top: 25px;
+    }
+
+    .mi-process-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .mi-process-card {
+        min-height: 280px;
+    }
+
+    .mi-process-card::after {
+        content: none;
+    }
+
+    .mi-branding-services-title {
+        font-size: 46px;
+    }
+
+    .mi-branding-services-title-box {
+        margin-bottom: 45px;
+    }
+
+    .mi-brand-service-row {
+        grid-template-columns: 64px minmax(190px, 1fr) minmax(220px, 0.9fr) 52px;
+        gap: 18px;
+    }
+
+    .mi-brand-service-row h5 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .tp-industries-area {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .tp-industries-slider-active {
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 42px;
+    }
+
+    .tp-industries-slider-active .tp-industries-slider-wrapper {
+        flex-wrap: nowrap;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .tp-industries-slider-active .tp-industries-slide {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .tp-industries-card {
+        min-height: auto;
+        height: 100%;
+    }
+
+    .tp-industries-title {
+        font-size: 38px;
+        line-height: 1.12;
+    }
+
+    .tp-industries-card span {
+        margin-bottom: 28px;
+    }
+
+    .tp-industries-pagination {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .tp-industries-pagination .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+        margin: 0;
+        background: #11161c;
+        opacity: 0.25;
+    }
+
+    .tp-industries-pagination .swiper-pagination-bullet-active {
+        width: 24px;
+        border-radius: 20px;
+        background: #8cff00;
+        opacity: 1;
+    }
+
+    .mi-process-area {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .mi-process-title {
+        font-size: 36px;
+        line-height: 1.12;
+    }
+
+    .mi-process-grid {
+        display: block;
+        border-left: 0;
+    }
+
+    .mi-process-card {
+        display: flex;
+        min-height: auto;
+        gap: 20px;
+        padding: 24px 0;
+        border-right: 0;
+    }
+
+    .mi-process-number {
+        flex: 0 0 auto;
+        width: 48px;
+        height: 48px;
+        margin-bottom: 0;
+    }
+
+    .mi-process-content h5 {
+        font-size: 21px;
+    }
+
+    .mi-branding-services-area {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .mi-branding-services-title {
+        font-size: 36px;
+        line-height: 1.12;
+    }
+
+    .mi-brand-service-row {
+        grid-template-columns: 52px 1fr 46px;
+        gap: 16px;
+        min-height: auto;
+        padding: 22px 0;
+    }
+
+    .mi-brand-service-row p {
+        grid-column: 2 / 4;
+        font-size: 15px;
+    }
+
+    .mi-brand-service-row span {
+        width: 42px;
+        height: 42px;
+    }
+
+    .mi-brand-service-row h5 {
+        font-size: 20px;
+    }
+
+    .mi-brand-service-row i {
+        width: 44px;
+        height: 44px;
+    }
+
+    .mi-brand-service-row:hover {
+        padding-right: 14px;
+        padding-left: 14px;
     }
 }

@@ -65,6 +65,55 @@ function mi_is_ajax_request()
         strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest';
 }
 
+function mi_normalize_array_field($value)
+{
+    if (!is_array($value)) {
+        return [];
+    }
+
+    return array_map('trim', $value);
+}
+
+function mi_format_repeatable_items($names, $levels)
+{
+    $items = [];
+    $maxItems = max(count($names), count($levels));
+
+    for ($i = 0; $i < $maxItems; $i++) {
+        $name = trim($names[$i] ?? '');
+        $level = trim($levels[$i] ?? '');
+
+        if ($name === '' && $level === '') {
+            continue;
+        }
+
+        $items[] = [
+            'name' => $name,
+            'level' => $level,
+        ];
+    }
+
+    return $items;
+}
+
+function mi_repeatable_items_to_text($items, $levelSuffix = '')
+{
+    $lines = [];
+
+    foreach ($items as $item) {
+        $name = $item['name'];
+        $level = $item['level'];
+
+        if ($name === '' && $level === '') {
+            continue;
+        }
+
+        $lines[] = $name . ($level !== '' ? ' - ' . $level . $levelSuffix : '');
+    }
+
+    return implode("\n", $lines);
+}
+
 function mi_respond($success, $message, $redirect = '')
 {
     if (mi_is_ajax_request()) {
@@ -95,6 +144,23 @@ $name = trim($_POST['name'] ?? '');
 $email = trim($_POST['email'] ?? '');
 $contact = trim($_POST['contact'] ?? '');
 $message = trim($_POST['message'] ?? '');
+$role = trim($_POST['role'] ?? '');
+$experience = trim($_POST['experience'] ?? '');
+$current_ctc = trim($_POST['current_ctc'] ?? '');
+$expected_ctc = trim($_POST['expected_ctc'] ?? '');
+$location = trim($_POST['location'] ?? '');
+$skillNames = mi_normalize_array_field($_POST['skill_name'] ?? []);
+$skillLevels = mi_normalize_array_field($_POST['skill_level'] ?? []);
+$skills = mi_format_repeatable_items($skillNames, $skillLevels);
+$top_skills = mi_repeatable_items_to_text($skills, '%');
+$aiToolNames = mi_normalize_array_field($_POST['ai_tool_name'] ?? []);
+$aiToolLevels = mi_normalize_array_field($_POST['ai_tool_level'] ?? []);
+$aiTools = mi_format_repeatable_items($aiToolNames, $aiToolLevels);
+$ai_tools = mi_repeatable_items_to_text($aiTools);
+$notice_period = trim($_POST['notice_period'] ?? '');
+$referrer_name = trim($_POST['referrer_name'] ?? '');
+$job_source = trim($_POST['job_source'] ?? '');
+$portfolio_link = trim($_POST['portfolio_link'] ?? '');
 $hidden_field = trim($_POST['hidden_field'] ?? ''); // Honeypot field
 
 // Set the default timezone to Indian Standard Time (IST)
@@ -104,6 +170,13 @@ date_default_timezone_set('Asia/Kolkata');
 $currentDateTime = date('Y-m-d H:i:s');
 
 $errors = [];
+$resumeAttachmentPath = '';
+$resumeOriginalName = '';
+$resumeFile = $_FILES['resume'] ?? null;
+$hasResumeUpload = is_array($resumeFile) && ($resumeFile['error'] ?? UPLOAD_ERR_NO_FILE) !== UPLOAD_ERR_NO_FILE;
+$isJobApplication = $role !== '' || $experience !== '' || $current_ctc !== '' || $expected_ctc !== '' ||
+    $location !== '' || $top_skills !== '' || $ai_tools !== '' || $notice_period !== '' || $job_source !== '' ||
+    $portfolio_link !== '' || $hasResumeUpload;
 
 // Validate Honeypot
 if (!empty($hidden_field)) {
@@ -123,6 +196,67 @@ if (!preg_match('/^\d{10}$/', $contact)) {
 // Validate Other Fields
 if (empty($name) || empty($email) || empty($contact) || empty($message)) {
     $errors[] = "All fields are required.";
+}
+
+if ($isJobApplication) {
+    $requiredApplicationFields = [
+        'Roles' => $role,
+        'Location' => $location,
+        'Notice Period' => $notice_period,
+        'How did you hear about this job opening?' => $job_source,
+    ];
+
+    foreach ($requiredApplicationFields as $label => $value) {
+        if ($value === '') {
+            $errors[] = $label . " is required.";
+        }
+    }
+
+    if (!$hasResumeUpload) {
+        $errors[] = "Resume / Portfolio file is required.";
+    }
+
+    if (empty($skills)) {
+        $errors[] = "At least one skill is required.";
+    }
+
+    foreach ($skills as $skill) {
+        if ($skill['name'] === '' || $skill['level'] === '') {
+            $errors[] = "Please add both skill name and proficiency percentage.";
+            break;
+        }
+
+        if (!ctype_digit($skill['level']) || (int) $skill['level'] < 1 || (int) $skill['level'] > 100) {
+            $errors[] = "Skill proficiency must be between 1 and 100.";
+            break;
+        }
+    }
+
+    if (empty($aiTools)) {
+        $errors[] = "At least one AI tool is required.";
+    }
+
+    foreach ($aiTools as $aiTool) {
+        if ($aiTool['name'] === '' || $aiTool['level'] === '') {
+            $errors[] = "Please add both AI tool name and proficiency level.";
+            break;
+        }
+    }
+}
+
+if ($hasResumeUpload) {
+    if (($resumeFile['error'] ?? UPLOAD_ERR_OK) !== UPLOAD_ERR_OK) {
+        $errors[] = "Resume upload failed. Please try again.";
+    } else {
+        $resumeOriginalName = $resumeFile['name'] ?? '';
+        $resumeAttachmentPath = $resumeFile['tmp_name'] ?? '';
+        $resumeExtension = strtolower(pathinfo($resumeOriginalName, PATHINFO_EXTENSION));
+        $allowedResumeExtensions = ['pdf', 'docx'];
+
+        if (!in_array($resumeExtension, $allowedResumeExtensions, true)) {
+            $errors[] = "Resume / Portfolio must be a PDF or DOCX file.";
+        }
+    }
 }
 
 // Validate Google reCAPTCHA
@@ -161,12 +295,60 @@ if (!empty($errors)) {
     mi_respond(false, implode("\n", $errors), 'contactus.php');
 }
 
+$applicationFields = [
+    'Roles' => $role,
+    'Years of Experience' => $experience,
+    'Current CTC' => $current_ctc,
+    'Expected CTC' => $expected_ctc,
+    'Location' => $location,
+    'Skills' => $top_skills,
+    'AI Tools' => $ai_tools,
+    'Notice Period' => $notice_period,
+    'Referrer Name' => $referrer_name,
+    'How did you hear about this job opening?' => $job_source,
+    'Portfolio Link' => $portfolio_link,
+    'Resume / Portfolio' => $resumeOriginalName,
+];
+$applicationRows = '';
+
+foreach ($applicationFields as $label => $value) {
+    if ($value === '') {
+        continue;
+    }
+
+    $applicationRows .= '
+                                                                                <tr>
+                                                                                    <td valign="top" align="left">
+                                                                                        <font style="font-size: 12px" color="#333333" face="Arial, Helvetica, sans-serif">
+                                                                                            <strong>' . htmlspecialchars($label) . ' :</strong>
+                                                                                        </font>
+                                                                                    </td>
+                                                                                    <td valign="middle" align="left">
+                                                                                        <font style="font-size: 12px" color="#333333" face="Arial, Helvetica, sans-serif">
+                                                                                            ' . nl2br(htmlspecialchars($value)) . '
+                                                                                        </font>
+                                                                                    </td>
+                                                                                </tr>';
+}
+
 $submissionStored = mi_store_submission([
     'submitted_at' => $currentDateTime,
     'name' => $name,
     'email' => $email,
     'contact' => $contact,
     'message' => $message,
+    'role' => $role,
+    'experience' => $experience,
+    'current_ctc' => $current_ctc,
+    'expected_ctc' => $expected_ctc,
+    'location' => $location,
+    'skills' => $skills,
+    'ai_tools' => $aiTools,
+    'notice_period' => $notice_period,
+    'referrer_name' => $referrer_name,
+    'job_source' => $job_source,
+    'portfolio_link' => $portfolio_link,
+    'resume' => $resumeOriginalName,
     'ip' => $_SERVER['REMOTE_ADDR'] ?? '',
     'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? '',
 ]);
@@ -255,6 +437,7 @@ $htmlbody = '
                                                                                         </font>
                                                                                     </td>
                                                                                 </tr>
+                                                                                ' . $applicationRows . '
                                                                                 <tr>
                                                                                     <td valign="top" align="left">
                                                                                         <font style="font-size: 12px" color="#333333" face="Arial, Helvetica, sans-serif">
@@ -444,6 +627,10 @@ $mail->addAddress('support@technofra.com');
 $mail->isHTML(true);
 $mail->Subject = 'Received an inquiry from the Mark Identitiez website contact page (' . $currentDateTime . ')';
 $mail->Body = $htmlbody;
+
+if ($resumeAttachmentPath !== '' && is_uploaded_file($resumeAttachmentPath)) {
+    $mail->addAttachment($resumeAttachmentPath, $resumeOriginalName);
+}
 
 // Send Admin Email
 if (!$mail->send()) {

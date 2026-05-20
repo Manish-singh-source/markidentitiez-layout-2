@@ -12,14 +12,21 @@
 		// Stop the browser from submitting the form.
 		e.preventDefault();
 
-		// Serialize the form data.
-		var formData = $(form).serialize();
+		var submitButton = $(form).find('button[type="submit"]');
+		var buttonHtml = submitButton.html();
+		var formData = new FormData(form[0]);
+
+		submitButton.prop('disabled', true).addClass('is-loading');
+		submitButton.html('<span><span class="text-1">Submitting...</span><span class="text-2">Submitting...</span></span>');
+		$(formMessages).removeClass('success error').text('');
 
 		// Submit the form using AJAX.
 		$.ajax({
 			type: 'POST',
 			url: $(form).attr('action'),
 			data: formData,
+			processData: false,
+			contentType: false,
 			dataType: 'json'
 		})
 		.done(function(response) {
@@ -36,9 +43,12 @@
 			$(formMessages).text(response.message || 'Your message has been sent successfully.');
 
 			// Clear the form.
-			$('#contact-form input,#contact-form textarea').val('');
+			$('#contact-form input,#contact-form textarea,#contact-form select').val('');
+			submitButton.prop('disabled', false).removeClass('is-loading').html(buttonHtml);
 		})
 		.fail(function(data) {
+			submitButton.prop('disabled', false).removeClass('is-loading').html(buttonHtml);
+
 			// Make sure that the formMessages div has the 'error' class.
 			$(formMessages).removeClass('success');
 			$(formMessages).addClass('error');

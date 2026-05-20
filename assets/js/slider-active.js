@@ -279,6 +279,48 @@
 		a11y: false,
 	});
 
+	////industries-mobile-slider
+	var industriesSlider;
+	var industriesMobileQuery = window.matchMedia('(max-width: 767px)');
+
+	function industriesSliderInit() {
+		if (!$('.tp-industries-slider-active').length) {
+			return;
+		}
+
+		if (industriesMobileQuery.matches && !industriesSlider) {
+			industriesSlider = new Swiper('.tp-industries-slider-active', {
+				wrapperClass: 'tp-industries-slider-wrapper',
+				slideClass: 'tp-industries-slide',
+				slidesPerView: 1,
+				spaceBetween: 18,
+				loop: true,
+				speed: 900,
+				autoplay: {
+					delay: 2200,
+					disableOnInteraction: false,
+					pauseOnMouseEnter: true,
+				},
+				pagination: {
+					el: '.tp-industries-pagination',
+					clickable: true,
+				},
+				a11y: false,
+			});
+		} else if (!industriesMobileQuery.matches && industriesSlider) {
+			industriesSlider.destroy(true, true);
+			industriesSlider = undefined;
+		}
+	}
+
+	industriesSliderInit();
+
+	if (industriesMobileQuery.addEventListener) {
+		industriesMobileQuery.addEventListener('change', industriesSliderInit);
+	} else {
+		industriesMobileQuery.addListener(industriesSliderInit);
+	}
+
 	////team-slider
 	var team = new Swiper('.tp-team-slider-active', {
 		slidesPerView: 5,

@@ -232,6 +232,7 @@
                     </ul>
                 </li>
                 <li><a href="portfolio.php">Portfolio</a></li>
+                <li><a href="career.php">Career</a></li>
                 <li><a href="contactus.php">Contact</a></li>
                 <!-- <li class="has-dropdown p-static is-active">
                     <a href="#">Home</a>

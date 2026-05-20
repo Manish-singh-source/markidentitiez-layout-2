@@ -1799,16 +1799,21 @@
 	const sr = gsap.matchMedia();
 	tm.add("(min-width: 992px)", () => {
 		let tl_ser = gsap.timeline();
-		let panels = document.querySelectorAll('.tp-inner-service-area')
+		let panels = document.querySelectorAll('.tp-inner-service-area, .mi-branding-services-area')
 		panels.forEach((section, index) => {
+			let pinTarget = section.querySelector('.inner-service-1-left');
+			if (!pinTarget) {
+				return;
+			}
+
 			tl_ser.to(section, {
 				scrollTrigger: {
-					trigger: '.tp-inner-service-area',
-					pin: '.inner-service-1-left',
+					trigger: section,
+					pin: pinTarget,
 					scrub: 1,
 					start: 'top 80px',
 					end: "bottom 100%",
-					endTrigger: '.tp-inner-service-area',
+					endTrigger: section,
 					pinSpacing: false,
 					markers: false,
 				},

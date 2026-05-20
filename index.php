@@ -326,7 +326,7 @@ include('layouts/header.php'); ?>
                         <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-7">
                             <div class="tp-service-content">
                                 <h4 class="tp-section-title"><a class="tp_text_invert"
-                                        href="service-details-dark.html">Brand Strategy & Development</a>
+                                        href="service.php">Brand Strategy & Development</a>
                                 </h4>
                                 <p>
                                     Our strategic brand development <br>
@@ -336,7 +336,7 @@ include('layouts/header.php'); ?>
                                     business for success.
                                 </p>
                                 <div class="tp-service-btn">
-                                    <a href="service-details-dark.html" class="tp-btn-black btn-red-bg">
+                                    <a href="service.php" class="tp-btn-black btn-red-bg">
                                         <span class="tp-btn-black-filter-blur">
                                             <svg width="0" height="0">
                                                 <defs>
@@ -389,7 +389,7 @@ include('layouts/header.php'); ?>
                         <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-7">
                             <div class="tp-service-content">
                                 <h4 class="tp-section-title"><a class="tp_text_invert"
-                                        href="service-details-dark.html">Creative Design & Branding</a></h4>
+                                        href="service.php">Creative Design & Branding</a></h4>
                                 <p>
                                     Improve the aesthetics of your brand <br>
                                     Our talented designers turn your brand into live with eye catchy visual
@@ -398,7 +398,7 @@ include('layouts/header.php'); ?>
                                     experience.
                                 </p>
                                 <div class="tp-service-btn">
-                                    <a href="service-details-dark.html" class="tp-btn-black btn-red-bg">
+                                    <a href="service.php" class="tp-btn-black btn-red-bg">
                                         <span class="tp-btn-black-filter-blur">
                                             <svg width="0" height="0">
                                                 <defs>
@@ -451,7 +451,7 @@ include('layouts/header.php'); ?>
                         <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-7">
                             <div class="tp-service-content">
                                 <h4 class="tp-section-title"><a class="tp_text_invert"
-                                        href="service-details-dark.html">Digital Marketing</a></h4>
+                                        href="service.php">Digital Marketing</a></h4>
                                 <p>
                                     Stay ahead of the Competition <br>
                                     With our result driven digital marketing strategies take your brand to
@@ -460,7 +460,7 @@ include('layouts/header.php'); ?>
                                     across digital channels.
                                 </p>
                                 <div class="tp-service-btn">
-                                    <a href="service-details-dark.html" class="tp-btn-black btn-red-bg">
+                                    <a href="service.php" class="tp-btn-black btn-red-bg">
                                         <span class="tp-btn-black-filter-blur">
                                             <svg width="0" height="0">
                                                 <defs>
@@ -514,7 +514,7 @@ include('layouts/header.php'); ?>
                         <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-7">
                             <div class="tp-service-content">
                                 <h4 class="tp-section-title"><a class="tp_text_invert"
-                                        href="service-details-dark.html">Web Development</a></h4>
+                                        href="service.php">Web Development</a></h4>
                                 <p>
                                     A company's online presence <br>
                                     Your website is the first point of contact with your audience, so a
@@ -523,7 +523,7 @@ include('layouts/header.php'); ?>
                                     solutions that showcase your brand and drive results.
                                 </p>
                                 <div class="tp-service-btn">
-                                    <a href="service-details-dark.html" class="tp-btn-black btn-red-bg">
+                                    <a href="service.php" class="tp-btn-black btn-red-bg">
                                         <span class="tp-btn-black-filter-blur">
                                             <svg width="0" height="0">
                                                 <defs>
@@ -571,6 +571,89 @@ include('layouts/header.php'); ?>
         </div>
     </div>
     <!-- service area end -->
+
+    <!-- industries area start -->
+    <div class="tp-industries-area pt-120 pb-120">
+        <div class="container">
+            <div class="row align-items-end mb-60">
+                <div class="col-xl-7 col-lg-8">
+                    <div class="tp-industries-title-box">
+                        <span class="tp-section-subtitle pre">Industries</span>
+                        <h4 class="tp-section-title tp-industries-title text-black mt-20">We Build Brands For</h4>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-4">
+                    <div class="tp-industries-intro">
+                        <p>We partner with businesses across fashion, healthcare, startups, real estate,
+                            hospitality, education and technology to build memorable brands with clear market
+                            purpose.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tp-industries-slider-active">
+                <div class="row gx-4 gy-4 tp-industries-slider-wrapper">
+                    <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
+                        <div class="tp-industries-card">
+                            <span>01</span>
+                            <h5>Fashion & Lifestyle</h5>
+                            <p>Identity, campaigns and packaging that turn style-led ideas into recognizable brands.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
+                        <div class="tp-industries-card">
+                            <span>02</span>
+                            <h5>Healthcare & Wellness</h5>
+                            <p>Trust-first design systems for clinics, wellness brands, pharma and care-led services.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
+                        <div class="tp-industries-card">
+                            <span>03</span>
+                            <h5>Startups & Technology</h5>
+                            <p>Launch-ready brand strategy, naming, websites and pitch visuals for fast-moving teams.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
+                        <div class="tp-industries-card">
+                            <span>04</span>
+                            <h5>Real Estate & Spaces</h5>
+                            <p>Premium brand experiences for developers, architects, interiors and destination spaces.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
+                        <div class="tp-industries-card">
+                            <span>05</span>
+                            <h5>Hospitality & F&B</h5>
+                            <p>Visual language, menus, packaging and digital touchpoints for memorable guest journeys.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
+                        <div class="tp-industries-card">
+                            <span>06</span>
+                            <h5>Education & Institutes</h5>
+                            <p>Clear communication and identity systems for schools, academies and learning platforms.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
+                        <div class="tp-industries-card">
+                            <span>07</span>
+                            <h5>Retail & Consumer</h5>
+                            <p>Shelf-ready packaging, campaigns and brand assets for products built to be chosen.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
+                        <div class="tp-industries-card">
+                            <span>08</span>
+                            <h5>Professional Services</h5>
+                            <p>Polished positioning and digital presence for consultants, firms and service-led brands.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-industries-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <!-- industries area end -->
 
     <!-- testimonial area start -->
     <div class="tp-testimonial-area tp-testimonial-bg black-bg-3 p-relative fix"

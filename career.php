@@ -161,10 +161,9 @@ include('layouts/header.php'); ?>
                                 </div>
                                 <div class="tp-contact-location-left-info">
                                     <h4 class="tp-contact-location-left-title">UI / Graphic Designer</h4>
-                                    <span>
-                                        <i class="fa-regular fa-clock"></i>
-                                        12:00 pm GMT+2
-                                    </span>
+                                    <a class="tp-career-apply-btn" href="#apply-now">
+                                        Apply Now
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -200,10 +199,9 @@ include('layouts/header.php'); ?>
                                 </div>
                                 <div class="tp-contact-location-left-info">
                                     <h4 class="tp-contact-location-left-title">Website Developer</h4>
-                                    <span>
-                                        <i class="fa-regular fa-clock"></i>
-                                        12:00 pm GMT+2
-                                    </span>
+                                    <a class="tp-career-apply-btn" href="#apply-now">
+                                        Apply Now
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -238,10 +236,9 @@ include('layouts/header.php'); ?>
                                 <div class="tp-contact-location-left-info">
                                     <h4 class="tp-contact-location-left-title">Social Media Marketing <br> Executive
                                     </h4>
-                                    <span>
-                                        <i class="fa-regular fa-clock"></i>
-                                        12:00 pm GMT+2
-                                    </span>
+                                    <a class="tp-career-apply-btn" href="#apply-now">
+                                        Apply Now
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -267,52 +264,16 @@ include('layouts/header.php'); ?>
 
                     </div>
                 </div>
-                <div class="tp-contact-location-item">
-                    <div class="row">
-                        <div class="col-xl-7">
-                            <div class="tp-contact-location-left d-flex flex-wrap align-items-center">
-                                <div class="tp-contact-location-info-thumb">
-                                    <img src="assets\img\new-images\app.png" alt="">
-                                </div>
-                                <div class="tp-contact-location-left-info">
-                                    <h4 class="tp-contact-location-left-title">App Developer</h4>
-                                    <span>
-                                        <i class="fa-regular fa-clock"></i>
-                                        12:00 pm GMT+2
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-5">
-                            <div
-                                class="tp-contact-location-right-wrap d-flex align-items-start justify-content-between">
-                                <div class="tp-contact-location-right">
-                                    <div class="tp-contact-location-loc">
-                                        <!-- <span class="tp-contact-location-loc-title">Base Create</span> -->
-                                        <a href="" target="_blank">Hiring an app developer to build user-friendly mobile
-                                            applications for Android and iOS platforms.
-                                    </div>
-                                    <div class="tp-contact-location-map">
-                                        <a href="#">Google Maps</a>
-                                    </div>
-                                </div>
-                                <div class="tp-contact-location-right-info text-start text-md-end">
-                                    <a href="tel:+918080803374">+91 808 080 3374</a> <br>
-                                    <a href="mailto:info@markidentitiez.com">info@markidentitiez.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
     <!-- contact location area end -->
     <!-- contact form area start -->
-    <div class="tp-contact-form-ptb pt-80 pb-60">
+    <div id="apply-now" class="tp-contact-form-ptb pt-80 pb-60">
         <div class="container container-1230">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <div class="tp-contact-form-heading tp_fade_anim mb-50">
                         <div class="ar-about-us-4-title-box shape-color  d-flex align-items-center mb-15">
                             <span class="tp-section-subtitle pre">Apply Now</span>
@@ -330,34 +291,143 @@ include('layouts/header.php'); ?>
                             with us.</h3>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <div class="tp-contact-form-wrap">
-                        <form id="contact-form" action="send.php" method="POST">
+                        <form id="contact-form" action="career-send.php" method="POST" enctype="multipart/form-data">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="tp-contact-form-input mb-20">
-                                        <label>Full name*</label>
-                                        <input name="name" type="text">
+                                        <label>Full Name*</label>
+                                        <input name="name" type="text" pattern="[A-Za-z\s]+" title="Please enter a valid name (letters only)" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="tp-contact-form-input mb-20">
-                                        <label>Email address*</label>
-                                        <input name="email" type="email">
+                                        <label>Email ID*</label>
+                                        <input name="email" type="email" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="tp-contact-form-input mb-20">
+                                        <label>Contact Details*</label>
+                                        <input name="contact" type="tel" pattern="[0-9]{10}" title="Please enter a valid phone number (10 digits)" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="tp-contact-form-input mb-20">
+                                        <label>Select Roles*</label>
+                                        <select name="role" required>
+                                            <option value="">Select Role</option>
+                                            <option value="Senior Graphic Designer">Graphic Designer</option>
+                                            <option value="Performance Marketing">Performance Marketing</option>
+                                            <option value="Content & Communications">Content & Communications</option>
+                                            <option value="Creative Visualiser & Motion Graphics">Creative Visualiser & Motion Graphics</option>
+                                            <option value="Web Developer">Web Developer</option>
+                                            <option value="App Developer">App Developer</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="tp-contact-form-input mb-20">
+                                        <label>Years of Experience</label>
+                                        <input name="experience" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="tp-contact-form-input mb-20">
+                                        <label>Current CTC</label>
+                                        <input name="current_ctc" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="tp-contact-form-input mb-20">
+                                        <label>Expected CTC</label>
+                                        <input name="expected_ctc" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="tp-contact-form-input mb-20">
+                                        <label>Location*</label>
+                                        <input name="location" type="text" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <div class="tp-contact-form-input mb-20">
-                                        <label>Contact No*</label>
-                                        <input name="contact" type="tel">
+                                    <div class="tp-contact-form-input tp-repeatable-field mb-20" data-repeatable-group="skills">
+                                        <label>Skills*</label>
+                                        <p>Add your skills and proficiency level for each</p>
+                                        <div class="tp-repeatable-list">
+                                            <div class="tp-repeatable-row">
+                                                <input name="skill_name[]" type="text" placeholder="Skill Name" required>
+                                                <input name="skill_level[]" type="number" min="1" max="100" placeholder="% (e.g., 90)" required>
+                                                <button type="button" class="tp-repeatable-remove" aria-label="Remove skill">x</button>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="tp-repeatable-add" data-add-repeatable="skills">+ Add Another Skill</button>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <div class="tp-contact-form-input mb-20">
-                                        <label>Why do you want to join us?*
-                                        </label>
-                                        <textarea name="message"></textarea>
+                                    <div class="tp-contact-form-input tp-repeatable-field mb-20" data-repeatable-group="ai-tools">
+                                        <label>AI Tools*</label>
+                                        <p>Add AI tools you use and your proficiency level for each</p>
+                                        <div class="tp-repeatable-list">
+                                            <div class="tp-repeatable-row">
+                                                <input name="ai_tool_name[]" type="text" placeholder="AI Tool Name" required>
+                                                <select name="ai_tool_level[]" required>
+                                                    <option value="">Select Level</option>
+                                                    <option value="Beginner">Beginner</option>
+                                                    <option value="Intermediate">Intermediate</option>
+                                                    <option value="Advanced">Advanced</option>
+                                                    <option value="Expert">Expert</option>
+                                                </select>
+                                                <button type="button" class="tp-repeatable-remove" aria-label="Remove AI tool">x</button>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="tp-repeatable-add" data-add-repeatable="ai-tools">+ Add Another AI Tool</button>
                                     </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="tp-contact-form-input mb-20">
+                                        <label>Notice Period*</label>
+                                        <input name="notice_period" type="text" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="tp-contact-form-input mb-20">
+                                        <label>Referrer Name</label>
+                                        <input name="referrer_name" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="tp-contact-form-input mb-20">
+                                        <label>How did you hear about this job opening?*</label>
+                                        <select name="job_source" required>
+                                            <option value="">Select Source</option>
+                                            <option value="LinkedIn">LinkedIn</option>
+                                            <option value="Instagram">Instagram</option>
+                                            <option value="Facebook">Facebook</option>
+                                            <option value="Google">Google</option>
+                                            <option value="Company Website">Company Website</option>
+                                            <option value="Employee Referral">Employee Referral</option>
+                                            <option value="Job Portal">Job Portal</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="tp-contact-form-input mb-20">
+                                        <label>Resume / Portfolio (.pdf/.docx only)*</label>
+                                        <input name="resume" type="file" accept=".pdf,.docx" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="tp-contact-form-input mb-20">
+                                        <label>Portfolio Link (if any)</label>
+                                        <input name="portfolio_link" type="url">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <input name="message" type="hidden" value="Job Application">
                                     <div class="col-12 contact-captcha-wrap mb-20">
                                         <div class="form-group">
                                             <input type="text" name="hidden_field" style="display:none;" tabindex="-1">
@@ -388,5 +458,64 @@ include('layouts/header.php'); ?>
     <!-- contact form area end -->
 
 </main>
+
+<script>
+    document.querySelectorAll('.tp-career-apply-btn').forEach(function (button) {
+        button.addEventListener('click', function (event) {
+            var applySection = document.querySelector('#apply-now');
+
+            if (!applySection) {
+                return;
+            }
+
+            event.preventDefault();
+            applySection.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+    });
+
+    document.querySelectorAll('[data-repeatable-group]').forEach(function (group) {
+        var list = group.querySelector('.tp-repeatable-list');
+        var addButton = group.querySelector('.tp-repeatable-add');
+
+        function updateRemoveState() {
+            var rows = list.querySelectorAll('.tp-repeatable-row');
+
+            rows.forEach(function (row) {
+                var removeButton = row.querySelector('.tp-repeatable-remove');
+                removeButton.disabled = rows.length === 1;
+                removeButton.style.opacity = rows.length === 1 ? '0.5' : '1';
+            });
+        }
+
+        addButton.addEventListener('click', function () {
+            var firstRow = list.querySelector('.tp-repeatable-row');
+            var newRow = firstRow.cloneNode(true);
+
+            newRow.querySelectorAll('input, select').forEach(function (field) {
+                field.value = '';
+            });
+
+            list.appendChild(newRow);
+            updateRemoveState();
+        });
+
+        list.addEventListener('click', function (event) {
+            if (!event.target.classList.contains('tp-repeatable-remove')) {
+                return;
+            }
+
+            if (list.querySelectorAll('.tp-repeatable-row').length > 1) {
+                event.target.closest('.tp-repeatable-row').remove();
+            }
+
+            updateRemoveState();
+        });
+
+        updateRemoveState();
+    });
+</script>
 
 <?php include('layouts/footer.php'); ?>

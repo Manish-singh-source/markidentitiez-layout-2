@@ -199,6 +199,81 @@ include("layouts/header.php"); ?>
     </div>
     <!-- banner area end -->
 
+    <!-- branding services area start -->
+    <section class="mi-branding-services-area pt-120 pb-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-5">
+                    <div class="mi-branding-services-title-box inner-service-1-left">
+                        <span class="tp-section-subtitle text-black pre">Our Branding Services</span>
+                        <h4 class="tp-section-title mi-branding-services-title mt-20">Build The Brand System Your Business Needs</h4>
+                        <p>Choose a service to explore the detailed approach behind our strategy, identity,
+                            packaging, naming and brand management work.</p>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-7">
+                    <div class="mi-brand-service-list">
+                        <a class="mi-brand-service-row" href="brand-proposition.php">
+                            <span>01</span>
+                            <h5>Brand Proposition</h5>
+                            <p>Core promise, value and reason to choose your brand.</p>
+                            <i></i>
+                        </a>
+                        <a class="mi-brand-service-row" href="brand-identity.php">
+                            <span>02</span>
+                            <h5>Brand Identity</h5>
+                            <p>Distinctive visual identity systems for recognition.</p>
+                            <i></i>
+                        </a>
+                        <a class="mi-brand-service-row" href="brand-positioning.php">
+                            <span>03</span>
+                            <h5>Brand Positioning</h5>
+                            <p>A clear market position that separates you.</p>
+                            <i></i>
+                        </a>
+                        <a class="mi-brand-service-row" href="visual-brand-language.php">
+                            <span>04</span>
+                            <h5>Visual Brand Language</h5>
+                            <p>Colors, typography, imagery and design rules.</p>
+                            <i></i>
+                        </a>
+                        <a class="mi-brand-service-row" href="brand-architecture.php">
+                            <span>05</span>
+                            <h5>Brand Architecture</h5>
+                            <p>Organized products, sub-brands and services.</p>
+                            <i></i>
+                        </a>
+                        <a class="mi-brand-service-row" href="packaging-design.php">
+                            <span>06</span>
+                            <h5>Packaging Design</h5>
+                            <p>Packaging that communicates value and stands out.</p>
+                            <i></i>
+                        </a>
+                        <a class="mi-brand-service-row" href="brand-naming.php">
+                            <span>07</span>
+                            <h5>Brand Naming</h5>
+                            <p>Memorable names with meaning and market fit.</p>
+                            <i></i>
+                        </a>
+                        <a class="mi-brand-service-row" href="brand-tonality-messaging.php">
+                            <span>08</span>
+                            <h5>Brand Tonality & Messaging</h5>
+                            <p>Voice and messaging that sound unmistakably like you.</p>
+                            <i></i>
+                        </a>
+                        <a class="mi-brand-service-row" href="logo-design-brand-management.php">
+                            <span>09</span>
+                            <h5>Logo Design & Brand Management</h5>
+                            <p>Logo systems and controls for consistent use.</p>
+                            <i></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- branding services area end -->
+
 
     <!-- inner service area -->
     <div class="tp-inner-service-area pt-120 pb-120">

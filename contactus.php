@@ -159,7 +159,7 @@ include('layouts/header.php'); ?>
                     <div class="col-lg-6">
                         <div class="tp-contact-us-wrap">
                             <h4 class="tp-contact-us-title mb-55">Send a Message</h4>
-                            <form id="contact-form" action="send.php" method="POST">
+                            <form id="contact-form" action="contact-send.php" method="POST">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="tp-contact-form-input mb-20">
