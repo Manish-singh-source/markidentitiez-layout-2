@@ -108,6 +108,39 @@
     margin-bottom: 15px;
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+only screen and (min-width: 992px) and (max-width: 1199px) {
+    .tp-service-item {
+        padding: 32px 24px;
+    }
+
+    .tp-service-content .tp-section-title {
+        margin-bottom: 22px;
+        font-size: clamp(36px, 3.1vw, 46px);
+        line-height: 0.96;
+    }
+
+    .tp-service-content p {
+        margin-bottom: 24px;
+        font-size: 16px;
+        line-height: 1.55;
+        max-width: 60ch;
+    }
+
+    .tp-service-thumb {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+    }
+
+    .tp-service-thumb img {
+        width: min(100%, 360px);
+        max-height: 300px;
+        object-fit: contain;
+    }
+}
+
 .tp-industries-area {
     position: relative;
     overflow: hidden;

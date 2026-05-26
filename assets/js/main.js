@@ -384,7 +384,7 @@
 
 	// 19 .service panel animation //
 	let sv = gsap.matchMedia();
-	sv.add("(min-width: 1199px)", () => {
+	sv.add("(min-width: 1400px) and (min-height: 820px)", () => {
 		let tl = gsap.timeline();
 		let projectpanels = document.querySelectorAll('.tp-service-panel');
 		let baseOffset = 150;
