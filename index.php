@@ -2,6 +2,273 @@
 $title = "Home";
 include('layouts/header.php'); ?>
 
+<style>
+    .tp-service-area .tp-service-item > .row {
+        align-items: center;
+    }
+
+    .tp-service-area .tp-service-item {
+        padding: 18px 0;
+    }
+
+    .tp-service-area .tp-service-number {
+        padding-top: 10px;
+    }
+
+    .tp-service-area .tp-service-number span {
+        display: inline-block;
+        min-width: 52px;
+        font-size: 26px;
+        line-height: 1;
+    }
+
+    .tp-service-area .tp-service-content {
+        max-width: 780px;
+        padding-right: 24px;
+    }
+
+    .tp-service-area .tp-service-content .tp-section-title {
+        margin-bottom: 16px;
+        font-size: clamp(34px, 4.4vw, 64px);
+        line-height: 0.96;
+        letter-spacing: -0.05em;
+    }
+
+    .tp-service-area .tp-service-content p {
+        max-width: 660px;
+        margin-bottom: 28px;
+        font-size: 17px;
+        line-height: 1.58;
+        color: rgba(255, 255, 255, 0.76);
+    }
+
+    .tp-service-area .tp-service-thumb {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .tp-service-area .tp-service-thumb img {
+        width: min(100%, 360px);
+        max-height: 360px;
+        object-fit: contain;
+    }
+
+    @media (max-width: 1199px) {
+        .tp-service-area .tp-service-content .tp-section-title {
+            font-size: clamp(30px, 4vw, 52px);
+        }
+
+        .tp-service-area .tp-service-content p {
+            font-size: 16px;
+            max-width: 600px;
+        }
+
+        .tp-service-area .tp-service-thumb img {
+            width: min(100%, 330px);
+            max-height: 330px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .tp-service-area .tp-service-number {
+            padding-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .tp-service-area .tp-service-content {
+            max-width: none;
+            padding-right: 0;
+            margin-bottom: 20px;
+        }
+
+        .tp-service-area .tp-service-content .tp-section-title {
+            font-size: clamp(28px, 6vw, 42px);
+            margin-bottom: 12px;
+        }
+
+        .tp-service-area .tp-service-content p {
+            max-width: none;
+            margin-bottom: 22px;
+            font-size: 15px;
+        }
+
+        .tp-service-area .tp-service-thumb {
+            justify-content: center;
+        }
+
+        .tp-service-area .tp-service-thumb img {
+            width: min(100%, 280px);
+            max-height: 280px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .tp-service-area .tp-service-item {
+            padding: 10px 0;
+        }
+
+        .tp-service-area .tp-service-number span {
+            min-width: 0;
+            font-size: 20px;
+        }
+
+        .tp-service-area .tp-service-content .tp-section-title {
+            font-size: 28px;
+            line-height: 1;
+        }
+
+        .tp-service-area .tp-service-content p {
+            font-size: 14px;
+            line-height: 1.55;
+        }
+
+        .tp-service-area .tp-service-thumb img {
+            width: min(100%, 240px);
+            max-height: 240px;
+        }
+    }
+
+    .mi-home-faq-area {
+        padding: 90px 0 28px;
+        background: #0b0b0d;
+    }
+
+    .mi-home-faq-title h4 {
+        margin: 0 0 12px;
+        color: #fff;
+        font-size: clamp(28px, 4vw, 42px);
+        line-height: 1;
+        letter-spacing: -0.04em;
+    }
+
+    .mi-home-faq-title p {
+        margin: 0;
+        max-width: 560px;
+        color: rgba(255, 255, 255, 0.68);
+        font-size: 15px;
+        line-height: 1.65;
+    }
+
+    .mi-home-faq-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px 20px;
+        margin-top: 34px;
+    }
+
+    .mi-home-faq-item {
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.02);
+        padding: 18px 20px;
+    }
+
+    .mi-home-faq-item strong {
+        display: block;
+        margin-bottom: 8px;
+        color: #fff;
+        font-size: 17px;
+        line-height: 1.35;
+    }
+
+    .mi-home-faq-item p {
+        margin: 0;
+        color: rgba(255, 255, 255, 0.68);
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .mi-home-cta-strip {
+        padding: 28px 0 100px;
+        background: #0b0b0d;
+    }
+
+    .mi-home-cta-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        padding: 26px 28px;
+        border-radius: 24px;
+        background: linear-gradient(135deg, rgba(215, 238, 112, 0.09), rgba(255, 255, 255, 0.03));
+        border: 1px solid rgba(215, 238, 112, 0.14);
+    }
+
+    .mi-home-cta-copy h4 {
+        margin: 0 0 8px;
+        color: #fff;
+        font-size: clamp(24px, 3vw, 34px);
+        line-height: 1.04;
+        letter-spacing: -0.04em;
+    }
+
+    .mi-home-cta-copy p {
+        margin: 0;
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .mi-home-cta-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .mi-home-cta-link {
+        color: #d7ee70;
+        font-size: 14px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+    }
+
+    @media (max-width: 991px) {
+        .mi-home-faq-list {
+            grid-template-columns: 1fr;
+        }
+
+        .mi-home-cta-box {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .mi-home-cta-actions {
+            justify-content: flex-start;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .mi-home-faq-area {
+            padding: 70px 0 24px;
+        }
+
+        .mi-home-faq-item {
+            padding: 16px;
+        }
+
+        .mi-home-faq-item strong {
+            font-size: 16px;
+        }
+
+        .mi-home-faq-item p,
+        .mi-home-cta-copy p {
+            font-size: 14px;
+        }
+
+        .mi-home-cta-strip {
+            padding: 24px 0 80px;
+        }
+
+        .mi-home-cta-box {
+            padding: 22px 20px;
+            border-radius: 20px;
+        }
+    }
+</style>
+
 <main>
 
     <!-- project slider area start -->
@@ -19,7 +286,7 @@ include('layouts/header.php'); ?>
         </div>
         <div class="tp-portfolio-slider__wrap slider slider--bg">
             <div class="tp-portfolio-slider__item">
-                <video src="assets/img/new-images/banner2.mp4" autoplay muted loop
+                <video src="https://digipanda.co.in/assets/video-banner.mp4" autoplay muted loop
                     playsinline preload="auto"></video>
             </div>
             <div class="tp-portfolio-slider__item">
@@ -138,10 +405,8 @@ include('layouts/header.php'); ?>
                         <div class="tp-about-wrap">
                             <div class="tp-about-text tp_fade_anim">
                                 <p>
-                                    <span class="green-text">We turn ideas into powerful brand
-                                        experiences.</span> From
-                                    strategy to execution, everything we create is designed
-                                    to make your brand unforgettable.
+                                    <span class="green-text">We do not just make brands look better.</span>
+                                    We make them easier to trust, remember, and choose.
                                 </p>
                             </div>
                             <div class="row">
@@ -158,11 +423,7 @@ include('layouts/header.php'); ?>
                                             <!-- <img class="tp_fade_anim" data-delay=".3" data-fade-from="right"
                                                             src="assets/img/home-01/about/about-avater-dark.png" alt=""> -->
                                             <div class="tp_text_anim">
-                                                <p>At Mark Identitiez, we combine strategy, creativity, and
-                                                    digital expertise to create brand experiences that
-                                                    connect with your audience and support business growth. <br>
-                                                    Every design, campaign, and digital solution is crafted
-                                                    to make your brand more powerful and recognizable.</p>
+                                                <p>At Mark Identitiez, we build brands with business intent. From positioning and identity to packaging and communication, every decision is made to help your brand feel clearer, more premium, and easier to trust. We do not create isolated visuals. We create brand systems that stay consistent across every touchpoint.</p>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -326,14 +587,12 @@ include('layouts/header.php'); ?>
                         <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-7">
                             <div class="tp-service-content">
                                 <h4 class="tp-section-title"><a class="tp_text_invert"
-                                        href="service.php">Brand Strategy & Development</a>
+                                        href="service.php">Brand Strategy</a>
                                 </h4>
                                 <p>
-                                    Our strategic brand development <br>
-                                    We begin with start by conducting in depth market research to understand
-                                    your industry, target audience, and competitors. Based on our research,
-                                    we develop a highly impactful brand strategy that positions your
-                                    business for success.
+                                    Clear direction before creative execution <br>
+                                    We define your proposition, positioning, audience focus, category opportunity,
+                                    and brand architecture so every future touchpoint starts with stronger business clarity.
                                 </p>
                                 <div class="tp-service-btn">
                                     <a href="service.php" class="tp-btn-black btn-red-bg">
@@ -374,7 +633,7 @@ include('layouts/header.php'); ?>
                         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                             <div class="tp-service-thumb text-end">
                                 <img class="tp_fade_anim" data-fade-from="right" data-delay=".2"
-                                    src="assets/img/new-images/1.png" alt="">
+                                    src="assets/img/new-images/service-strategy.svg" alt="Animated brand strategy visual">
                             </div>
                         </div>
                     </div>
@@ -389,13 +648,11 @@ include('layouts/header.php'); ?>
                         <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-7">
                             <div class="tp-service-content">
                                 <h4 class="tp-section-title"><a class="tp_text_invert"
-                                        href="service.php">Creative Design & Branding</a></h4>
+                                        href="service.php">Brand Identity</a></h4>
                                 <p>
-                                    Improve the aesthetics of your brand <br>
-                                    Our talented designers turn your brand into live with eye catchy visual
-                                    logos, color palettes, typography, and brand guidelines. We ensure
-                                    consistency across all touchpoints to create an impressive brand
-                                    experience.
+                                    Recognition built beyond the logo <br>
+                                    We create identity systems with logos, typography, colors, visual language,
+                                    and brand guidelines that keep your business recognizable across every touchpoint.
                                 </p>
                                 <div class="tp-service-btn">
                                     <a href="service.php" class="tp-btn-black btn-red-bg">
@@ -436,7 +693,7 @@ include('layouts/header.php'); ?>
                         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                             <div class="tp-service-thumb text-end">
                                 <img class="tp_fade_anim" data-fade-from="right" data-delay=".2"
-                                    src="assets/img/new-images/2.png" alt="">
+                                    src="assets/img/new-images/service-identity.svg" alt="Animated brand identity visual">
                             </div>
                         </div>
                     </div>
@@ -451,13 +708,11 @@ include('layouts/header.php'); ?>
                         <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-7">
                             <div class="tp-service-content">
                                 <h4 class="tp-section-title"><a class="tp_text_invert"
-                                        href="service.php">Digital Marketing</a></h4>
+                                        href="service.php">Packaging Design</a></h4>
                                 <p>
-                                    Stay ahead of the Competition <br>
-                                    With our result driven digital marketing strategies take your brand to
-                                    the next level. From Social Media management to Search engine
-                                    Optimization ( SEO ), we will help you to connect with your audience
-                                    across digital channels.
+                                    Shelf impact that supports selection <br>
+                                    We design packaging systems that improve product perception, clarify value,
+                                    and help brands stand out faster in retail, ecommerce, and launch environments.
                                 </p>
                                 <div class="tp-service-btn">
                                     <a href="service.php" class="tp-btn-black btn-red-bg">
@@ -499,7 +754,7 @@ include('layouts/header.php'); ?>
                         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                             <div class="tp-service-thumb text-end">
                                 <img class="tp_fade_anim" data-fade-from="right" data-delay=".2"
-                                    src="assets/img/new-images/3.png" alt="">
+                                    src="assets/img/new-images/service-packaging.svg" alt="Animated packaging design visual">
                             </div>
                         </div>
                     </div>
@@ -514,13 +769,11 @@ include('layouts/header.php'); ?>
                         <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-7">
                             <div class="tp-service-content">
                                 <h4 class="tp-section-title"><a class="tp_text_invert"
-                                        href="service.php">Web Development</a></h4>
+                                        href="service.php">Brand Communication</a></h4>
                                 <p>
-                                    A company's online presence <br>
-                                    Your website is the first point of contact with your audience, so a
-                                    strong impression is essential. We create user-friendly websites that
-                                    look great and perform smoothly across all devices, delivering custom
-                                    solutions that showcase your brand and drive results.
+                                    Market-facing assets with a consistent voice <br>
+                                    We turn the brand into presentations, launch creatives, messaging-led layouts,
+                                    digital touchpoints, and communication assets that feel polished and purposeful.
                                 </p>
                                 <div class="tp-service-btn">
                                     <a href="service.php" class="tp-btn-black btn-red-bg">
@@ -562,7 +815,7 @@ include('layouts/header.php'); ?>
                         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                             <div class="tp-service-thumb text-end">
                                 <img class="tp_fade_anim" data-fade-from="right" data-delay=".2"
-                                    src="assets/img/new-images/4.png" alt="">
+                                    src="assets/img/new-images/service-communication.svg" alt="Animated brand communication visual">
                             </div>
                         </div>
                     </div>
@@ -579,14 +832,12 @@ include('layouts/header.php'); ?>
                 <div class="col-xl-7 col-lg-8">
                     <div class="tp-industries-title-box">
                         <span class="tp-section-subtitle pre">Industries</span>
-                        <h4 class="tp-section-title tp-industries-title text-black mt-20">We Build Brands For</h4>
+                        <h4 class="tp-section-title tp-industries-title text-black mt-20">Brands Built For Real Markets</h4>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-4">
                     <div class="tp-industries-intro">
-                        <p>We partner with businesses across fashion, healthcare, startups, real estate,
-                            hospitality, education and technology to build memorable brands with clear market
-                            purpose.</p>
+                        <p>We shape sharper positioning, identity systems, packaging, and communication for businesses that need to feel more premium, more relevant, and easier to trust in their category.</p>
                     </div>
                 </div>
             </div>
@@ -596,56 +847,56 @@ include('layouts/header.php'); ?>
                         <div class="tp-industries-card">
                             <span>01</span>
                             <h5>Fashion & Lifestyle</h5>
-                            <p>Identity, campaigns and packaging that turn style-led ideas into recognizable brands.</p>
+                            <p>Identity, packaging, and campaign systems that turn style-led ideas into distinctive, aspirational brands.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
                         <div class="tp-industries-card">
                             <span>02</span>
                             <h5>Healthcare & Wellness</h5>
-                            <p>Trust-first design systems for clinics, wellness brands, pharma and care-led services.</p>
+                            <p>Trust-first brand systems for care-led businesses that need clarity, credibility, and a more reassuring market presence.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
                         <div class="tp-industries-card">
                             <span>03</span>
                             <h5>Startups & Technology</h5>
-                            <p>Launch-ready brand strategy, naming, websites and pitch visuals for fast-moving teams.</p>
+                            <p>Launch-ready positioning, naming, identity, and pitch-facing assets for ambitious teams moving fast.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
                         <div class="tp-industries-card">
                             <span>04</span>
                             <h5>Real Estate & Spaces</h5>
-                            <p>Premium brand experiences for developers, architects, interiors and destination spaces.</p>
+                            <p>Premium project branding and communication that elevate perception for developers, architects, and design-led spaces.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
                         <div class="tp-industries-card">
                             <span>05</span>
-                            <h5>Hospitality & F&B</h5>
-                            <p>Visual language, menus, packaging and digital touchpoints for memorable guest journeys.</p>
+                            <h5>Hospitality & F&amp;B</h5>
+                            <p>Brand language, packaging, menus, and digital touchpoints that make guest experiences feel more memorable and premium.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
                         <div class="tp-industries-card">
                             <span>06</span>
                             <h5>Education & Institutes</h5>
-                            <p>Clear communication and identity systems for schools, academies and learning platforms.</p>
+                            <p>Clear, structured identity and communication systems for institutions, academies, and modern learning brands.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
                         <div class="tp-industries-card">
                             <span>07</span>
                             <h5>Retail & Consumer</h5>
-                            <p>Shelf-ready packaging, campaigns and brand assets for products built to be chosen.</p>
+                            <p>Shelf-ready packaging and brand assets designed to improve visibility, recall, and purchase confidence.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-sm-6 tp-industries-slide">
                         <div class="tp-industries-card">
                             <span>08</span>
                             <h5>Professional Services</h5>
-                            <p>Polished positioning and digital presence for consultants, firms and service-led brands.</p>
+                            <p>Sharper positioning and premium presentation for firms, consultants, and service-led businesses that sell trust.</p>
                         </div>
                     </div>
                 </div>
@@ -870,6 +1121,70 @@ include('layouts/header.php'); ?>
         </div>
     </div>
     <!-- testimonial area end -->
+
+    <!-- faq area start -->
+    <section class="mi-home-faq-area">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-xl-7 col-lg-8">
+                    <div class="mi-home-faq-title">
+                        <span class="tp-section-subtitle pre">FAQ</span>
+                        <h4>What clients usually ask before a branding project begins</h4>
+                        <p>Quick answers to the most common questions around scope, timelines, packaging, and rebranding.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mi-home-faq-list">
+                <div class="mi-home-faq-item">
+                    <strong>What is included in a branding project?</strong>
+                    <p>Depending on scope, it may include positioning, identity, packaging direction, messaging, and rollout assets.</p>
+                </div>
+                <div class="mi-home-faq-item">
+                    <strong>What is the difference between a logo and brand identity?</strong>
+                    <p>A logo is one symbol. Brand identity is the complete visual system around it, including colors, type, layouts, and usage.</p>
+                </div>
+                <div class="mi-home-faq-item">
+                    <strong>How long does a branding project usually take?</strong>
+                    <p>Most focused branding projects take a few weeks, depending on the number of deliverables and feedback stages involved.</p>
+                </div>
+                <div class="mi-home-faq-item">
+                    <strong>How does the packaging design process work?</strong>
+                    <p>We define the structure, hierarchy, and visual direction first, then design the packaging system for clearer shelf impact.</p>
+                </div>
+                <div class="mi-home-faq-item">
+                    <strong>When should a business consider rebranding?</strong>
+                    <p>Rebranding makes sense when the current brand feels outdated, inconsistent, too generic, or no longer matches your growth level.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faq area end -->
+
+    <!-- cta area start -->
+    <section class="mi-home-cta-strip">
+        <div class="container">
+            <div class="mi-home-cta-box">
+                <div class="mi-home-cta-copy">
+                    <h4>Ready to give your brand a clearer, stronger presence?</h4>
+                    <p>If your business is ready to look more premium, feel more consistent, and communicate with more clarity, let us talk.</p>
+                </div>
+                <div class="mi-home-cta-actions">
+                    <a href="contactus.php" class="tp-btn-black btn-red-bg">
+                        <span class="tp-btn-black-filter d-inline-flex align-items-center">
+                            <span class="tp-btn-black-text">Book A Discovery Call</span>
+                            <span class="tp-btn-black-circle">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </span>
+                    </a>
+                    <!-- <a href="contactus.php" class="mi-home-cta-link">Go To Contact Page</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cta area end -->
 
 </main>
 

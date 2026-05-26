@@ -1,0 +1,52 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="commGlow" x1="132" y1="114" x2="585" y2="594" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7EE70"/>
+      <stop offset="0.48" stop-color="#99CB2F"/>
+      <stop offset="1" stop-color="#3F9B2F"/>
+    </linearGradient>
+    <style>
+      .shell { fill: rgba(255,255,255,0.03); stroke: rgba(255,255,255,0.1); }
+      .copy { fill: rgba(255,255,255,0.82); font-family: Arial, sans-serif; font-size: 21px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .copy-small { fill: rgba(255,255,255,0.42); font-family: Arial, sans-serif; font-size: 15px; letter-spacing: 0.18em; text-transform: uppercase; }
+      .slide { animation: floatCard 5.4s ease-in-out infinite; transform-origin: center; }
+      .slide-b { animation: floatCard 5.4s ease-in-out infinite 0.7s; transform-origin: center; }
+      .slide-c { animation: floatCard 5.4s ease-in-out infinite 1.3s; transform-origin: center; }
+      .accent { stroke: url(#commGlow); stroke-width: 3; stroke-linecap: round; }
+      .dash { stroke-dasharray: 10 14; animation: dashScroll 9s linear infinite; }
+      @keyframes floatCard {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-9px); }
+      }
+      @keyframes dashScroll {
+        to { stroke-dashoffset: -160; }
+      }
+    </style>
+  </defs>
+
+  <rect width="720" height="720" rx="36" fill="#0C0C0E"/>
+  <rect x="94" y="94" width="532" height="532" rx="34" class="shell"/>
+  <g class="slide">
+    <rect x="134" y="142" width="188" height="244" rx="24" class="shell"/>
+    <rect x="158" y="170" width="140" height="74" rx="16" fill="rgba(215,238,112,0.08)" stroke="rgba(215,238,112,0.2)"/>
+    <path d="M158 272H298" class="accent dash"/>
+    <path d="M158 302H282" class="accent"/>
+    <path d="M158 332H266" class="accent"/>
+  </g>
+  <g class="slide-b">
+    <rect x="360" y="156" width="194" height="190" rx="24" class="shell"/>
+    <rect x="384" y="184" width="146" height="48" rx="14" fill="rgba(153,203,47,0.08)" stroke="rgba(153,203,47,0.2)"/>
+    <path d="M384 258H530" class="accent dash"/>
+    <path d="M384 288H508" class="accent"/>
+  </g>
+  <g class="slide-c">
+    <rect x="174" y="418" width="330" height="126" rx="24" class="shell"/>
+    <path d="M208 458H470" class="accent"/>
+    <path d="M208 488H446" class="accent dash"/>
+    <path d="M208 518H416" class="accent"/>
+  </g>
+
+  <text x="138" y="590" class="copy-small">Brand Communication</text>
+  <text x="138" y="628" class="copy">Turn the system into</text>
+  <text x="138" y="658" class="copy">launch-ready touchpoints.</text>
+</svg>

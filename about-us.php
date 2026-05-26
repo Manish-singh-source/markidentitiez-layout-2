@@ -15,9 +15,9 @@ include('layouts/header.php'); ?>
                         <div class="row justify-content-center">
                             <div class="col-xl-12">
                                 <div class="ar-hero-title-box tp_fade_anim" data-delay=".3">
-                                    <h3 class="ar-about-us-4-title">Experts in
+                                    <h3 class="ar-about-us-4-title">Branding, Design
                                         <br>
-                                        Digital Know-How
+                                        & Digital Momentum
                                     </h3>
                                     <div class="ar-about-us-4-title-box d-flex justify-content-end">
                                         <span class="tp-section-subtitle pre">About Us</span>
@@ -29,15 +29,12 @@ include('layouts/header.php'); ?>
                                                     stroke-linecap="round" stroke-linejoin="round" />
                                             </svg>
                                         </div>
-                                        <p>Mark Identitiez creates impactful brand experiences through creativity,
-                                            innovation, and<br>
-                                            digital storytelling. We craft engaging websites,campaigns, and digital
-                                            solutions that<br>
-                                            connect with audiences, helping businesses grow with the perfect blend
-                                            of technology, <br>
-                                            design, and industry trends. in Manchester set up in 2012 who care, build
-                                            relationships, <br>
-                                            have industry experience, and win awards.
+                                        <p>Mark Identitiez is a Mumbai-based branding agency helping ambitious
+                                            businesses build sharper identities, stronger communication, and more
+                                            memorable digital experiences.<br>
+                                            From brand strategy and positioning to packaging, websites, and campaign
+                                            design, we create work that connects with audiences and supports
+                                            long-term growth.
                                         </p>
                                     </div>
                                 </div>
@@ -118,7 +115,7 @@ include('layouts/header.php'); ?>
                                 <div class="studio-about-title-box mb-80">
                                     <span class="tp-section-subtitle-clash clash-subtitle-pos about-us-2">
                                         About <br>
-                                        our Studio
+                                        Mark Identitiez
                                         <i>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="101" height="9"
                                                 viewBox="0 0 101 9" fill="none">
@@ -130,9 +127,9 @@ include('layouts/header.php'); ?>
                                     </span>
 
                                     <h3 class="tp-section-title-clash tp-text-revel-anim">
-                                        <span class="clash-subtitle-space-1">When</span><br>
-                                        Technology <br>
-                                        Meets Passion.
+                                        <span class="clash-subtitle-space-1">Strategy-Led</span><br>
+                                        Creativity For <br>
+                                        Ambitious Brands.
                                     </h3>
                                 </div>
                             </div>
@@ -155,22 +152,20 @@ include('layouts/header.php'); ?>
                                 <div class="studio-about-content about-us-2 tp_text_anim">
 
                                     <p class="mb-30">
-                                        At Mark Identitiez, we believe great brands are built by
-                                        understanding people not just analyzing data. We value
-                                        authenticity over trends and create experiences that inspire,
-                                        connect, and leave a lasting impact.
+                                        At Mark Identitiez, we believe successful brands are built at the intersection
+                                        of insight, creativity, and consistency. We look beyond visuals to understand
+                                        market context, customer behaviour, and the business ambition behind every
+                                        brief.
                                     </p>
 
                                     <p class="mb-40">
-                                        Since our journey began, we’ve been crafting digital identities,
-                                        strategic communication, and meaningful brand experiences that
-                                        transform ideas into memorable stories. Every pixel, every word,
-                                        and every interaction is designed with purpose to make brands
-                                        aspirational, admired, and unforgettable.
+                                        Our work spans brand identity, packaging, communication design, digital
+                                        experiences, and campaign assets. Every touchpoint is shaped to make brands
+                                        clearer, more credible, and easier to remember in competitive markets.
                                     </p>
 
                                     <div class="tp_fade_anim" data-fade-from="top" data-delay=".7" data-ease="bounce">
-                                        <a class="tp-btn-red-border about-us-2" href="contact-dark.html">
+                                        <a class="tp-btn-red-border about-us-2" href="contactus.php">
                                             Get in Touch
                                         </a>
                                     </div>
@@ -326,7 +321,7 @@ include('layouts/header.php'); ?>
                         <div class="col-xl-7 col-lg-8">
                             <div class="mi-process-title-box">
                                 <span class="tp-section-subtitle pre">Our Process</span>
-                                <h4 class="tp-section-title mi-process-title mt-20">How We Take Your Brand From Idea To Impact</h4>
+                                        <h4 class="tp-section-title mi-process-title mt-20">How We Take Your Brand From Insight To Impact</h4>
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-4">
@@ -462,8 +457,8 @@ include('layouts/header.php'); ?>
                         <div class="row">
                             <div class="col-xl-4 col-lg-4">
                                 <div class="crp-about-left">
-                                    <span class="tp-section-subtitle-teko mb-120 tp_fade_anim" data-delay=".3">our <br>
-                                        <i>Corporate</i> agency</span>
+                                    <span class="tp-section-subtitle-teko mb-120 tp_fade_anim" data-delay=".3">why <br>
+                                        <i>mark</i> identitiez</span>
                                     <div class="crp-about-exp tp_fade_anim" data-delay=".5" data-fade-from="top"
                                         data-ease="bounce">
                                         <div class="crp-about-exp-item text-center">
@@ -477,26 +472,26 @@ include('layouts/header.php'); ?>
                             <div class="col-xl-8 col-lg-8">
                                 <div class="crp-about-right">
                                     <h4 class="tp-section-title-clash tp-text-revel-anim" data-delay=".3">
-                                        WE DO THINGS
-                                        <span>DIFFERENTLY</span>
+                                        WE BUILD BRANDS
+                                        <span>WITH CLARITY</span>
 
                                     </h4>
                                     <div class="crp-about-bottom-wrap d-flex pt-20">
                                         <div class="crp-about-btn-box tp_fade_anim" data-delay=".5">
-                                            <a class="tp-btn-yellow-green lg" href="contact-us-dark.html">
+                                            <a class="tp-btn-yellow-green lg" href="contactus.php">
                                                 <span>
-                                                    <span class="text-1">Request A Quatation</span>
-                                                    <span class="text-2">Request A Quatation</span>
+                                                    <span class="text-1">Request A Quotation</span>
+                                                    <span class="text-2">Request A Quotation</span>
                                                 </span>
                                             </a>
                                         </div>
                                         <div class="crp-about-text tp_fade_anim" data-delay=".7">
-                                            <h3 class="white">WE TAKE ALL OUR SERVICES TO THE NEXT LEVEL</h3>
+                                            <h3 class="white">STRATEGY FIRST. DESIGN WITH PURPOSE. EXECUTION THAT SCALES.</h3>
                                             <p>
-                                                We strive to create unique brand experiences through creativity and
-                                                innovation that help brands realize their ambitions in a post digital,
-                                                consumer controlled world. We accelerate your Business growth, with
-                                                perfect blend of Industry Trends, Technology and Creativity.
+                                                The strongest agencies in this category do more than make brands look
+                                                good. They align positioning, visual language, messaging, and digital
+                                                execution so every customer touchpoint feels intentional. That is the
+                                                standard we hold our work to.
                                             </p>
                                         </div>
                                     </div>
@@ -508,115 +503,77 @@ include('layouts/header.php'); ?>
             </div>
             <!-- about area end -->
 
-            <!-- service area start -->
-            <div class="crp-service-area p-relative pt-80 pb-90" style="background-color: rgb(26, 27, 30);">
-                <div class="crp-service-shape-wrap">
-                    <img class="crp-service-shape-1" data-speed="1.1"
-                        src="assets/img/home-09/service/service-shape-1.png" alt="">
-                    <img class="crp-service-shape-2" data-speed="1.1"
-                        src="assets/img/home-09/service/service-shape-2.png" alt="">
-                    <img class="crp-service-shape-3" data-speed="1.1"
-                        src="assets/img/home-09/service/service-shape-3.png" alt="">
-                </div>
+            <!-- reasons area start -->
+            <section class="mi-reasons-area">
                 <div class="container container-1330">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="crp-service-title-box">
-                                <!-- <span class="tp-section-subtitle-teko mb-25 tp_fade_anim" data-delay=".3">Creative
-                                    approach</span> -->
-                                <h4 class="tp-section-title-clash tp-text-revel-anim" data-delay=".5">SOME REASONS TO
-                                    WORK
-                                    TOGETHER
-
-                                </h4>
-                            </div>
+                    <div class="mi-reasons-grid">
+                        <div class="mi-reasons-intro">
+                            <span class="tp-section-subtitle pre">Why Work With Us</span>
+                            <h4 class="mi-reasons-title">
+                                Some reasons to
+                                <span>work together</span>
+                            </h4>
+                            <p>Fast collaboration, strategy-led thinking, and execution that stays consistent across every brand touchpoint.</p>
                         </div>
-                        <div class="col-md-6">
-                            <div class="crp-service-item mt-50 pb-65 d-flex tp_fade_anim" data-delay=".3">
-                                <div class="crp-service-icon">
-                                    <span>
 
-                                        <!-- Rupees Icon -->
-                                        <svg width="34" height="34" viewBox="0 0 24 24" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-
-                                            <path d="M7 5H17" stroke="#fff" stroke-width="2.2" stroke-linecap="round" />
-
-                                            <path d="M7 9H17" stroke="#fff" stroke-width="2.2" stroke-linecap="round" />
-
-                                            <path d="M7 5C11 5 14 5 14 9C14 13 11 13 7 13H9" stroke="#fff"
-                                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
-
-                                            <path d="M10 13L16 20" stroke="#fff" stroke-width="2.2"
-                                                stroke-linecap="round" />
-                                        </svg>
-                                    </span>
+                        <div class="mi-reasons-cards">
+                            <article class="mi-reasons-card">
+                                <div class="mi-reasons-card-icon" aria-hidden="true">
+                                    <!-- Rupees Icon -->
+                                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 5H17" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+                                        <path d="M7 9H17" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+                                        <path d="M7 5C11 5 14 5 14 9C14 13 11 13 7 13H9" stroke="currentColor"
+                                            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M10 13L16 20" stroke="currentColor" stroke-width="2.2"
+                                            stroke-linecap="round" />
+                                    </svg>
                                 </div>
-                                <div class="crp-service-content">
-                                    <h4 class="crp-service-title-sm"><a class="tp-line-white cream"
-                                            href="service-details-2-dark.html">We’re affordable</a></h4>
-                                    <p>
-                                        We have a low overhead. No snooty receptionist, no latte-sipping sales weasels.
-                                        Just hard-working geeks chained to their computers.
-                                    </p>
+                                <div class="mi-reasons-card-body">
+                                    <h5>Strategy Before Design</h5>
+                                    <p>We start with category understanding, audience clarity, and brand direction so the creative output is not just attractive, but commercially useful.</p>
+                                </div>
+                            </article>
 
+                            <article class="mi-reasons-card">
+                                <div class="mi-reasons-card-icon" aria-hidden="true">
+                                    <!-- Check -->
+                                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 12L10 15L17 8" stroke="currentColor" stroke-width="2.2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M3 12C5 6 9 4 12 4C15 4 19 6 21 12C19 18 15 20 12 20C9 20 5 18 3 12Z"
+                                            stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" />
+                                    </svg>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="crp-service-item mt-50 pb-65 d-flex tp_fade_anim" data-delay=".5">
-                                <div class="crp-service-icon">
-                                    <span>
-                                        <!-- Friendly -->
-                                        <svg width="34" height="34" viewBox="0 0 24 24" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M7 12L10 15L17 8" stroke="#ffffff" stroke-width="2.2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                            <path
-                                                d="M3 12C5 6 9 4 12 4C15 4 19 6 21 12C19 18 15 20 12 20C9 20 5 18 3 12Z"
-                                                stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
+                                <div class="mi-reasons-card-body">
+                                    <h5>Cross-Channel Thinking</h5>
+                                    <p>From identity systems and packaging to websites and campaigns, we build work that stays consistent across online and offline touchpoints.</p>
                                 </div>
-                                <div class="crp-service-content">
-                                    <h4 class="crp-service-title-sm"><a class="tp-line-white cream"
-                                            href="service-details-2-dark.html">We are friendly</a></h4>
-                                    <p>
-                                        Our clients have fun working with us. We make the process easy and pleasant. We
-                                        speak in English, not techno-babble. We love what we do.
-                                    </p>
+                            </article>
 
+                            <article class="mi-reasons-card">
+                                <div class="mi-reasons-card-icon" aria-hidden="true">
+                                    <!-- Heart -->
+                                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 20.5S4 15.5 4 9.5C4 6.5 6 4.5 8.8 4.5C10.5 4.5 11.5 5.5 12 6.2C12.5 5.5 13.5 4.5 15.2 4.5C18 4.5 20 6.5 20 9.5C20 15.5 12 20.5 12 20.5Z"
+                                            stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" />
+                                    </svg>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="crp-service-item mt-50 pb-65 d-flex tp_fade_anim" data-delay=".7">
-                                <div class="crp-service-icon">
-                                    <span>
-                                        <!-- Honest -->
-                                        <svg width="34" height="34" viewBox="0 0 24 24" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M12 20.5S4 15.5 4 9.5C4 6.5 6 4.5 8.8 4.5C10.5 4.5 11.5 5.5 12 6.2C12.5 5.5 13.5 4.5 15.2 4.5C18 4.5 20 6.5 20 9.5C20 15.5 12 20.5 12 20.5Z"
-                                                stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
+                                <div class="mi-reasons-card-body">
+                                    <h5>Built For Market Impact</h5>
+                                    <p>We focus on differentiation, recall, and clarity so your brand stands stronger against crowded competition and earns trust faster.</p>
                                 </div>
-                                <div class="crp-service-content">
-                                    <h4 class="crp-service-title-sm"><a class="tp-line-white cream"
-                                            href="service-details-2-dark.html">We’re honest</a></h4>
-                                    <p>
-                                        Our business has grown from word-of-mouth and we intend to continue growing this
-                                        way. We’ll treat you fairly and do a great job.
-                                    </p>
-
-                                </div>
-                            </div>
+                            </article>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- service area end -->
+            </section>
+            <!-- reasons area end -->
             <!-- work area start -->
             <div class="tp-work-area pt-120 pb-145 tp-panel-pin-area">
                 <div class="container">
@@ -695,8 +652,8 @@ include('layouts/header.php'); ?>
                         <div class="col-xl-6">
                             <div class="tp-testimonial-title-wrap z-index-3">
                                 <div class="tp-testimonial-title-box mb-75 text-center">
-                                    <h4 class="tp-section-title text-white fs-140">meet <br>
-                                        our team</h4>
+                                    <h4 class="tp-section-title text-white fs-140">our core <br>
+                                        disciplines</h4>
                                 </div>
                             </div>
                         </div>
@@ -708,12 +665,12 @@ include('layouts/header.php'); ?>
                             <div class="swiper-slide">
                                 <div class="tp-team-item">
                                     <div class="tp-team-item-thumb">
-                                        <a href="team-details-dark.html"><img
+                                        <a href="service.php"><img
                                                 src="assets/img/about-us/about-us-4/team/team-1.jpg" alt=""></a>
                                         <div class="studio-team-content text-center">
-                                            <h4 class="studio-team-title-sm"><a href="team-details-dark.html">Andrew</a>
+                                            <h4 class="studio-team-title-sm"><a href="service.php">Brand Strategy</a>
                                             </h4>
-                                            <span>Developer</span>
+                                            <span>Positioning, research, and brand direction</span>
                                         </div>
                                     </div>
                                 </div>
@@ -721,12 +678,12 @@ include('layouts/header.php'); ?>
                             <div class="swiper-slide">
                                 <div class="tp-team-item">
                                     <div class="tp-team-item-thumb">
-                                        <a href="team-details-dark.html"><img
+                                        <a href="service.php"><img
                                                 src="assets/img/about-us/about-us-4/team/team-2.jpg" alt=""></a>
                                         <div class="studio-team-content text-center">
-                                            <h4 class="studio-team-title-sm"><a href="team-details-dark.html">Sophia</a>
+                                            <h4 class="studio-team-title-sm"><a href="service.php">Brand Identity</a>
                                             </h4>
-                                            <span>Developer</span>
+                                            <span>Logo systems, visual language, and guidelines</span>
                                         </div>
                                     </div>
                                 </div>
@@ -734,12 +691,12 @@ include('layouts/header.php'); ?>
                             <div class="swiper-slide">
                                 <div class="tp-team-item">
                                     <div class="tp-team-item-thumb">
-                                        <a href="team-details-dark.html"><img
+                                        <a href="service.php"><img
                                                 src="assets/img/about-us/about-us-4/team/team-3.jpg" alt=""></a>
                                         <div class="studio-team-content text-center">
-                                            <h4 class="studio-team-title-sm"><a href="team-details-dark.html">Emma</a>
+                                            <h4 class="studio-team-title-sm"><a href="service.php">Packaging Design</a>
                                             </h4>
-                                            <span>Developer</span>
+                                            <span>Shelf presence, structure, and visual impact</span>
                                         </div>
                                     </div>
                                 </div>
@@ -747,12 +704,12 @@ include('layouts/header.php'); ?>
                             <div class="swiper-slide">
                                 <div class="tp-team-item">
                                     <div class="tp-team-item-thumb">
-                                        <a href="team-details-dark.html"><img
+                                        <a href="service.php"><img
                                                 src="assets/img/about-us/about-us-4/team/team-4.jpg" alt=""></a>
                                         <div class="studio-team-content text-center">
-                                            <h4 class="studio-team-title-sm"><a href="team-details-dark.html">James</a>
+                                            <h4 class="studio-team-title-sm"><a href="service.php">Digital Experiences</a>
                                             </h4>
-                                            <span>Developer</span>
+                                            <span>Web design, interfaces, and campaign assets</span>
                                         </div>
                                     </div>
                                 </div>
@@ -760,12 +717,12 @@ include('layouts/header.php'); ?>
                             <div class="swiper-slide">
                                 <div class="tp-team-item">
                                     <div class="tp-team-item-thumb">
-                                        <a href="team-details-dark.html"><img
+                                        <a href="service.php"><img
                                                 src="assets/img/about-us/about-us-4/team/team-5.jpg" alt=""></a>
                                         <div class="studio-team-content text-center">
-                                            <h4 class="studio-team-title-sm"><a href="team-details-dark.html">Oliver</a>
+                                            <h4 class="studio-team-title-sm"><a href="service.php">Brand Communication</a>
                                             </h4>
-                                            <span>Developer</span>
+                                            <span>Messaging, rollout support, and creative consistency</span>
                                         </div>
                                     </div>
                                 </div>
@@ -777,16 +734,16 @@ include('layouts/header.php'); ?>
             <!-- testimonial area end -->
 
             <!-- about collaboration area start -->
-            <section class="mi-about-collab-area">
+            <section class="mi-about-collab-area mi-about-collab-area--about">
                 <div class="container container-1430">
                     <div class="mi-about-collab-wrap">
                         <div class="row g-4 align-items-center">
                             <div class="col-xl-7 col-lg-6">
                                 <div class="mi-about-collab-display">
                                     <!-- <span class="mi-about-collab-kicker">Inside Mark Identitiez</span> -->
-                                    <h3 class="tp-section-title-clash tp-text-revel-anim">
+                                    <h3 class="mi-about-collab-title tp-text-revel-anim">
                                         WE DON'T JUST
-                                        <span>BUILD</span>
+                                        <span class="mi-about-collab-solid">BUILD</span>
                                         <br>
                                         CAMPAIGNS
                                         <br>
@@ -836,3 +793,6 @@ include('layouts/header.php'); ?>
         </main>
 
 <?php include('layouts/footer.php'); ?>
+
+
+

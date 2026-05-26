@@ -1,0 +1,58 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="identityGlow" x1="128" y1="112" x2="606" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7EE70"/>
+      <stop offset="0.5" stop-color="#99CB2F"/>
+      <stop offset="1" stop-color="#3F9B2F"/>
+    </linearGradient>
+    <style>
+      .stroke { stroke: rgba(255,255,255,0.14); }
+      .copy { fill: rgba(255,255,255,0.82); font-family: Arial, sans-serif; font-size: 21px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .copy-small { fill: rgba(255,255,255,0.42); font-family: Arial, sans-serif; font-size: 15px; letter-spacing: 0.18em; text-transform: uppercase; }
+      .fill-card { fill: rgba(255,255,255,0.03); stroke: rgba(255,255,255,0.1); }
+      .monogram-main { animation: markReveal 5s ease-in-out infinite; transform-origin: center; }
+      .monogram-accent { animation: markReveal 5s ease-in-out infinite 0.6s; transform-origin: center; }
+      .line-shift { stroke-dasharray: 14 20; animation: lineMove 11s linear infinite; }
+      .swatch-a { animation: swatchPulse 3.6s ease-in-out infinite; }
+      .swatch-b { animation: swatchPulse 3.6s ease-in-out infinite 0.4s; }
+      .swatch-c { animation: swatchPulse 3.6s ease-in-out infinite 0.8s; }
+      @keyframes markReveal {
+        0%, 100% { transform: translateY(0) scale(1); opacity: 0.92; }
+        50% { transform: translateY(-8px) scale(1.03); opacity: 1; }
+      }
+      @keyframes lineMove {
+        to { stroke-dashoffset: -240; }
+      }
+      @keyframes swatchPulse {
+        0%, 100% { opacity: 0.68; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="720" height="720" rx="36" fill="#0C0C0E"/>
+  <rect x="88" y="92" width="544" height="536" rx="34" class="fill-card"/>
+  <rect x="128" y="132" width="224" height="252" rx="28" class="fill-card"/>
+  <rect x="384" y="132" width="194" height="114" rx="24" class="fill-card"/>
+  <rect x="384" y="270" width="194" height="114" rx="24" class="fill-card"/>
+  <rect x="128" y="444" width="450" height="136" rx="28" class="fill-card"/>
+
+  <path d="M184 182L240 316L296 182" stroke="url(#identityGlow)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="monogram-main"/>
+  <path d="M198 224H282" stroke="url(#identityGlow)" stroke-width="12" stroke-linecap="round" class="monogram-accent"/>
+  <circle cx="200" cy="340" r="14" fill="#D7EE70" opacity="0.8"/>
+  <circle cx="240" cy="340" r="14" fill="#99CB2F" opacity="0.8"/>
+  <circle cx="280" cy="340" r="14" fill="#3F9B2F" opacity="0.8"/>
+
+  <path d="M404 206H560" stroke="url(#identityGlow)" stroke-width="3" class="line-shift"/>
+  <path d="M404 338H560" stroke="url(#identityGlow)" stroke-width="3" class="line-shift" style="animation-direction: reverse;"/>
+  <rect x="408" y="148" width="34" height="34" rx="10" fill="#D7EE70" class="swatch-a"/>
+  <rect x="454" y="148" width="34" height="34" rx="10" fill="#99CB2F" class="swatch-b"/>
+  <rect x="500" y="148" width="34" height="34" rx="10" fill="#3F9B2F" class="swatch-c"/>
+
+  <text x="408" y="216" class="copy-small">Type System</text>
+  <text x="408" y="340" class="copy-small">Color System</text>
+  <text x="154" y="486" class="copy-small">Identity System</text>
+  <text x="154" y="524" class="copy">Build recognition</text>
+  <text x="154" y="554" class="copy">beyond the logo.</text>
+  <text x="154" y="586" class="copy-small">Logo / Type / Color / Guidelines</text>
+</svg>

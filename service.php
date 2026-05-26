@@ -2,7 +2,7 @@
 $title = "Service";
 include("layouts/header.php"); ?>
 
-<main>
+<main class="service-page">
  <!-- hero area start -->
                 <div class="ai-hero-area p-relative z-index-1">
                     <div class="ai-hero-video">
@@ -157,16 +157,16 @@ include("layouts/header.php"); ?>
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="studio-hero-info z-index-5 d-flex justify-content-md-between justify-content-center align-items-center">
-                            <a href="mailto:@agntix.studio">About Us</a>
+                            <a href="about-us.php">About Us</a>
                             <span>Mark Identitiez <br> Branding Agency</span>
-                            <a href="mailto:@agntix.studio">Contact Us</a>
+                            <a href="contactus.php">Contact Us</a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="studio-hero-content text-center tp-text-perspective" data-delay=".5" data-fade-from="top" data-ease="bounce">
-                            <h2 class="studio-hero-title fs-400">Service</h2>
+                            <h2 class="studio-hero-title fs-400">Services</h2>
                         </div>
                     </div>
                 </div>
@@ -274,6 +274,106 @@ include("layouts/header.php"); ?>
     </section>
     <!-- branding services area end -->
 
+    <!-- trust area start -->
+    <section class="mi-service-trust">
+        <div class="container">
+            <div class="mi-service-trust-head">
+                <span class="tp-section-subtitle pre">Trusted & Proven</span>
+                <h4 class="tp-section-title text-white">Brands We’ve Helped Shape</h4>
+                <p>Strategy-led branding work, built to perform in real markets and stay consistent across every touchpoint.</p>
+            </div>
+
+                <div class="mi-service-trust-grid">
+                    <div class="mi-service-trust-logos" aria-label="Client logos">
+                        <img src="assets/img/new-images/client/A.png" alt="A">
+                        <img src="assets/img/new-images/client/Aakriti%20logo.png" alt="Aakriti">
+                        <img src="assets/img/new-images/client/Aertix%20Logo%20(2).png" alt="Aertix">
+                        <img src="assets/img/new-images/client/chem%20pharma.png" alt="Chem Pharma">
+                        <img src="assets/img/new-images/client/download%20(2).png" alt="Client logo">
+                        <img src="assets/img/new-images/client/Dynarx%20logo.png" alt="Dynarx">
+                        <img src="assets/img/new-images/client/ish.png" alt="Ish">
+                        <img src="assets/img/new-images/client/jai%20jagannath%20charitable.png" alt="Jai Jagannath Charitable">
+                        <img src="assets/img/new-images/client/jpc%20logo.png" alt="JPC">
+                        <img src="assets/img/new-images/client/Mudrika-logo.png" alt="Mudrika">
+                        <img src="assets/img/new-images/client/SRB%20LOGO.png" alt="SRB">
+                        <img src="assets/img/new-images/client/tricil%20logo.png" alt="Tricil">
+                        <img src="assets/img/new-images/client/urban%20sports%20logo.png" alt="Urban Sports">
+                        <img src="assets/img/new-images/client/viraj%20prints%20logo.png" alt="Viraj Prints">
+                        <img src="assets/img/new-images/client/V%20Legends%20Logo.png" alt="V Legends">
+                        <img src="assets/img/new-images/client/varsha%20vision%20care%20logo.png" alt="Varsha Vision Care">
+                    </div>
+
+                <div class="mi-service-trust-stats">
+                    <div class="mi-service-trust-stat">
+                        <strong>14+</strong>
+                        <span>Years in branding</span>
+                    </div>
+                    <div class="mi-service-trust-stat">
+                        <strong>9</strong>
+                        <span>Core branding services</span>
+                    </div>
+                    <div class="mi-service-trust-stat">
+                        <strong>End-to-end</strong>
+                        <span>Strategy to rollout support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- trust area end -->
+
+    <!-- featured work start -->
+    <section class="mi-service-featured">
+        <div class="container">
+            <div class="row align-items-end mb-50">
+                <div class="col-xl-7 col-lg-8">
+                    <span class="tp-section-subtitle pre">Featured Work</span>
+                    <h4 class="tp-section-title text-white mt-20">Recent projects across branding, packaging & digital</h4>
+                </div>
+                <div class="col-xl-5 col-lg-4">
+                    <div class="mi-service-featured-intro">
+                        <p>Pick a project to see the kind of thinking, craft, and consistency we bring to every engagement.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mi-service-featured-grid">
+                <a class="mi-service-featured-card" href="instacraves.php">
+                    <div class="mi-service-featured-thumb">
+                        <img src="assets/img/portfolio/mark/insta.jpg" alt="Instacraves">
+                    </div>
+                    <div class="mi-service-featured-body">
+                        <h5>Instacraves</h5>
+                        <p>Branding + Packaging</p>
+                    </div>
+                </a>
+                <a class="mi-service-featured-card" href="aakriti-space-designs.php">
+                    <div class="mi-service-featured-thumb">
+                        <img src="assets/img/portfolio/mark/aakriti.jpg" alt="Aakriti Space Designs">
+                    </div>
+                    <div class="mi-service-featured-body">
+                        <h5>Aakriti Space Designs</h5>
+                        <p>Branding + UI/UX</p>
+                    </div>
+                </a>
+                <a class="mi-service-featured-card" href="deltacab.php">
+                    <div class="mi-service-featured-thumb">
+                        <img src="assets/img/portfolio/mark/delta-cab.jpg" alt="DELTAcab">
+                    </div>
+                    <div class="mi-service-featured-body">
+                        <h5>DELTAcab</h5>
+                        <p>Branding + Digital</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="mi-service-featured-cta">
+                <a class="mi-service-featured-link" href="portfolio.php">View full portfolio</a>
+            </div>
+        </div>
+    </section>
+    <!-- featured work end -->
+
 
     <!-- inner service area -->
     <div class="tp-inner-service-area pt-120 pb-120">
@@ -307,7 +407,7 @@ include("layouts/header.php"); ?>
                                         </p>
                                     </div>
                                     <div class="inner-service-1-category">
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="brand-naming.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Brand Naming</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -315,7 +415,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="visual-brand-language.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Creative Direction</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -323,7 +423,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="brand-proposition.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Brand Strategy</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -331,7 +431,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="brand-identity.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Brand Guidelines</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -339,7 +439,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="logo-design-brand-management.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Logo Design</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -387,7 +487,7 @@ include("layouts/header.php"); ?>
                                         </p>
                                     </div>
                                     <div class="inner-service-1-category">
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="packaging-design.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Product Mockups</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -395,7 +495,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="packaging-design.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Packaging Design Preview</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -403,7 +503,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="brand-identity.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Visual Identity</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -411,7 +511,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="visual-brand-language.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Typography</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -419,7 +519,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="brand-identity.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Brand Guidelines</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -467,7 +567,7 @@ include("layouts/header.php"); ?>
                                         </p>
                                     </div>
                                     <div class="inner-service-1-category">
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="contactus.php?service=Social%20Media%20Marketing" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Social Media Marketing</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -475,7 +575,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="contactus.php?service=SEO" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Search Engine Optimization (SEO)</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -483,7 +583,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="contactus.php?service=Google%20Ads" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Google Ads</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -491,7 +591,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="contactus.php?service=Meta%20Ads" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Meta Ads</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -499,7 +599,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="contactus.php?service=Content%20Creation" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Content Creation</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -507,7 +607,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="contactus.php?service=Lead%20Generation" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Lead Generation</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -555,7 +655,7 @@ include("layouts/header.php"); ?>
                                         </p>
                                     </div>
                                     <div class="inner-service-1-category">
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="contactus.php?service=Website%20Design" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Website Design</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -563,7 +663,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="contactus.php?service=Responsive%20Development" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Responsive Development</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -571,7 +671,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="contactus.php?service=UI%2FUX%20Design" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>UI/UX Design</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -579,7 +679,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="contactus.php?service=E-commerce%20Solutions" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>E-commerce Solutions</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -587,7 +687,7 @@ include("layouts/header.php"); ?>
                                                 </svg>
                                             </i>
                                         </a>
-                                        <a href="service-details-2-dark.html" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
+                                        <a href="contactus.php?service=Website%20Maintenance" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
                                             <span>Website Maintenance</span>
                                             <i>
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -624,6 +724,64 @@ include("layouts/header.php"); ?>
         </div>
     </div>
     <!-- inner service area -->
+
+    <!-- faq + cta start -->
+    <section class="mi-service-faq-area">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-xl-7 col-lg-8">
+                    <div class="mi-service-faq-title">
+                        <h4>Questions clients ask before starting</h4>
+                        <p>Quick answers to timelines, deliverables, and how we work together.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mi-service-faq-list">
+                <div class="mi-service-faq-item">
+                    <strong>What is included in a branding project?</strong>
+                    <p>We define direction (strategy/positioning), build the identity system, and provide brand assets and guidelines for consistent rollout.</p>
+                </div>
+                <div class="mi-service-faq-item">
+                    <strong>How long does a typical project take?</strong>
+                    <p>Most brand identity engagements take 3–6 weeks depending on scope, feedback cadence, and deliverables.</p>
+                </div>
+                <div class="mi-service-faq-item">
+                    <strong>Do you only do branding, or also packaging and websites?</strong>
+                    <p>We do end-to-end: packaging, communication design, and websites so your brand looks consistent everywhere.</p>
+                </div>
+                <div class="mi-service-faq-item">
+                    <strong>Will we get editable source files?</strong>
+                    <p>Yes. Final handover includes editable assets and practical templates depending on the service package.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mi-service-cta-strip">
+        <div class="container">
+            <div class="mi-service-cta-box">
+                <div class="mi-service-cta-copy">
+                    <h4>Want a clearer brand system that sells trust faster?</h4>
+                    <p>Share your category, goals, and timeline. We’ll respond with the best next step and an approach that fits.</p>
+                </div>
+                <div class="mi-service-cta-actions">
+                    <a class="tp-btn-black btn-red-bg" href="contactus.php">
+                        <span class="tp-btn-black-filter d-inline-flex align-items-center">
+                            <span class="tp-btn-black-text">Request a proposal</span>
+                            <span class="tp-btn-black-circle">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </span>
+                    </a>
+                    <a class="mi-service-cta-link" href="contactus.php?service=Brand%20Identity">Or pick a service</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faq + cta end -->
 
 
     <!-- inner text slider area -->

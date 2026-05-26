@@ -1,0 +1,53 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="packGlow" x1="140" y1="104" x2="594" y2="592" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7EE70"/>
+      <stop offset="0.48" stop-color="#99CB2F"/>
+      <stop offset="1" stop-color="#3F9B2F"/>
+    </linearGradient>
+    <style>
+      .shell { fill: rgba(255,255,255,0.03); stroke: rgba(255,255,255,0.1); }
+      .copy { fill: rgba(255,255,255,0.82); font-family: Arial, sans-serif; font-size: 21px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .copy-small { fill: rgba(255,255,255,0.42); font-family: Arial, sans-serif; font-size: 15px; letter-spacing: 0.18em; text-transform: uppercase; }
+      .glow-line { stroke: url(#packGlow); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .pack-a { animation: floatPack 5.8s ease-in-out infinite; transform-origin: center; }
+      .pack-b { animation: floatPack 5.8s ease-in-out infinite 0.6s; transform-origin: center; }
+      .pack-c { animation: floatPack 5.8s ease-in-out infinite 1.1s; transform-origin: center; }
+      .scan { stroke-dasharray: 14 14; animation: scanMove 10s linear infinite; }
+      @keyframes floatPack {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes scanMove {
+        to { stroke-dashoffset: -180; }
+      }
+    </style>
+  </defs>
+
+  <rect width="720" height="720" rx="36" fill="#0C0C0E"/>
+  <rect x="92" y="94" width="536" height="532" rx="34" class="shell"/>
+  <rect x="126" y="126" width="448" height="292" rx="28" class="shell"/>
+  <rect x="126" y="452" width="448" height="126" rx="26" class="shell"/>
+
+  <g class="pack-a">
+    <path d="M192 202L254 174L316 202V294L254 326L192 294V202Z" class="glow-line"/>
+    <path d="M192 202L254 234L316 202" class="glow-line scan"/>
+    <path d="M254 234V326" class="glow-line"/>
+  </g>
+  <g class="pack-b">
+    <path d="M376 184H456C472 184 486 198 486 214V298C486 314 472 328 456 328H376C360 328 346 314 346 298V214C346 198 360 184 376 184Z" class="glow-line"/>
+    <path d="M382 216H454" class="glow-line scan"/>
+    <path d="M382 248H446" class="glow-line"/>
+    <path d="M382 280H434" class="glow-line"/>
+  </g>
+  <g class="pack-c">
+    <path d="M504 206C504 190 518 176 534 176H544C560 176 574 190 574 206V300C574 316 560 330 544 330H534C518 330 504 316 504 300V206Z" class="glow-line"/>
+    <path d="M504 220H574" class="glow-line scan"/>
+    <circle cx="539" cy="288" r="18" stroke="url(#packGlow)" stroke-width="3"/>
+  </g>
+
+  <text x="150" y="498" class="copy-small">Packaging Systems</text>
+  <text x="150" y="536" class="copy">Create shelf impact with</text>
+  <text x="150" y="566" class="copy">clarity and premium feel.</text>
+  <text x="150" y="596" class="copy-small">Labels / Boxes / Pouches / Bottles</text>
+</svg>

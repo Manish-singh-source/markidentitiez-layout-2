@@ -1,0 +1,72 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="strategyGlow" x1="110" y1="92" x2="573" y2="603" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7EE70"/>
+      <stop offset="0.48" stop-color="#99CB2F"/>
+      <stop offset="1" stop-color="#3F9B2F"/>
+    </linearGradient>
+    <filter id="softBlur" x="0" y="0" width="720" height="720" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <style>
+      .panel { fill: rgba(255,255,255,0.03); stroke: rgba(255,255,255,0.12); }
+      .wire { stroke: url(#strategyGlow); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.95; }
+      .pulse { fill: #D7EE70; opacity: 0.85; }
+      .orbit { stroke: rgba(215,238,112,0.22); stroke-width: 1.6; stroke-dasharray: 10 10; }
+      .copy { fill: rgba(255,255,255,0.72); font-family: Arial, sans-serif; font-size: 22px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .copy-small { fill: rgba(255,255,255,0.42); font-family: Arial, sans-serif; font-size: 16px; letter-spacing: 0.18em; text-transform: uppercase; }
+      .node-a { animation: nodePulse 3.4s ease-in-out infinite; transform-origin: center; }
+      .node-b { animation: nodePulse 3.4s ease-in-out infinite 0.8s; transform-origin: center; }
+      .node-c { animation: nodePulse 3.4s ease-in-out infinite 1.6s; transform-origin: center; }
+      .trace { stroke-dasharray: 12 18; animation: dashMove 10s linear infinite; }
+      .float-a { animation: floatY 5.5s ease-in-out infinite; }
+      .float-b { animation: floatY 6.2s ease-in-out infinite 0.8s; }
+      @keyframes nodePulse {
+        0%, 100% { transform: scale(1); opacity: 0.78; }
+        50% { transform: scale(1.24); opacity: 1; }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -220; }
+      }
+      @keyframes floatY {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+    </style>
+  </defs>
+
+  <rect width="720" height="720" rx="36" fill="#0C0C0E"/>
+  <circle cx="188" cy="160" r="92" fill="url(#strategyGlow)" opacity="0.16" filter="url(#softBlur)"/>
+  <circle cx="558" cy="532" r="120" fill="url(#strategyGlow)" opacity="0.12" filter="url(#softBlur)"/>
+
+  <rect x="84" y="88" width="552" height="544" rx="32" class="panel"/>
+  <rect x="126" y="142" width="156" height="104" rx="22" class="panel float-a"/>
+  <rect x="340" y="142" width="218" height="104" rx="22" class="panel float-b"/>
+  <rect x="126" y="296" width="182" height="124" rx="24" class="panel"/>
+  <rect x="376" y="296" width="182" height="124" rx="24" class="panel"/>
+  <rect x="126" y="468" width="432" height="118" rx="28" class="panel"/>
+
+  <path d="M204 246V296M204 420V468M450 246V296M308 358H376" class="wire trace"/>
+  <path d="M204 194H450V358" class="wire"/>
+  <path d="M204 358H450" class="wire trace"/>
+  <circle cx="204" cy="194" r="11" class="pulse node-a"/>
+  <circle cx="450" cy="194" r="11" class="pulse node-b"/>
+  <circle cx="450" cy="358" r="11" class="pulse node-c"/>
+  <circle cx="204" cy="358" r="11" class="pulse node-b"/>
+
+  <circle cx="506" cy="524" r="44" class="orbit"/>
+  <circle cx="506" cy="524" r="26" class="orbit" style="animation: dashMove 12s linear infinite reverse;"/>
+  <circle cx="506" cy="524" r="7" fill="#D7EE70"/>
+
+  <text x="150" y="182" class="copy-small">Research</text>
+  <text x="150" y="218" class="copy">Audience Fit</text>
+  <text x="362" y="182" class="copy-small">Market Map</text>
+  <text x="362" y="218" class="copy">Positioning</text>
+  <text x="150" y="348" class="copy-small">Category</text>
+  <text x="150" y="384" class="copy">Brand Role</text>
+  <text x="398" y="348" class="copy-small">Clarity</text>
+  <text x="398" y="384" class="copy">Messaging</text>
+  <text x="150" y="512" class="copy-small">Strategy Framework</text>
+  <text x="150" y="552" class="copy">Build clarity before</text>
+  <text x="150" y="582" class="copy">creative execution.</text>
+</svg>
