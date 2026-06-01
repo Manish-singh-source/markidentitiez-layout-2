@@ -24,7 +24,7 @@ $portfolioItems = [
     ],
     [
         "title" => "Fragomatrix",
-        "image" => "assets/img/new-images/Portfolio-1.png",
+        "image" => "assets/img/new-images/portfolio/frego/frego.png",
         "link" => "fragomatrix.php",
         "categories" => "branding uiux digital-marketing",
         "labels" => ["Branding", "UI/UX Design"],
