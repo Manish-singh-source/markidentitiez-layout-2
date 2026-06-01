@@ -154,6 +154,135 @@ include("layouts/header.php"); ?>
         border-bottom: 1px solid rgba(255, 255, 255, .14);
     }
 
+    .bi-fit-area {
+        background: linear-gradient(180deg, #ffffff 0%, #f5f1e8 100%);
+    }
+
+    .bi-fit-shell {
+        border: 1px solid rgba(17, 17, 19, .08);
+        border-radius: 26px;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0 30px 80px rgba(17, 17, 19, .08);
+    }
+
+    .bi-fit-intro {
+        background:
+            radial-gradient(circle at top right, rgba(255, 246, 105, .55), transparent 30%),
+            linear-gradient(135deg, #121214 0%, #1d1d20 100%);
+        padding: 48px;
+        height: 100%;
+    }
+
+    .bi-fit-intro p,
+    .bi-fit-intro li,
+    .bi-fit-faq-answer,
+    .bi-fit-links a span:last-child {
+        color: rgba(255, 255, 255, .72);
+    }
+
+    .bi-fit-intro ul {
+        margin: 24px 0 0;
+        padding-left: 18px;
+    }
+
+    .bi-fit-intro li + li {
+        margin-top: 10px;
+    }
+
+    .bi-fit-grid {
+        padding: 28px;
+    }
+
+    .bi-fit-card,
+    .bi-fit-faq-item {
+        border: 1px solid rgba(17, 17, 19, .08);
+        border-radius: 20px;
+        padding: 28px;
+        background: linear-gradient(180deg, #fff 0%, #faf7f1 100%);
+        height: 100%;
+    }
+
+    .bi-fit-card span,
+    .bi-fit-faq-item span {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        background: #111113;
+        color: #fff669;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 18px;
+    }
+
+    .bi-fit-card h4,
+    .bi-fit-faq-item h4 {
+        color: #111113;
+        font-size: 26px;
+        margin-bottom: 14px;
+    }
+
+    .bi-fit-card p,
+    .bi-fit-faq-item p {
+        color: rgba(17, 17, 19, .72);
+        margin-bottom: 0;
+    }
+
+    .bi-fit-faq-area {
+        background: #111113;
+    }
+
+    .bi-fit-faq-head {
+        margin-bottom: 45px;
+    }
+
+    .bi-fit-faq-head p {
+        max-width: 620px;
+        margin-bottom: 0;
+    }
+
+    .bi-fit-faq-item {
+        background: rgba(255, 255, 255, .03);
+        border-color: rgba(255, 255, 255, .1);
+    }
+
+    .bi-fit-faq-item h4 {
+        color: #fff;
+    }
+
+    .bi-fit-faq-item p {
+        color: rgba(255, 255, 255, .7);
+    }
+
+    .bi-fit-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-top: 36px;
+    }
+
+    .bi-fit-links a {
+        min-width: 220px;
+        padding: 18px 22px;
+        border-radius: 18px;
+        border: 1px solid rgba(255, 255, 255, .1);
+        background: rgba(255, 255, 255, .03);
+    }
+
+    .bi-fit-links a span {
+        display: block;
+    }
+
+    .bi-fit-links a span:first-child {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
     @media (max-width: 767px) {
 
         .bi-hero-img,
@@ -163,6 +292,11 @@ include("layouts/header.php"); ?>
 
         .bi-system-item {
             padding: 26px 0;
+        }
+
+        .bi-fit-intro,
+        .bi-fit-grid {
+            padding: 24px;
         }
     }
 
@@ -405,6 +539,13 @@ include("layouts/header.php"); ?>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-12">
+                    <div class="bi-image-card tp--hover-item mb-30">
+                        <div class="tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
+                            <img src="assets/img/new-images/packging.png" alt="Brand packaging application across products">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -522,6 +663,112 @@ include("layouts/header.php"); ?>
         </div>
     </section>
     <!-- process area end -->
+
+    <!-- best fit area start -->
+    <section class="bi-fit-area pt-120 pb-120">
+        <div class="container container-1750">
+            <div class="bi-fit-shell">
+                <div class="row g-0">
+                    <div class="col-xl-5">
+                        <div class="bi-fit-intro">
+                            <span class="bi-eyebrow d-inline-block mb-25">Best fit for</span>
+                            <h2 class="bi-section-title mb-30">Packaging work that feels premium before the first word is read.</h2>
+                            <p class="bi-copy">This service works best for brands that need more than a label facelift. It is built for products that need shelf impact, faster customer understanding, and a packaging system that can scale across variants.</p>
+                            <ul>
+                                <li>FMCG, food, cosmetics, wellness, and D2C product brands</li>
+                                <li>Businesses launching a new SKU, collection, or retail-ready range</li>
+                                <li>Founders who want packaging that looks strong online and in stores</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="bi-fit-grid">
+                            <div class="row gx-4 gy-4">
+                                <div class="col-md-6">
+                                    <div class="bi-fit-card">
+                                        <span>01</span>
+                                        <h4>What users notice first</h4>
+                                        <p>Front-panel hierarchy, logo visibility, flavor or variant clarity, and the confidence that the product belongs in a premium lineup.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bi-fit-card">
+                                        <span>02</span>
+                                        <h4>What competitors often miss</h4>
+                                        <p>Too much information, weak range consistency, poor shelf breakup, and packaging that does not translate well into ecommerce thumbnails.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bi-fit-card">
+                                        <span>03</span>
+                                        <h4>How we improve it</h4>
+                                        <p>We simplify the message flow, sharpen visual cues, and structure the system so every variant feels related without becoming repetitive.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bi-fit-card">
+                                        <span>04</span>
+                                        <h4>What you leave with</h4>
+                                        <p>Packaging concepts, range logic, print-ready artwork, and a stronger product presence for listings, stores, and launch campaigns.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- best fit area end -->
+
+    <!-- faq area start -->
+    <section class="bi-fit-faq-area pt-110 pb-120">
+        <div class="container container-1430">
+            <div class="bi-fit-faq-head">
+                <span class="bi-eyebrow d-inline-block mb-25">Decision support</span>
+                <h2 class="bi-section-title mb-20">Questions brands ask before starting packaging design.</h2>
+                <p class="bi-copy">The page stays visual, but the decision gets easier when scope, deliverables, and next-step services are clearly explained.</p>
+            </div>
+            <div class="row gx-30 gy-30">
+                <div class="col-lg-4">
+                    <div class="bi-fit-faq-item">
+                        <span>01</span>
+                        <h4>Do you handle only one pack or full product ranges?</h4>
+                        <p>Both. We can design a single pack launch or build a repeatable system for multiple variants, sizes, flavors, and collections.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bi-fit-faq-item">
+                        <span>02</span>
+                        <h4>Will the final files be print ready?</h4>
+                        <p>Yes. Final artwork is prepared with clean layout structure, production-friendly files, and practical usage guidance for printers or vendors.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bi-fit-faq-item">
+                        <span>03</span>
+                        <h4>What should come before packaging design?</h4>
+                        <p>If the brand identity or positioning is still unclear, we can tighten that first so the packaging looks sharper and feels more commercially aligned.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bi-fit-links">
+                <a href="brand-identity.php">
+                    <span>Related service</span>
+                    <span>Build the identity system first</span>
+                </a>
+                <a href="brand-positioning.php">
+                    <span>Related service</span>
+                    <span>Clarify positioning before launch</span>
+                </a>
+                <a href="contactus.php?service=Packaging%20Design">
+                    <span>Start the project</span>
+                    <span>Discuss your packaging brief</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- faq area end -->
 
     <!-- text slider area start -->
     <section class="ar-about-us-4-text-area bi-cta">

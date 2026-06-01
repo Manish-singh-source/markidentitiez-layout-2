@@ -15759,7 +15759,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .studio-hero-title.fs-400 {
-  font-size: 400px;
+  font-size: 350px;
 }
 
 @media only screen and (min-width: 1801px) and (max-width: 1850px) {
@@ -15813,7 +15813,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .studio-hero-info {
-  padding-bottom: 230px;
+  padding-bottom: 130px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -51251,7 +51251,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   margin-bottom: 15px;
   display: inline-block;
   border: 1px solid rgba(5, 3, 18, 0.1);
-  color: rgba(5, 3, 18, 0.7);
+  color: #ffff;
 }
 
 .ais-section-title {
@@ -51259,7 +51259,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   font-weight: 500;
   line-height: 1.24;
   margin-bottom: 20px;
-  color: var(--tp-common-black-7);
+  color: #ffff;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -52823,14 +52823,14 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 }
 
 .ais-testimonial-wrap::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 400px;
-  z-index: 1;
-  background: linear-gradient(91deg, #F8E9D9 10.9%, rgba(255, 255, 255, 0) 88.65%);
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 400px;
+    z-index: 1;
+    background: linear-gradient(91deg, #383838 10.9%, rgb(0 0 0 / 0%) 88.65%);
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px),
@@ -52861,7 +52861,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
   height: 100%;
   width: 400px;
   z-index: 1;
-  background: linear-gradient(-91deg, #F8E9D9 10.9%, rgba(255, 255, 255, 0) 88.65%);
+ background: linear-gradient(-91deg, #4e4e4e 10.9%, rgba(255, 255, 255, 0) 88.65%);
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px),

@@ -179,7 +179,7 @@ include("layouts/header.php"); ?>
     <!-- banner area start -->
     <div class="studio-hero-banner-area pb-100">
         <div class="studio-hero-banner mb-20">
-            <img class="w-100" data-speed=".8" src="assets/img/home-06/banner.jpg" alt="">
+            <img class="w-100" data-speed=".8" src="assets/img/new-images/servicebanner.png" alt="">
         </div>
         <div class="container container-1830">
             <div class="row">
@@ -199,80 +199,334 @@ include("layouts/header.php"); ?>
     </div>
     <!-- banner area end -->
 
-    <!-- branding services area start -->
-    <section class="mi-branding-services-area pt-120 pb-120">
+    <!-- service blueprint area start -->
+    <section class="mi-service-blueprint pt-120 pb-70">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-4 col-lg-5">
-                    <div class="mi-branding-services-title-box inner-service-1-left">
-                        <span class="tp-section-subtitle text-black pre">Our Branding Services</span>
-                        <h4 class="tp-section-title mi-branding-services-title mt-20">Build The Brand System Your Business Needs</h4>
-                        <p>Choose a service to explore the detailed approach behind our strategy, identity,
-                            packaging, naming and brand management work.</p>
+            <div class="mi-service-blueprint-wrap">
+                <div class="row align-items-end">
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="mi-service-blueprint-copy">
+                            <span class="tp-section-subtitle text-black pre">Service blueprint</span>
+                            <h4 class="tp-section-title mi-service-blueprint-title mt-20">Sharper strategy. Better identity. Stronger rollout.</h4>
+                            <p>We keep the service journey simple: define what your brand should mean, shape how it should look, and build the assets your audience will actually experience.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5">
+                        <div class="mi-service-blueprint-note">
+                            <strong>Built for ambitious brands</strong>
+                            <p>Whether you need one service or a full brand system, the work is structured to feel premium, practical, and ready for launch.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-8 col-lg-7">
-                    <div class="mi-brand-service-list">
-                        <a class="mi-brand-service-row" href="brand-proposition.php">
-                            <span>01</span>
-                            <h5>Brand Proposition</h5>
-                            <p>Core promise, value and reason to choose your brand.</p>
-                            <i></i>
-                        </a>
-                        <a class="mi-brand-service-row" href="brand-identity.php">
-                            <span>02</span>
-                            <h5>Brand Identity</h5>
-                            <p>Distinctive visual identity systems for recognition.</p>
-                            <i></i>
-                        </a>
-                        <a class="mi-brand-service-row" href="brand-positioning.php">
-                            <span>03</span>
-                            <h5>Brand Positioning</h5>
-                            <p>A clear market position that separates you.</p>
-                            <i></i>
-                        </a>
-                        <a class="mi-brand-service-row" href="visual-brand-language.php">
-                            <span>04</span>
-                            <h5>Visual Brand Language</h5>
-                            <p>Colors, typography, imagery and design rules.</p>
-                            <i></i>
-                        </a>
-                        <a class="mi-brand-service-row" href="brand-architecture.php">
-                            <span>05</span>
-                            <h5>Brand Architecture</h5>
-                            <p>Organized products, sub-brands and services.</p>
-                            <i></i>
-                        </a>
-                        <a class="mi-brand-service-row" href="packaging-design.php">
-                            <span>06</span>
-                            <h5>Packaging Design</h5>
-                            <p>Packaging that communicates value and stands out.</p>
-                            <i></i>
-                        </a>
-                        <a class="mi-brand-service-row" href="brand-naming.php">
-                            <span>07</span>
-                            <h5>Brand Naming</h5>
-                            <p>Memorable names with meaning and market fit.</p>
-                            <i></i>
-                        </a>
-                        <a class="mi-brand-service-row" href="brand-tonality-messaging.php">
-                            <span>08</span>
-                            <h5>Brand Tonality & Messaging</h5>
-                            <p>Voice and messaging that sound unmistakably like you.</p>
-                            <i></i>
-                        </a>
-                        <a class="mi-brand-service-row" href="logo-design-brand-management.php">
-                            <span>09</span>
-                            <h5>Logo Design & Brand Management</h5>
-                            <p>Logo systems and controls for consistent use.</p>
-                            <i></i>
-                        </a>
+                <div class="mi-service-cluster-grid">
+                    <article class="mi-service-cluster-card">
+                        <span>01</span>
+                        <h5>Brand Strategy</h5>
+                        <p>Positioning, proposition, architecture, and naming to give your business a clear point of view.</p>
+                        <ul>
+                            <li><a href="brand-proposition.php">Brand Proposition</a></li>
+                            <li><a href="brand-positioning.php">Brand Positioning</a></li>
+                            <li><a href="brand-architecture.php">Brand Architecture</a></li>
+                            <li><a href="brand-naming.php">Brand Naming</a></li>
+                        </ul>
+                    </article>
+                    <article class="mi-service-cluster-card">
+                        <span>02</span>
+                        <h5>Identity & Expression</h5>
+                        <p>Logo systems, visual language, and messaging that make the brand feel distinctive from day one.</p>
+                        <ul>
+                            <li><a href="brand-identity.php">Brand Identity</a></li>
+                            <li><a href="visual-brand-language.php">Visual Brand Language</a></li>
+                            <li><a href="brand-tonality-messaging.php">Tonality & Messaging</a></li>
+                            <li><a href="logo-design-brand-management.php">Logo Design & Brand Management</a></li>
+                        </ul>
+                    </article>
+                    <article class="mi-service-cluster-card">
+                        <span>03</span>
+                        <h5>Packaging & Activation</h5>
+                        <p>Execution-focused services that move the brand into packaging, communication, digital campaigns, and websites.</p>
+                        <ul>
+                            <li><a href="packaging-design.php">Packaging Design</a></li>
+                            <li><a href="communication-design.php">Communication Design</a></li>
+                            <li><a href="contactus.php?service=Digital%20Marketing">Digital Marketing</a></li>
+                            <li><a href="contactus.php?service=Website%20Design">Website & UI/UX</a></li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service blueprint area end -->
+
+    <!-- service matrix start -->
+    <section class="mi-service-portfolio cst-portfolio-ptb cst-portfolio-bg pt-120 pb-120 tp-panel-pin-area" data-bg-color="#050312">
+        <div class="container container-1530">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="cst-portfolio-right tp-panel-pin mb-50">
+                        <div class="cst-portfolio-heading z-index-1">
+                            <span class="cst-section-subtitle color-white mb-15 tp_fade_anim" data-delay=".3">Core services</span>
+                            <h4 class="cst-section-title color-white mb-40 tp_fade_anim" data-delay=".5">Explore the <br>
+                                branding services <span class="d-none d-xl-inline-block"><img src="assets/img/update/about/title-shape-2.png" alt=""></span> that build <br>
+                                stronger market presence</h4>
+                            <p class="mi-service-portfolio-copy tp_fade_anim" data-delay=".6">From strategy and identity to packaging and communication, every service is designed to make the brand feel sharper, more consistent, and easier to trust.</p>
+                            <div class="cst-portfolio-btn tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">
+                                <a class="cst-btn white-t" href="portfolio.php">
+                                    <span>
+                                        <span class="text-1">
+                                            View full portfolio
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                                                <path d="M0.75 4.77295C0.335786 4.77295 0 5.10874 0 5.52295C0 5.93716 0.335786 6.27295 0.75 6.27295V5.52295V4.77295ZM15.2803 6.05328C15.5732 5.76039 15.5732 5.28551 15.2803 4.99262L10.5074 0.219648C10.2145 -0.0732449 9.73959 -0.0732449 9.4467 0.219648C9.15381 0.512542 9.15381 0.987415 9.4467 1.28031L13.6893 5.52295L9.4467 9.76559C9.15381 10.0585 9.15381 10.5334 9.4467 10.8263C9.73959 11.1191 10.2145 11.1191 10.5074 10.8263L15.2803 6.05328ZM0.75 5.52295V6.27295H14.75V5.52295V4.77295H0.75V5.52295Z" fill="currentColor"/>
+                                            </svg>
+                                        </span>
+                                        <span class="text-2">
+                                            View full portfolio
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                                                <path d="M0.75 4.77295C0.335786 4.77295 0 5.10874 0 5.52295C0 5.93716 0.335786 6.27295 0.75 6.27295V5.52295V4.77295ZM15.2803 6.05328C15.5732 5.76039 15.5732 5.28551 15.2803 4.99262L10.5074 0.219648C10.2145 -0.0732449 9.73959 -0.0732449 9.4467 0.219648C9.15381 0.512542 9.15381 0.987415 9.4467 1.28031L13.6893 5.52295L9.4467 9.76559C9.15381 10.0585 9.15381 10.5334 9.4467 10.8263C9.73959 11.1191 10.2145 11.1191 10.5074 10.8263L15.2803 6.05328ZM0.75 5.52295V6.27295H14.75V5.52295V4.77295H0.75V5.52295Z" fill="currentColor"/>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="cst-portfolio-wrapper">
+                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
+                            <span class="cst-portfolio-item-num">01</span>
+                            <div class="cst-portfolio-item-thumb">
+                                <a href="brand-positioning.php">
+                                    <img src="assets/img/new-images/brand-positioning2.png" alt="Brand strategy and positioning">
+                                </a>
+                            </div>
+                            <h4 class="cst-portfolio-item-title">
+                                <a href="brand-positioning.php">Brand strategy and positioning <br> for sharper market distinction.</a>
+                            </h4>
+                            <div class="cst-portfolio-item-categories">
+                                <span>Strategy</span>
+                                <span>Clarity</span>
+                            </div>
+                        </div>
+                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
+                            <span class="cst-portfolio-item-num">02</span>
+                            <div class="cst-portfolio-item-thumb">
+                                <a href="brand-identity.php">
+                                    <img src="assets/img/new-images/brand-identity2.png" alt="Brand identity design">
+                                </a>
+                            </div>
+                            <h4 class="cst-portfolio-item-title">
+                                <a href="brand-identity.php">Identity systems that make the <br> brand feel premium and consistent.</a>
+                            </h4>
+                            <div class="cst-portfolio-item-categories">
+                                <span>Identity</span>
+                                <span>Design System</span>
+                            </div>
+                        </div>
+                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
+                            <span class="cst-portfolio-item-num">03</span>
+                            <div class="cst-portfolio-item-thumb">
+                                <a href="packaging-design.php">
+                                    <img src="assets/img/new-images/packaging-design3.png" alt="Packaging design service">
+                                </a>
+                            </div>
+                            <h4 class="cst-portfolio-item-title">
+                                <a href="packaging-design.php">Packaging design built for shelf <br> impact, clarity, and trust.</a>
+                            </h4>
+                            <div class="cst-portfolio-item-categories">
+                                <span>Packaging</span>
+                                <span>Product Presence</span>
+                            </div>
+                        </div>
+                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
+                            <span class="cst-portfolio-item-num">04</span>
+                            <div class="cst-portfolio-item-thumb">
+                                <a href="communication-design.php">
+                                    <img src="assets/img/new-images/comunication.png" alt="Communication design service">
+                                </a>
+                            </div>
+                            <h4 class="cst-portfolio-item-title">
+                                <a href="communication-design.php">Communication design that carries <br> the brand across every touchpoint.</a>
+                            </h4>
+                            <div class="cst-portfolio-item-categories">
+                                <span>Communication</span>
+                                <span>Campaign Assets</span>
+                            </div>
+                        </div>
+                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
+                            <span class="cst-portfolio-item-num">05</span>
+                            <div class="cst-portfolio-item-thumb">
+                                <a href="brand-proposition.php">
+                                    <img src="assets/img/new-images/brand-proposition2.png" alt="Brand proposition service">
+                                </a>
+                            </div>
+                            <h4 class="cst-portfolio-item-title">
+                                <a href="brand-proposition.php">Brand proposition that defines <br> your value with more precision.</a>
+                            </h4>
+                            <div class="cst-portfolio-item-categories">
+                                <span>Strategy</span>
+                                <span>Value Clarity</span>
+                            </div>
+                        </div>
+                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
+                            <span class="cst-portfolio-item-num">06</span>
+                            <div class="cst-portfolio-item-thumb">
+                                <a href="visual-brand-language.php">
+                                    <img src="assets/img/new-images/brand-identity4.png" alt="Visual brand language service">
+                                </a>
+                            </div>
+                            <h4 class="cst-portfolio-item-title">
+                                <a href="visual-brand-language.php">Visual language systems that keep <br> every brand touchpoint aligned.</a>
+                            </h4>
+                            <div class="cst-portfolio-item-categories">
+                                <span>Identity</span>
+                                <span>Visual Rules</span>
+                            </div>
+                        </div>
+                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
+                            <span class="cst-portfolio-item-num">07</span>
+                            <div class="cst-portfolio-item-thumb">
+                                <a href="brand-architecture.php">
+                                    <img src="assets/img/new-images/brand-architecture2.png" alt="Brand architecture service">
+                                </a>
+                            </div>
+                            <h4 class="cst-portfolio-item-title">
+                                <a href="brand-architecture.php">Brand architecture that organizes <br> offers, sub-brands, and growth paths.</a>
+                            </h4>
+                            <div class="cst-portfolio-item-categories">
+                                <span>Structure</span>
+                                <span>Scalability</span>
+                            </div>
+                        </div>
+                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
+                            <span class="cst-portfolio-item-num">08</span>
+                            <div class="cst-portfolio-item-thumb">
+                                <a href="brand-naming.php">
+                                    <img src="assets/img/new-images/brand-naming2.png" alt="Brand naming service">
+                                </a>
+                            </div>
+                            <h4 class="cst-portfolio-item-title">
+                                <a href="brand-naming.php">Brand naming routes that feel <br> memorable, relevant, and market-ready.</a>
+                            </h4>
+                            <div class="cst-portfolio-item-categories">
+                                <span>Naming</span>
+                                <span>Verbal Identity</span>
+                            </div>
+                        </div>
+                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
+                            <span class="cst-portfolio-item-num">09</span>
+                            <div class="cst-portfolio-item-thumb">
+                                <a href="brand-tonality-messaging.php">
+                                    <img src="assets/img/new-images/brand-tonality-messaging2.png" alt="Brand tonality and messaging service">
+                                </a>
+                            </div>
+                            <h4 class="cst-portfolio-item-title">
+                                <a href="brand-tonality-messaging.php">Messaging and tone that make <br> the brand sound consistent everywhere.</a>
+                            </h4>
+                            <div class="cst-portfolio-item-categories">
+                                <span>Messaging</span>
+                                <span>Tone of Voice</span>
+                            </div>
+                        </div>
+                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
+                            <span class="cst-portfolio-item-num">10</span>
+                            <div class="cst-portfolio-item-thumb">
+                                <a href="logo-design-brand-management.php">
+                                    <img src="assets/img/new-images/logo-design-brand-management3.png" alt="Logo design and brand management service">
+                                </a>
+                            </div>
+                            <h4 class="cst-portfolio-item-title">
+                                <a href="logo-design-brand-management.php">Logo systems and brand control <br> built for long-term consistency.</a>
+                            </h4>
+                            <div class="cst-portfolio-item-categories">
+                                <span>Logo</span>
+                                <span>Brand Management</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- branding services area end -->
+    <!-- service matrix end -->
+
+    <!-- service pathway start -->
+    <section class="mi-service-pathway pb-120">
+        <div class="container">
+            <div class="mi-service-pathway-shell">
+                <div class="row g-30 align-items-stretch">
+                    <div class="col-xl-8">
+                        <div class="mi-service-pathway-panel">
+                            <span class="tp-section-subtitle text-black pre">How the work flows</span>
+                            <h4 class="tp-section-title text-black mt-20">A clean process that keeps the brand moving.</h4>
+                            <div class="mi-service-pathway-grid">
+                                <div class="mi-service-pathway-step">
+                                    <strong>01</strong>
+                                    <h5>Understand</h5>
+                                    <p>We study business goals, audience behavior, category codes, and growth intent.</p>
+                                </div>
+                                <div class="mi-service-pathway-step">
+                                    <strong>02</strong>
+                                    <h5>Shape</h5>
+                                    <p>We define strategic direction and build the right identity or communication route.</p>
+                                </div>
+                                <div class="mi-service-pathway-step">
+                                    <strong>03</strong>
+                                    <h5>Apply</h5>
+                                    <p>We move the system into packaging, content, digital assets, or rollout materials.</p>
+                                </div>
+                                <div class="mi-service-pathway-step">
+                                    <strong>04</strong>
+                                    <h5>Launch</h5>
+                                    <p>We prepare final files, guidance, and practical handover so the brand stays consistent.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="mi-service-pathway-aside">
+                            <div class="mi-service-pathway-icon" aria-hidden="true">
+                                <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient id="serviceGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" stop-color="#8cff00" />
+                                            <stop offset="100%" stop-color="#d7ee70" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle cx="60" cy="60" r="58" fill="none" stroke="url(#serviceGlow)" stroke-width="2" />
+                                    <path d="M32 72L50 54L64 68L88 44" fill="none" stroke="url(#serviceGlow)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                                    <circle cx="32" cy="72" r="5" fill="#8cff00" />
+                                    <circle cx="50" cy="54" r="5" fill="#8cff00" />
+                                    <circle cx="64" cy="68" r="5" fill="#8cff00" />
+                                    <circle cx="88" cy="44" r="5" fill="#8cff00" />
+                                </svg>
+                            </div>
+                            <h5>Best fit for brands that need more than just design files.</h5>
+                            <p>Our services are structured for launches, rebrands, growth stages, and businesses that want stronger consistency across offline and digital touchpoints.</p>
+                            <ul>
+                                <li>New brand launches</li>
+                                <li>Rebranding & repositioning</li>
+                                <li>Packaging-led product businesses</li>
+                                <li>Website and campaign rollouts</li>
+                            </ul>
+                            <a class="tp-btn-black btn-red-bg" href="contactus.php?service=Brand%20Strategy">
+                                <span class="tp-btn-black-filter d-inline-flex align-items-center">
+                                    <span class="tp-btn-black-text">Start with a discovery call</span>
+                                    <span class="tp-btn-black-circle">
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service pathway end -->
 
     <!-- trust area start -->
     <section class="mi-service-trust">
@@ -338,13 +592,13 @@ include("layouts/header.php"); ?>
             </div>
 
             <div class="mi-service-featured-grid">
-                <a class="mi-service-featured-card" href="instacraves.php">
+                <a class="mi-service-featured-card" href="portfolio.php">
                     <div class="mi-service-featured-thumb">
                         <img src="assets/img/portfolio/mark/insta.jpg" alt="Instacraves">
                     </div>
                     <div class="mi-service-featured-body">
                         <h5>Instacraves</h5>
-                        <p>Branding + Packaging</p>
+                        <p>Branding + Packaging + Product Presence</p>
                     </div>
                 </a>
                 <a class="mi-service-featured-card" href="aakriti-space-designs.php">
@@ -353,16 +607,16 @@ include("layouts/header.php"); ?>
                     </div>
                     <div class="mi-service-featured-body">
                         <h5>Aakriti Space Designs</h5>
-                        <p>Branding + UI/UX</p>
+                        <p>Branding + Website + Professional Presence</p>
                     </div>
                 </a>
-                <a class="mi-service-featured-card" href="deltacab.php">
+                <a class="mi-service-featured-card" href="jpcindia.php">
                     <div class="mi-service-featured-thumb">
-                        <img src="assets/img/portfolio/mark/delta-cab.jpg" alt="DELTAcab">
+                        <img src="assets/img/portfolio/mark/jpc.jpg" alt="JPC India">
                     </div>
                     <div class="mi-service-featured-body">
-                        <h5>DELTAcab</h5>
-                        <p>Branding + Digital</p>
+                        <h5>JPC India</h5>
+                        <p>Branding + Communication + Business Collateral</p>
                     </div>
                 </a>
             </div>
@@ -374,356 +628,6 @@ include("layouts/header.php"); ?>
     </section>
     <!-- featured work end -->
 
-
-    <!-- inner service area -->
-    <div class="tp-inner-service-area pt-120 pb-120">
-        <div class="container container-1830">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="inner-service-1-left">
-                        <span>Services</span>
-                        <ul>
-                            <li><span>1. Brand Strategy & Development</span></li>
-                            <li><span>2. Creative Design & Branding</span></li>
-                            <li><span>3. Digital Marketing</span></li>
-                            <li><span>4. Web Development</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-9">
-                    <div class="tp-inner-service-item mb-200">
-                        <div class="inner-service-1-right">
-                            <div class="row">
-                                <div class="col-xl-4">
-                                    <div class="inner-service-1-number">
-                                        <h1 class="purecounter" data-purecounter-duration=".2" data-purecounter-end="1">0</h1>
-                                    </div>
-                                </div>
-                                <div class="col-xl-8">
-                                    <div class="inner-service-1-text">
-                                        <span>Brand Strategy & Development</span>
-                                        <p>
-                                            Strong branding sets your business apart, reflecting professionalism and building trust. We define your brand identity, positioning, and message to help you stand out in a competitive market.
-                                        </p>
-                                    </div>
-                                    <div class="inner-service-1-category">
-                                        <a href="brand-naming.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Brand Naming</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="visual-brand-language.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Creative Direction</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="brand-proposition.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Brand Strategy</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="brand-identity.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Brand Guidelines</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="logo-design-brand-management.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Logo Design</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row gx-10">
-                            <div class="inner-service-1-thumb-text">
-                                <span>(Our recent Digital work)</span>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="inner-service-1-thumb tp--hover-item">
-                                    <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                        <img class="w-100" src="assets/img/new-images/service-1-1.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="inner-service-1-thumb tp--hover-item">
-                                    <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                        <img class="w-100" src="assets/img/new-images/service-1-2.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tp-inner-service-item mb-200">
-                        <div class="inner-service-1-right">
-                            <div class="row">
-                                <div class="col-xl-4">
-                                    <div class="inner-service-1-number">
-                                        <h1 class="purecounter" data-purecounter-duration=".2" data-purecounter-end="2">0</h1>
-                                    </div>
-                                </div>
-                                <div class="col-xl-8">
-                                    <div class="inner-service-1-text">
-                                        <span>Creative Design & Branding</span>
-                                        <p>
-                                            We create visually compelling designs that bring your brand to life. From identity to execution, every element is crafted to ensure consistency and a strong visual impact.
-                                        </p>
-                                    </div>
-                                    <div class="inner-service-1-category">
-                                        <a href="packaging-design.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Product Mockups</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="packaging-design.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Packaging Design Preview</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="brand-identity.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Visual Identity</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="visual-brand-language.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Typography</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="brand-identity.php" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Brand Guidelines</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row gx-10">
-                            <div class="inner-service-1-thumb-text">
-                                <span>(Our recent Digital work)</span>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="inner-service-1-thumb tp--hover-item">
-                                    <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                        <img class="w-100" src="assets/img/new-images/service-2-1.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="inner-service-1-thumb tp--hover-item">
-                                    <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                        <img class="w-100" src="assets/img/new-images/service-2-2.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tp-inner-service-item mb-200">
-                        <div class="inner-service-1-right">
-                            <div class="row">
-                                <div class="col-xl-4">
-                                    <div class="inner-service-1-number">
-                                        <h1 class="purecounter" data-purecounter-duration=".2" data-purecounter-end="3">0</h1>
-                                    </div>
-                                </div>
-                                <div class="col-xl-8">
-                                    <div class="inner-service-1-text">
-                                        <span>Digital Marketing</span>
-                                        <p>
-                                            Our data-driven digital strategies help you reach the right audience, boost visibility, and drive engagement across all online platforms.
-                                        </p>
-                                    </div>
-                                    <div class="inner-service-1-category">
-                                        <a href="contactus.php?service=Social%20Media%20Marketing" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Social Media Marketing</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="contactus.php?service=SEO" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Search Engine Optimization (SEO)</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="contactus.php?service=Google%20Ads" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Google Ads</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="contactus.php?service=Meta%20Ads" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Meta Ads</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="contactus.php?service=Content%20Creation" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Content Creation</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="contactus.php?service=Lead%20Generation" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Lead Generation</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row gx-10">
-                            <div class="inner-service-1-thumb-text">
-                                <span>(Our recent Digital work)</span>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="inner-service-1-thumb tp--hover-item">
-                                    <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                        <img class="w-100" src="assets/img/inner-service/service-5.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="inner-service-1-thumb tp--hover-item">
-                                    <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                        <img class="w-100" src="assets/img/inner-service/service-6.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tp-inner-service-item">
-                        <div class="inner-service-1-right">
-                            <div class="row">
-                                <div class="col-xl-4">
-                                    <div class="inner-service-1-number">
-                                        <h1 class="purecounter" data-purecounter-duration=".2" data-purecounter-end="4">0</h1>
-                                    </div>
-                                </div>
-                                <div class="col-xl-8">
-                                    <div class="inner-service-1-text">
-                                        <span>Web Development</span>
-                                        <p>
-                                            We build modern, responsive websites that deliver seamless user experiences. Designed for performance and growth, your website becomes a powerful business tool.
-                                        </p>
-                                    </div>
-                                    <div class="inner-service-1-category">
-                                        <a href="contactus.php?service=Website%20Design" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Website Design</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="contactus.php?service=Responsive%20Development" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Responsive Development</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="contactus.php?service=UI%2FUX%20Design" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>UI/UX Design</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="contactus.php?service=E-commerce%20Solutions" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>E-commerce Solutions</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                        <a href="contactus.php?service=Website%20Maintenance" class="inner-service-1-category-item d-flex justify-content-between align-items-center">
-                                            <span>Website Maintenance</span>
-                                            <i>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row gx-10">
-                            <div class="inner-service-1-thumb-text">
-                                <span>(Our recent Digital work)</span>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="inner-service-1-thumb tp--hover-item">
-                                    <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                        <img class="w-100" src="assets/img/inner-service/service-7.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="inner-service-1-thumb tp--hover-item">
-                                    <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                        <img class="w-100" src="assets/img/inner-service/service-8.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- inner service area -->
 
     <!-- faq + cta start -->
     <section class="mi-service-faq-area">
@@ -794,52 +698,52 @@ include("layouts/header.php"); ?>
                             <div class="swiper-wrapper slide-transtion">
                                 <div class="swiper-slide">
                                     <h2 class="ar-about-us-4-text-title">
-                                        HAVE A GREAT PROJECT?
+                                        BUILD A BRAND PEOPLE REMEMBER
                                     </h2>
                                 </div>
                                 <div class="swiper-slide">
                                     <h2 class="ar-about-us-4-text-title">
-                                        HAVE A GREAT PROJECT?
+                                        PACKAGING THAT LOOKS READY TO SELL
                                     </h2>
                                 </div>
                                 <div class="swiper-slide">
                                     <h2 class="ar-about-us-4-text-title">
-                                        HAVE A GREAT PROJECT?
+                                        CLEAR IDENTITY. STRONGER PRESENCE.
                                     </h2>
                                 </div>
                                 <div class="swiper-slide">
                                     <h2 class="ar-about-us-4-text-title">
-                                        HAVE A GREAT PROJECT?
+                                        BUILD A BRAND PEOPLE REMEMBER
                                     </h2>
                                 </div>
                                 <div class="swiper-slide">
                                     <h2 class="ar-about-us-4-text-title">
-                                        HAVE A GREAT PROJECT?
+                                        PACKAGING THAT LOOKS READY TO SELL
                                     </h2>
                                 </div>
                                 <div class="swiper-slide">
                                     <h2 class="ar-about-us-4-text-title">
-                                        About Us
+                                        CLEAR IDENTITY. STRONGER PRESENCE.
                                     </h2>
                                 </div>
                                 <div class="swiper-slide">
                                     <h2 class="ar-about-us-4-text-title">
-                                        HAVE A GREAT PROJECT?
+                                        BUILD A BRAND PEOPLE REMEMBER
                                     </h2>
                                 </div>
                                 <div class="swiper-slide">
                                     <h2 class="ar-about-us-4-text-title">
-                                        HAVE A GREAT PROJECT?
+                                        PACKAGING THAT LOOKS READY TO SELL
                                     </h2>
                                 </div>
                                 <div class="swiper-slide">
                                     <h2 class="ar-about-us-4-text-title">
-                                        HAVE A GREAT PROJECT?
+                                        CLEAR IDENTITY. STRONGER PRESENCE.
                                     </h2>
                                 </div>
                                 <div class="swiper-slide">
                                     <h2 class="ar-about-us-4-text-title">
-                                        About Us
+                                        BUILD A BRAND PEOPLE REMEMBER
                                     </h2>
                                 </div>
                             </div>

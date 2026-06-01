@@ -154,6 +154,134 @@ include("layouts/header.php"); ?>
         border-bottom: 1px solid rgba(255, 255, 255, .14);
     }
 
+    .bi-fit-area {
+        background: linear-gradient(180deg, #ffffff 0%, #f4efe5 100%);
+    }
+
+    .bi-fit-shell {
+        border: 1px solid rgba(17, 17, 19, .08);
+        border-radius: 26px;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0 30px 80px rgba(17, 17, 19, .08);
+    }
+
+    .bi-fit-intro {
+        background:
+            radial-gradient(circle at top right, rgba(255, 246, 105, .55), transparent 30%),
+            linear-gradient(135deg, #121214 0%, #1d1d20 100%);
+        padding: 48px;
+        height: 100%;
+    }
+
+    .bi-fit-intro p,
+    .bi-fit-intro li,
+    .bi-fit-links a span:last-child {
+        color: rgba(255, 255, 255, .72);
+    }
+
+    .bi-fit-intro ul {
+        margin: 24px 0 0;
+        padding-left: 18px;
+    }
+
+    .bi-fit-intro li + li {
+        margin-top: 10px;
+    }
+
+    .bi-fit-grid {
+        padding: 28px;
+    }
+
+    .bi-fit-card,
+    .bi-fit-faq-item {
+        border: 1px solid rgba(17, 17, 19, .08);
+        border-radius: 20px;
+        padding: 28px;
+        background: linear-gradient(180deg, #fff 0%, #faf7f1 100%);
+        height: 100%;
+    }
+
+    .bi-fit-card span,
+    .bi-fit-faq-item span {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        background: #111113;
+        color: #fff669;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 18px;
+    }
+
+    .bi-fit-card h4,
+    .bi-fit-faq-item h4 {
+        color: #111113;
+        font-size: 26px;
+        margin-bottom: 14px;
+    }
+
+    .bi-fit-card p,
+    .bi-fit-faq-item p {
+        color: rgba(17, 17, 19, .72);
+        margin-bottom: 0;
+    }
+
+    .bi-fit-faq-area {
+        background: #111113;
+    }
+
+    .bi-fit-faq-head {
+        margin-bottom: 45px;
+    }
+
+    .bi-fit-faq-head p {
+        max-width: 620px;
+        margin-bottom: 0;
+    }
+
+    .bi-fit-faq-item {
+        background: rgba(255, 255, 255, .03);
+        border-color: rgba(255, 255, 255, .1);
+    }
+
+    .bi-fit-faq-item h4 {
+        color: #fff;
+    }
+
+    .bi-fit-faq-item p {
+        color: rgba(255, 255, 255, .7);
+    }
+
+    .bi-fit-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-top: 36px;
+    }
+
+    .bi-fit-links a {
+        min-width: 220px;
+        padding: 18px 22px;
+        border-radius: 18px;
+        border: 1px solid rgba(255, 255, 255, .1);
+        background: rgba(255, 255, 255, .03);
+    }
+
+    .bi-fit-links a span {
+        display: block;
+    }
+
+    .bi-fit-links a span:first-child {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
     @media (max-width: 767px) {
 
         .bi-hero-img,
@@ -163,6 +291,11 @@ include("layouts/header.php"); ?>
 
         .bi-system-item {
             padding: 26px 0;
+        }
+
+        .bi-fit-intro,
+        .bi-fit-grid {
+            padding: 24px;
         }
     }
 
@@ -471,7 +604,7 @@ include("layouts/header.php"); ?>
     <section class="bi-banner-area pb-120">
         <div class="container container-1750">
             <div class="bi-wide-img">
-                <img data-speed=".8" src="assets/img/new-images/brand-naming1.png" alt="Premium brand naming strategy banner">
+                <img data-speed=".8" src="assets/img/new-images/naming.png" alt="Premium brand naming strategy banner">
             </div>
         </div>
     </section>
@@ -522,6 +655,112 @@ include("layouts/header.php"); ?>
         </div>
     </section>
     <!-- process area end -->
+
+    <!-- best fit area start -->
+    <section class="bi-fit-area pt-120 pb-120">
+        <div class="container container-1750">
+            <div class="bi-fit-shell">
+                <div class="row g-0">
+                    <div class="col-xl-5">
+                        <div class="bi-fit-intro">
+                            <span class="bi-eyebrow d-inline-block mb-25">Best fit for</span>
+                            <h2 class="bi-section-title mb-30">Naming projects that need more than random word options.</h2>
+                            <p class="bi-copy">This service is built for businesses that want a name with logic behind it: one that sounds right, supports positioning, and can grow into a full identity system without feeling forced.</p>
+                            <ul>
+                                <li>New brand launches, product launches, and sub-brand creation</li>
+                                <li>Businesses entering competitive categories where recall matters</li>
+                                <li>Founders who need naming routes with meaning, tone, and extension potential</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="bi-fit-grid">
+                            <div class="row gx-4 gy-4">
+                                <div class="col-md-6">
+                                    <div class="bi-fit-card">
+                                        <span>01</span>
+                                        <h4>What bad naming causes</h4>
+                                        <p>Confusion, weak recall, hard pronunciation, generic category overlap, and a poor foundation for future brand communication.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bi-fit-card">
+                                        <span>02</span>
+                                        <h4>What stronger naming changes</h4>
+                                        <p>The brand sounds more intentional, memorable, and commercially usable across packaging, logo design, website, and presentations.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bi-fit-card">
+                                        <span>03</span>
+                                        <h4>How we make it practical</h4>
+                                        <p>We combine meaning, sound, personality, and long-term brand fit instead of producing disconnected option lists with no strategic logic.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bi-fit-card">
+                                        <span>04</span>
+                                        <h4>What comes next naturally</h4>
+                                        <p>Once the name is right, identity, tonality, packaging, and communication design become faster, sharper, and more coherent.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- best fit area end -->
+
+    <!-- faq area start -->
+    <section class="bi-fit-faq-area pt-110 pb-120">
+        <div class="container container-1430">
+            <div class="bi-fit-faq-head">
+                <span class="bi-eyebrow d-inline-block mb-25">Decision support</span>
+                <h2 class="bi-section-title mb-20">Questions clients ask before starting a naming project.</h2>
+                <p class="bi-copy">This helps the user understand scope quickly, similar to how stronger competitor pages reduce uncertainty before enquiry.</p>
+            </div>
+            <div class="row gx-30 gy-30">
+                <div class="col-lg-4">
+                    <div class="bi-fit-faq-item">
+                        <span>01</span>
+                        <h4>Can you name products, sub-brands, and services too?</h4>
+                        <p>Yes. We work on company names, product names, collections, service lines, and structured naming systems for future expansion.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bi-fit-faq-item">
+                        <span>02</span>
+                        <h4>Will we get multiple routes or only one final option?</h4>
+                        <p>We explore multiple naming directions first, then shortlist the strongest options based on recall, fit, clarity, and brand relevance.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bi-fit-faq-item">
+                        <span>03</span>
+                        <h4>What service should follow once the name is finalized?</h4>
+                        <p>Most clients move into identity design and tonality so the new name gets the right visual and verbal expression from the start.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bi-fit-links">
+                <a href="brand-identity.php">
+                    <span>Related service</span>
+                    <span>Create the visual identity next</span>
+                </a>
+                <a href="brand-tonality-messaging.php">
+                    <span>Related service</span>
+                    <span>Shape tone and messaging</span>
+                </a>
+                <a href="contactus.php?service=Brand%20Naming">
+                    <span>Start the project</span>
+                    <span>Discuss your naming brief</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- faq area end -->
 
     <!-- text slider area start -->
     <section class="ar-about-us-4-text-area bi-cta">

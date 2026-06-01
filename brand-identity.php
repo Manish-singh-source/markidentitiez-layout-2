@@ -154,6 +154,134 @@ include("layouts/header.php"); ?>
         border-bottom: 1px solid rgba(255, 255, 255, .14);
     }
 
+    .bi-fit-area {
+        background: linear-gradient(180deg, #ffffff 0%, #f4f0e7 100%);
+    }
+
+    .bi-fit-shell {
+        border: 1px solid rgba(17, 17, 19, .08);
+        border-radius: 26px;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0 30px 80px rgba(17, 17, 19, .08);
+    }
+
+    .bi-fit-intro {
+        background:
+            radial-gradient(circle at top right, rgba(255, 246, 105, .55), transparent 30%),
+            linear-gradient(135deg, #121214 0%, #1d1d20 100%);
+        padding: 48px;
+        height: 100%;
+    }
+
+    .bi-fit-intro p,
+    .bi-fit-intro li,
+    .bi-fit-links a span:last-child {
+        color: rgba(255, 255, 255, .72);
+    }
+
+    .bi-fit-intro ul {
+        margin: 24px 0 0;
+        padding-left: 18px;
+    }
+
+    .bi-fit-intro li + li {
+        margin-top: 10px;
+    }
+
+    .bi-fit-grid {
+        padding: 28px;
+    }
+
+    .bi-fit-card,
+    .bi-fit-faq-item {
+        border: 1px solid rgba(17, 17, 19, .08);
+        border-radius: 20px;
+        padding: 28px;
+        background: linear-gradient(180deg, #fff 0%, #faf7f1 100%);
+        height: 100%;
+    }
+
+    .bi-fit-card span,
+    .bi-fit-faq-item span {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        background: #111113;
+        color: #fff669;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 18px;
+    }
+
+    .bi-fit-card h4,
+    .bi-fit-faq-item h4 {
+        color: #111113;
+        font-size: 26px;
+        margin-bottom: 14px;
+    }
+
+    .bi-fit-card p,
+    .bi-fit-faq-item p {
+        color: rgba(17, 17, 19, .72);
+        margin-bottom: 0;
+    }
+
+    .bi-fit-faq-area {
+        background: #111113;
+    }
+
+    .bi-fit-faq-head {
+        margin-bottom: 45px;
+    }
+
+    .bi-fit-faq-head p {
+        max-width: 620px;
+        margin-bottom: 0;
+    }
+
+    .bi-fit-faq-item {
+        background: rgba(255, 255, 255, .03);
+        border-color: rgba(255, 255, 255, .1);
+    }
+
+    .bi-fit-faq-item h4 {
+        color: #fff;
+    }
+
+    .bi-fit-faq-item p {
+        color: rgba(255, 255, 255, .7);
+    }
+
+    .bi-fit-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-top: 36px;
+    }
+
+    .bi-fit-links a {
+        min-width: 220px;
+        padding: 18px 22px;
+        border-radius: 18px;
+        border: 1px solid rgba(255, 255, 255, .1);
+        background: rgba(255, 255, 255, .03);
+    }
+
+    .bi-fit-links a span {
+        display: block;
+    }
+
+    .bi-fit-links a span:first-child {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
     @media (max-width: 767px) {
 
         .bi-hero-img,
@@ -163,6 +291,11 @@ include("layouts/header.php"); ?>
 
         .bi-system-item {
             padding: 26px 0;
+        }
+
+        .bi-fit-intro,
+        .bi-fit-grid {
+            padding: 24px;
         }
     }
 
@@ -324,7 +457,7 @@ include("layouts/header.php"); ?>
             <div class="row gx-30 align-items-stretch">
                 <div class="col-lg-8">
                     <div class="bi-hero-img tp_img_reveal mb-30">
-                        <img src="assets/img/new-images/brand-identity1.png" alt="Brand identity showcase">
+                        <img src="assets/img/new-images/idenitity.png" alt="Brand identity showcase">
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -522,6 +655,112 @@ include("layouts/header.php"); ?>
         </div>
     </section>
     <!-- process area end -->
+
+    <!-- best fit area start -->
+    <section class="bi-fit-area pt-120 pb-120">
+        <div class="container container-1750">
+            <div class="bi-fit-shell">
+                <div class="row g-0">
+                    <div class="col-xl-5">
+                        <div class="bi-fit-intro">
+                            <span class="bi-eyebrow d-inline-block mb-25">Best fit for</span>
+                            <h2 class="bi-section-title mb-30">Brands that need a recognizable visual system, not isolated design files.</h2>
+                            <p class="bi-copy">This is ideal when the business has grown past ad-hoc design and now needs a cohesive identity that works across print, digital, packaging, social, and internal brand use.</p>
+                            <ul>
+                                <li>New launches that want a premium first impression from day one</li>
+                                <li>Existing brands with inconsistent visual applications across touchpoints</li>
+                                <li>Teams that need vendors, marketers, and designers to use the same rules</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="bi-fit-grid">
+                            <div class="row gx-4 gy-4">
+                                <div class="col-md-6">
+                                    <div class="bi-fit-card">
+                                        <span>01</span>
+                                        <h4>What usually looks weak</h4>
+                                        <p>Inconsistent logo use, random colors, mismatched fonts, and touchpoints that feel disconnected from each other.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bi-fit-card">
+                                        <span>02</span>
+                                        <h4>What makes the page more convincing</h4>
+                                        <p>A full identity system shows users that the brand is thought through, serious, and built to scale beyond one launch campaign.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bi-fit-card">
+                                        <span>03</span>
+                                        <h4>How the system helps internally</h4>
+                                        <p>Your team gets practical usage examples for decks, social media, stationery, digital layouts, packaging cues, and presentations.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bi-fit-card">
+                                        <span>04</span>
+                                        <h4>What feels premium to the audience</h4>
+                                        <p>Consistency. When every touchpoint shares the same visual language, the brand looks more reliable, memorable, and professionally managed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- best fit area end -->
+
+    <!-- faq area start -->
+    <section class="bi-fit-faq-area pt-110 pb-120">
+        <div class="container container-1430">
+            <div class="bi-fit-faq-head">
+                <span class="bi-eyebrow d-inline-block mb-25">Decision support</span>
+                <h2 class="bi-section-title mb-20">Questions clients ask before building a brand identity.</h2>
+                <p class="bi-copy">The goal here is to keep the page attractive and still answer the questions that usually stop a user from taking the next step.</p>
+            </div>
+            <div class="row gx-30 gy-30">
+                <div class="col-lg-4">
+                    <div class="bi-fit-faq-item">
+                        <span>01</span>
+                        <h4>Is brand identity different from logo design?</h4>
+                        <p>Yes. The logo is one part of the system. Brand identity includes colors, typography, graphic elements, usage rules, and touchpoint applications.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bi-fit-faq-item">
+                        <span>02</span>
+                        <h4>Will we receive guideline and final files?</h4>
+                        <p>Yes. We deliver export-ready files plus a practical guideline structure so internal teams and external vendors can use the identity correctly.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bi-fit-faq-item">
+                        <span>03</span>
+                        <h4>What should come before identity design?</h4>
+                        <p>Ideally positioning and proposition should be clear first. That makes the visual direction stronger, more relevant, and easier to scale across campaigns.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bi-fit-links">
+                <a href="brand-positioning.php">
+                    <span>Related service</span>
+                    <span>Define the strategic direction</span>
+                </a>
+                <a href="visual-brand-language.php">
+                    <span>Related service</span>
+                    <span>Extend the visual language further</span>
+                </a>
+                <a href="contactus.php?service=Brand%20Identity">
+                    <span>Start the project</span>
+                    <span>Discuss your identity brief</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- faq area end -->
 
     <!-- text slider area start -->
     <section class="ar-about-us-4-text-area bi-cta">

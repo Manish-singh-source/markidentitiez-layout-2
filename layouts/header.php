@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Mark Identitiez - Best Branding Agency</title>
+    <title><?php echo htmlspecialchars($title ?? 'Mark Identitiez - Best Branding Agency', ENT_QUOTES, 'UTF-8'); ?></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -219,16 +219,16 @@
                 <li class="p-static is-active">
                     <a href="service.php">Services</a>
                     <ul class="tp-submenu submenu">
-                        <li><a href="brand-proposition.php">Brand Proposition</a></li>
+                        <li><a href="logo-design-brand-management.php">Logo Design & Brand Management</a></li>
                         <li><a href="brand-identity.php">Brand Identity</a></li>
-                        <li><a href="brand-positioning.php">Brand Positioning</a></li>
-                        <li><a href="visual-brand-language.php">Visual Brand Language</a></li>
-                        <li><a href="brand-architecture.php">Brand Architecture</a></li>
                         <li><a href="packaging-design.php">Packaging Design</a></li>
                         <li><a href="brand-naming.php">Brand Naming</a></li>
+                        <li><a href="brand-proposition.php">Brand Proposition</a></li>
+                        <li><a href="brand-architecture.php">Brand Architecture</a></li>
+                        <li><a href="brand-positioning.php">Brand Positioning</a></li>
+                        <li><a href="visual-brand-language.php">Visual Brand Language</a></li>
                         <!-- <li><a href="#">Communication Design</a></li> -->
                         <li><a href="brand-tonality-messaging.php">Brand Tonality & Messaging</a></li>
-                        <li><a href="logo-design-brand-management.php">Logo Design & Brand Management</a></li>
                     </ul>
                 </li>
                 <li><a href="portfolio.php">Portfolio</a></li>

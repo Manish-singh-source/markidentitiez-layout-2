@@ -182,7 +182,7 @@ include("layouts/header.php"); ?>
             <div class="row gx-30 align-items-stretch">
                 <div class="col-lg-8">
                     <div class="bp-hero-img tp_img_reveal mb-30">
-                        <img src="assets\img\new-images\brand-proposition.png" alt="Brand proposition showcase">
+                        <img src="assets/img/new-images/brand-posionging.png" alt="Brand proposition showcase">
                     </div>
                 </div>
                 <div class="col-lg-4">

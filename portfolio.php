@@ -3,130 +3,33 @@ $title = "Our Portfolio";
 $portfolioItems = [
     [
         "title" => "Aakriti Space Designs",
-        "image" => "assets/img/portfolio/mark/aakriti.jpg",
+        "image" => "assets/img/new-images/portfolio/aakriti/aakruti.png",
         "link" => "aakriti-space-designs.php",
-        "categories" => "branding uiux",
-        "labels" => ["Branding", "UI/UX Design"],
-    ],
-    [
-        "title" => "Instacraves",
-        "image" => "assets/img/portfolio/mark/insta.jpg",
-        "link" => "instacraves.php",
-        "categories" => "branding packaging uiux",
-        "labels" => ["Branding", "Packaging"],
-    ],
-    [
-        "title" => "Napolean Air Conditioners",
-        "image" => "assets/img/portfolio/mark/nepolron.jpg",
-        "link" => "nepoleon-ac.php",
-        "categories" => "branding uiux",
-        "labels" => ["Branding", "UI/UX Design"],
-    ],
-    [
-        "title" => "DELTAcab",
-        "image" => "assets/img/portfolio/mark/delta-cab.jpg",
-        "link" => "deltacab.php",
         "categories" => "branding digital-marketing uiux",
         "labels" => ["Branding", "Digital"],
     ],
     [
-        "title" => "Fragomatrix",
-        "image" => "assets/img/portfolio/mark/frago.jpg",
-        "link" => "fragomatrix.php",
+        "title" => "Sapphire Mobile Accessories",
+        "image" => "assets/img/new-images/portfolio/sapphire/sapphire.png",
+        "link" => "sapphire.php",
         "categories" => "branding uiux packaging",
         "labels" => ["Branding", "Packaging"],
     ],
     [
-        "title" => "Jagdamba Paper Corporation",
-        "image" => "assets/img/portfolio/mark/jpc.jpg",
-        "link" => "jpcindia.php",
+        "title" => "Wrap Pack N Carry",
+        "image" => "assets/img/new-images/portfolio/wrappackncarry/wrap.png",
+        "link" => "wrappackncarry-desgin.php",
         "categories" => "digital-marketing uiux",
         "labels" => ["Digital", "UI/UX Design"],
     ],
     [
-        "title" => "Spaceage Consultants",
-        "image" => "assets/img/portfolio/mark/spaceage.jpg",
-        "link" => "spaceage-consultant.php",
-        "categories" => "branding uiux",
+        "title" => "Fragomatrix",
+        "image" => "assets/img/new-images/Portfolio-1.png",
+        "link" => "fragomatrix.php",
+        "categories" => "branding uiux digital-marketing",
         "labels" => ["Branding", "UI/UX Design"],
     ],
-    [
-        "title" => "Travest Holidays",
-        "image" => "assets/img/portfolio/mark/travest.jpg",
-        "link" => "travest-holidays.php",
-        "categories" => "branding uiux",
-        "labels" => ["Branding", "UI/UX Design"],
-    ],
-    [
-        "title" => "Shreeram Interiors",
-        "image" => "assets/img/portfolio/mark/shreeram.jpg",
-        "link" => "shreeram-interiors.php",
-        "categories" => "architecture",
-        "labels" => ["Architecture"],
-    ],
-    [
-        "title" => "Mehtas Group",
-        "image" => "assets/img/portfolio/mark/mehta.jpg",
-        "link" => "mehtas-group.php",
-        "categories" => "branding digital-marketing uiux architecture",
-        "labels" => ["Branding", "Digital"],
-    ],
-    [
-        "title" => "Mateo",
-        "image" => "assets/img/portfolio/mark/matio1.jpg",
-        "link" => "mateo.php",
-        "categories" => "branding uiux",
-        "labels" => ["Branding", "UI/UX Design"],
-    ],
-    [
-        "title" => "Manvi Interior",
-        "image" => "assets/img/portfolio/mark/manvi.jpg",
-        "link" => "manvi-interior.php",
-        "categories" => "branding uiux",
-        "labels" => ["Branding", "UI/UX Design"],
-    ],
-    [
-        "title" => "UR CFO",
-        "image" => "assets/img/portfolio/mark/urcfo.jpg",
-        "link" => "urcfo.php",
-        "categories" => "branding uiux",
-        "labels" => ["Branding", "UI/UX Design"],
-    ],
-    [
-        "title" => "Urban Sports",
-        "image" => "assets/img/portfolio/mark/urbansports.jpg",
-        "link" => "urban-sports.php",
-        "categories" => "branding uiux",
-        "labels" => ["Branding", "UI/UX Design"],
-    ],
-    [
-        "title" => "Viraj Prints",
-        "image" => "assets/img/portfolio/mark/viraj.jpg",
-        "link" => "viraj-prints.php",
-        "categories" => "branding uiux",
-        "labels" => ["Branding", "UI/UX Design"],
-    ],
-    [
-        "title" => "V P & Sons",
-        "image" => "assets/img/portfolio/mark/Page1.jpg",
-        "link" => "vpsons.php",
-        "categories" => "branding uiux",
-        "labels" => ["Branding", "UI/UX Design"],
-    ],
-    [
-        "title" => "Link Promotions and Exhibits",
-        "image" => "assets/img/portfolio/mark/Linkpro-banner.png",
-        "link" => "link-promotions.php",
-        "categories" => "branding uiux",
-        "labels" => ["Branding", "UI/UX Design"],
-    ],
-    [
-        "title" => "Technofra",
-        "image" => "assets/img/portfolio/mark/technofra.png",
-        "link" => "https://www.facebook.com/Technofra/",
-        "categories" => "digital-marketing",
-        "labels" => ["Digital"],
-    ],
+   
 ];
 include("layouts/header.php"); ?>
 
@@ -310,7 +213,7 @@ include("layouts/header.php"); ?>
                             <div class="tp-portfolio-masonry-grid-thumb tp--hover-item">
                                 <a href="<?php echo htmlspecialchars($item['link']); ?>" target="_blank">
                                     <div class="tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                        <img src="<?php echo htmlspecialchars($item['image']); ?>" alt="<?php echo htmlspecialchars($item['title']); ?>">
+                                        <img class="w-100 d-block" src="<?php echo htmlspecialchars($item['image']); ?>" alt="<?php echo htmlspecialchars($item['title']); ?>">
                                     </div>
                                 </a>
                             </div>

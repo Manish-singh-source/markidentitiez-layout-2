@@ -405,6 +405,13 @@ include("layouts/header.php"); ?>
                         </div>
                     </div>
                 </div>
+                 <div class="col-lg-12">
+                    <div class="bi-image-card tp--hover-item mb-30">
+                        <div class="tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
+                            <img src="assets/img/new-images/logo-desgin.png" alt="Brand management system across digital and print applications">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
