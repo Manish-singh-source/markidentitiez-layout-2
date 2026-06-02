@@ -2293,13 +2293,39 @@ input[type=color] {
 
 .ish-page .pp-banner-wrap {
   height: auto;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .ish-page .pp-banner-wrap img {
   width: 100%;
   margin-top: 0;
   display: block;
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .ish-page .pp-hero-bg {
+    width: 88%;
+    bottom: -40%;
+  }
+
+  .ish-page .pp-hero-text {
+    font-size: 44px;
+  }
+
+  .ish-page .pp-hero-title {
+    font-size: 150px;
+    letter-spacing: -5px;
+    white-space: nowrap;
+  }
+
+  .ish-page .pp-service-item {
+    padding-left: 190px;
+  }
+
+  .ish-page .pp-service-item-title {
+    font-size: 82px;
+    letter-spacing: -3px;
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -2333,14 +2359,34 @@ input[type=color] {
     margin-bottom: 24px;
   }
 
+  .ish-page .pp-hero-bg {
+    width: 84%;
+    bottom: -16%;
+  }
+
+  .ish-page .pp-hero-text {
+    font-size: 42px;
+  }
+
   .ish-page .pp-hero-title {
-    font-size: 230px;
-    letter-spacing: -12px;
+    font-size: 120px;
+    letter-spacing: -4px;
+    white-space: nowrap;
+  }
+
+  .ish-page .pp-service-item {
+    padding-left: 140px;
+  }
+
+  .ish-page .pp-service-item-title {
+    font-size: 74px;
+    letter-spacing: -2px;
   }
 
   .ish-page .pp-banner-wrap img {
-    transform: scale(0.98);
-    transform-origin: center top;
+    transform: none;
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -2366,19 +2412,106 @@ input[type=color] {
     padding-bottom: 22px !important;
   }
 
+  .ish-page .pp-hero-bg {
+    width: 78%;
+    bottom: -6%;
+  }
+
+  .ish-page .pp-hero-text {
+    font-size: 38px;
+  }
+
   .ish-page .pp-hero-btn .tp-btn-red-circle-box.tp-pp-btn-style .tp-btn-red-circle-text {
     font-size: 12px;
     padding: 13px 22px;
   }
 
   .ish-page .pp-hero-title {
-    font-size: 190px;
-    letter-spacing: -10px;
+    font-size: 100px;
+    letter-spacing: -3px;
+    white-space: nowrap;
+  }
+
+  .ish-page .pp-service-item {
+    padding-left: 100px;
+  }
+
+  .ish-page .pp-service-item-title {
+    font-size: 62px;
+    letter-spacing: -1px;
+    line-height: 0.95;
   }
 
   .ish-page .pp-banner-wrap img {
-    transform: scale(0.96);
-    transform-origin: center top;
+    transform: none;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ish-page .pp-hero-bg {
+    width: 88%;
+    bottom: 0%;
+  }
+
+  .ish-page .pp-hero-text {
+    font-size: 34px;
+  }
+
+  .ish-page .pp-hero-title {
+    font-size: 74px;
+    letter-spacing: -2px;
+    white-space: nowrap;
+  }
+
+  .ish-page .pp-service-item {
+    padding-left: 72px;
+  }
+
+  .ish-page .pp-service-item-title {
+    font-size: 52px;
+    letter-spacing: -1px;
+    line-height: 1;
+  }
+
+  .ish-page .pp-banner-wrap img {
+    transform: none;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .ish-page .pp-hero-bg {
+    width: 100%;
+    bottom: 0%;
+  }
+
+  .ish-page .pp-hero-text {
+    font-size: 30px;
+  }
+
+  .ish-page .pp-hero-title {
+    font-size: 54px;
+    letter-spacing: 0;
+    white-space: normal;
+  }
+
+  .ish-page .pp-service-item {
+    padding-left: 30px;
+  }
+
+  .ish-page .pp-service-item-title {
+    font-size: 34px;
+    letter-spacing: 0;
+    line-height: 1;
+  }
+
+  .ish-page .pp-banner-wrap img {
+    transform: none;
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -60230,36 +60363,36 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 /* Around 125% zoom on a 1920px design */
 @media (max-width: 1536px) {
-  .pp-hero-bg {
+  .ish-page .pp-hero-bg {
     position: absolute;
     left: 0;
     right: 0;
-    width: 85%;
+    width: 90%;
     z-index: 2;
-    bottom: -54%;
+    bottom: -58%;
     margin: 0 auto;
     text-align: center;
 }
 
-.pp-hero-text {
+  .ish-page .pp-hero-text {
     font-size: 41px;
     font-weight: 700;
     line-height: 1;
     text-transform: uppercase;
     color: var(--tp-common-white);
     font-family: var(--tp-ff-teko);
-}
+  }
 }
 
 /* Around 150% zoom on a 1920px design */
 @media (max-width: 1280px) {
- .pp-hero-bg {
+ .ish-page .pp-hero-bg {
     position: absolute;
     left: 0;
     right: 0;
-    width: 73%;
+    width: 82%;
     z-index: 2;
-    bottom: -54%;
+    bottom: -28%;
     margin: 0 auto;
     text-align: center;
 }
