@@ -413,7 +413,7 @@ include('layouts/header.php'); ?>
                                 <div class="col-xl-5 col-lg-4 col-md-5">
                                     <div class="tp-about-thumb">
                                         <img data-speed=".8"
-                                            src="https://img.freepik.com/premium-photo/scrum-master-leading-business-meeting-with-creative-ideas-teamwork_220770-19753.jpg?ga=GA1.1.1324724274.1773129136&semt=ais_hybrid&w=740&q=80"
+                                            src="assets/img/new-images/about.png"
                                             alt="">
                                     </div>
                                 </div>

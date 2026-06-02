@@ -373,10 +373,10 @@ li,
   --tp-common-black-9: #16302f;
   --tp-common-black-10: #21212D;
   --tp-common-cream: #f9f4e8;
-  --tp-common-cream-2: #FFF6BF;
+  --tp-common-cream-2: #E5FFD1;
   --tp-common-cream-3: #ffffe6;
-  --tp-common-yellow: #ffc446;
-  --tp-common-yellow-1: #FFF669;
+  --tp-common-yellow: #8cff00;
+  --tp-common-yellow-1: #C8FF7A;
   --tp-common-yellow-green: #60a70c;
   --tp-common-green-light: #D0FF71;
   --tp-common-green-regular: #C1ED00;
@@ -403,7 +403,7 @@ li,
   --tp-text-body: #2e2d2d;
   --tp-theme-green: #A0FF27;
   --tp-theme-pink: #EC6FD5;
-  --tp-theme-yellow: #FFB701;
+  --tp-theme-yellow: #60a70c;
   --tp-border-1: #EAEBED;
   --tp-border-2: #e7e7e7;
 }
@@ -2241,6 +2241,159 @@ input[type=color] {
   color: var(--tp-common-red-2);
   font-family: var(--tp-ff-clash-medium);
   border: 1px solid var(--tp-common-red-2);
+}
+
+.ish-page .tp-btn-red-circle-box.tp-pp-btn-style .tp-btn-red-circle-text,
+.ish-page .tp-btn-red-circle-box.tp-pp-btn-style .tp-btn-red-circle-icon {
+  color: #0e0f11;
+  border-color: var(--tp-common-yellow);
+  background-color: var(--tp-common-yellow);
+}
+
+.ish-page .tp-btn-red-circle-box.tp-pp-btn-style:hover .tp-btn-red-circle-text,
+.ish-page .tp-btn-red-circle-box.tp-pp-btn-style:hover .tp-btn-red-circle-icon {
+  color: #0e0f11;
+  border-color: var(--tp-common-yellow);
+  background-color: var(--tp-common-yellow);
+}
+
+.ish-page .tp-btn-red-circle-box.tp-pp-btn-style:hover > :nth-child(1),
+.ish-page .tp-btn-red-circle-box.tp-pp-btn-style:hover > :nth-child(3) {
+  background-color: var(--tp-common-yellow);
+}
+
+.ish-page .pp-hero-ptb {
+  padding-top: 120px;
+}
+
+.ish-page .pp-hero-left {
+  transform: translateY(22px);
+}
+
+.ish-page .pp-hero-left.pb-100 {
+  padding-bottom: 56px !important;
+}
+
+.ish-page .pp-hero-right {
+  padding-left: 40px;
+}
+
+.ish-page .pp-hero-right.pb-100 {
+  padding-bottom: 44px !important;
+}
+
+.ish-page .pp-hero-right p {
+  max-width: 360px;
+}
+
+.ish-page .pp-hero-btn .tp-btn-red-circle-box.tp-pp-btn-style .tp-btn-red-circle-text {
+  font-size: 14px;
+  padding: 16px 28px;
+}
+
+.ish-page .pp-banner-wrap {
+  height: auto;
+  overflow: hidden;
+}
+
+.ish-page .pp-banner-wrap img {
+  width: 100%;
+  margin-top: 0;
+  display: block;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .ish-page .pp-hero-ptb {
+    padding-top: 95px;
+  }
+
+  .ish-page .pp-hero-left {
+    transform: translateY(54px);
+  }
+
+  .ish-page .pp-hero-left.pb-100 {
+    padding-bottom: 34px !important;
+  }
+
+  .ish-page .pp-hero-right {
+    padding-left: 18px;
+    padding-top: 20px;
+  }
+
+  .ish-page .pp-hero-right.pb-100 {
+    padding-bottom: 28px !important;
+  }
+
+  .ish-page .pp-hero-btn .tp-btn-red-circle-box.tp-pp-btn-style .tp-btn-red-circle-text {
+    font-size: 13px;
+    padding: 14px 24px;
+  }
+
+  .ish-page .pp-hero-right p {
+    margin-bottom: 24px;
+  }
+
+  .ish-page .pp-hero-title {
+    font-size: 230px;
+    letter-spacing: -12px;
+  }
+
+  .ish-page .pp-banner-wrap img {
+    transform: scale(0.98);
+    transform-origin: center top;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .ish-page .pp-hero-ptb {
+    padding-top: 84px;
+  }
+
+  .ish-page .pp-hero-left {
+    transform: translateY(46px);
+  }
+
+  .ish-page .pp-hero-left.pb-100 {
+    padding-bottom: 28px !important;
+  }
+
+  .ish-page .pp-hero-right {
+    padding-left: 12px;
+    padding-top: 18px;
+  }
+
+  .ish-page .pp-hero-right.pb-100 {
+    padding-bottom: 22px !important;
+  }
+
+  .ish-page .pp-hero-btn .tp-btn-red-circle-box.tp-pp-btn-style .tp-btn-red-circle-text {
+    font-size: 12px;
+    padding: 13px 22px;
+  }
+
+  .ish-page .pp-hero-title {
+    font-size: 190px;
+    letter-spacing: -10px;
+  }
+
+  .ish-page .pp-banner-wrap img {
+    transform: scale(0.96);
+    transform-origin: center top;
+  }
+}
+
+.ish-responsive-preview {
+  padding: 18px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.16);
+}
+
+.ish-responsive-preview img {
+  width: 100%;
+  display: block;
+  border-radius: 18px;
 }
 
 .tp-btn-white-border {
@@ -4611,7 +4764,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .tp-section-title-teko.fs-80 span {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgb(157 196 43);
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
@@ -17348,7 +17501,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
   position: absolute;
   left: 0;
   right: 0;
-  z-index: 0;
+  z-index: 2;
   bottom: -54%;
   margin: 0 auto;
   text-align: center;
@@ -17449,7 +17602,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .pp-hero-title {
   margin: 0;
   line-height: 0.8;
-  font-size: 380px;
+  font-size: 340px;
   font-weight: 600;
   letter-spacing: -16px;
   padding-bottom: 15px;
@@ -20081,7 +20234,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 @media (max-width: 767px) {
-  .pp-about-content p br {
+.pp-about-content p br {
     display: none;
   }
 }
@@ -20972,7 +21125,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .pp-banner-wrap img {
   margin-top: -50px;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px),
@@ -23365,7 +23518,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
   height: 100%;
   width: 100%;
   content: "";
-  background: var(--tp-common-yellow-1);
+  background: #88bd22;
   -webkit-clip-path: inset(50% 0 50% 0);
   clip-path: inset(50% 0 50% 0);
   -webkit-transition: -webkit-clip-path 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -23395,7 +23548,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 .pp-service-item-title {
   position: relative;
   z-index: 2;
-  font-size: 180px;
+  font-size: 135px;
   font-weight: 600;
   line-height: 0.7;
   letter-spacing: -5.4px;
@@ -23413,7 +23566,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .pp-service-item-title {
-    font-size: 150px;
+    font-size: 90px;
   }
 }
 
@@ -60074,4 +60227,41 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .p {
   color: rgb(255 255 255 / 60%);
+}
+/* Around 125% zoom on a 1920px design */
+@media (max-width: 1536px) {
+  .pp-hero-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 85%;
+    z-index: 2;
+    bottom: -54%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pp-hero-text {
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    color: var(--tp-common-white);
+    font-family: var(--tp-ff-teko);
+}
+}
+
+/* Around 150% zoom on a 1920px design */
+@media (max-width: 1280px) {
+ .pp-hero-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 73%;
+    z-index: 2;
+    bottom: -54%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 }

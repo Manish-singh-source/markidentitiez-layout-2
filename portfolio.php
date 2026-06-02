@@ -16,9 +16,9 @@ $portfolioItems = [
         "labels" => ["Branding", "Packaging"],
     ],
     [
-        "title" => "Wrap Pack N Carry",
-        "image" => "assets/img/new-images/portfolio/wrappackncarry/wrap.png",
-        "link" => "wrappackncarry-desgin.php",
+        "title" => "ISH International",
+        "image" => "assets/img/new-images/portfolio/ish/ish.png",
+        "link" => "ish.php",
         "categories" => "digital-marketing uiux",
         "labels" => ["Digital", "UI/UX Design"],
     ],
@@ -28,6 +28,13 @@ $portfolioItems = [
         "link" => "fragomatrix.php",
         "categories" => "branding uiux digital-marketing",
         "labels" => ["Branding", "UI/UX Design"],
+    ],
+    [
+        "title" => "Wrap Pack N Carry",
+        "image" => "assets/img/new-images/portfolio/wrappackncarry/wrap.png",
+        "link" => "wrappackncarry-desgin.php",
+        "categories" => "digital-marketing uiux",
+        "labels" => ["Digital", "UI/UX Design"],
     ],
    
 ];
