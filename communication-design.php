@@ -324,7 +324,7 @@ include("layouts/header.php"); ?>
             <div class="row gx-30 align-items-stretch">
                 <div class="col-lg-8">
                     <div class="bi-hero-img tp_img_reveal mb-30">
-                        <img src="assets/img/new-images/communication-design5.png" alt="Premium communication design workspace">
+                        <img src="assets/img/new-images/Premium.png" alt="Premium communication design workspace">
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -387,21 +387,21 @@ include("layouts/header.php"); ?>
                 <div class="col-lg-4">
                     <div class="bi-image-card tp--hover-item mb-30">
                         <div class="tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                            <img src="assets/img/new-images/communication-design2.png" alt="Marketing communication design materials">
+                            <img src="assets/img/new-images/x1.png" alt="Marketing communication design materials">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="bi-image-card tp--hover-item mb-30">
                         <div class="tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                            <img src="assets/img/new-images/communication-design3.png" alt="Campaign and digital communication design board">
+                            <img src="assets/img/new-images/x2.png" alt="Campaign and digital communication design board">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="bi-image-card tp--hover-item mb-30">
                         <div class="tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                            <img src="assets/img/new-images/communication-design4.png" alt="Print and digital communication touchpoints">
+                            <img src="assets/img/new-images/x3.png" alt="Print and digital communication touchpoints">
                         </div>
                     </div>
                 </div>
@@ -471,7 +471,7 @@ include("layouts/header.php"); ?>
     <section class="bi-banner-area pb-120">
         <div class="container container-1750">
             <div class="bi-wide-img">
-                <img data-speed=".8" src="assets/img/new-images/communication-design1.png" alt="Premium communication design banner">
+                <img data-speed=".8" src="assets/img/new-images/x4.png" alt="Premium communication design banner">
             </div>
         </div>
     </section>

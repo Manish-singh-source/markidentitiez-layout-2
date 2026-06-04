@@ -144,9 +144,6 @@ include('layouts/header.php'); ?>
     </div>
     <!-- inner map area end -->
 
-
-
-
     <!-- contact location area start -->
     <div class="tp-contact-location-ptb p-relative pt-60 pb-80">
         <!-- <div class="tp-gsap-bg" data-bg-color="#1D1D1F"></div> -->
