@@ -149,7 +149,7 @@ include('layouts/header.php'); ?>
 
     <!-- contact location area start -->
     <div class="tp-contact-location-ptb p-relative pt-60 pb-80">
-        <div class="tp-gsap-bg" data-bg-color="#1D1D1F"></div>
+        <!-- <div class="tp-gsap-bg" data-bg-color="#1D1D1F"></div> -->
         <div class="container container-1430">
             <div class="tp-contact-location-wrapper">
                 <div class="tp-contact-location-item">

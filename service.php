@@ -12,7 +12,7 @@ include("layouts/header.php"); ?>
                     </div>
                     <div class="container-fluid">
                         <div class="row align-items-center">
-                            <div class="col-xl-7 col-lg-6 col-md-6">
+                            <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="ai-hero-ptb">
                                     <div class="ai-hero-title-box">
                                         <span class="ai-hero-subtitle tp_fade_anim" data-delay=".3">A Full-Service Branding Agency in Mumbai</span>
@@ -22,7 +22,7 @@ include("layouts/header.php"); ?>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-5 col-lg-6 col-md-6">
+                            <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="ai-hero-slider-main fix p-relative">
                                     <div class="row gx-12">
                                         <div class="col-6">
@@ -176,365 +176,345 @@ include("layouts/header.php"); ?>
     <!-- hero area end -->
 
 
-    <!-- banner area start -->
-    <div class="studio-hero-banner-area pb-100">
-        <div class="studio-hero-banner mb-20">
-            <img class="w-100" data-speed=".8" src="assets/img/new-images/servicebanner.png" alt="">
-        </div>
-        <div class="container container-1830">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="studio-hero-banner-text d-flex justify-content-start justify-content-md-between align-items-center">
-                        <span>Building</span>
-                        <span>brands</span>
-                        <span>that</span>
-                        <span>stand</span>
-                        <span>out</span>
-                        <span>and</span>
-                        <span>stay</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- banner area end -->
+
 
     <!-- service blueprint area start -->
-    <section class="mi-service-blueprint pt-120 pb-70">
+    <section class="mi-service-blueprint mi-service-blueprint-v2 pt-120 pb-70">
         <div class="container">
-            <div class="mi-service-blueprint-wrap">
-                <div class="row align-items-end">
-                    <div class="col-xl-7 col-lg-7">
-                        <div class="mi-service-blueprint-copy">
-                            <span class="tp-section-subtitle text-black pre">Service blueprint</span>
-                            <h4 class="tp-section-title mi-service-blueprint-title mt-20">Sharper strategy. Better identity. Stronger rollout.</h4>
-                            <p>We keep the service journey simple: define what your brand should mean, shape how it should look, and build the assets your audience will actually experience.</p>
-                        </div>
+            <div class="mi-service-blueprint-shell">
+            <div class="mi-service-blueprint-panel">
+                <div class="mi-service-blueprint-grid">
+                    <div class="mi-service-blueprint-copy">
+                        <span class="mi-service-blueprint-kicker"><i></i> SERVICE BLUEPRINT</span>
+                        <h4 class="mi-service-blueprint-title">BUILD THE BRAND.<br>SHAPE THE EXPERIENCE.</h4>
+                        <p>We turn strategy into identity and experiences that drive real impact.</p>
+                        <a class="mi-service-blueprint-cta" href="#service-offerings" aria-label="Jump to service offerings">
+                            <span></span>
+                        </a>
                     </div>
-                    <div class="col-xl-5 col-lg-5">
-                        <div class="mi-service-blueprint-note">
-                            <strong>Built for ambitious brands</strong>
-                            <p>Whether you need one service or a full brand system, the work is structured to feel premium, practical, and ready for launch.</p>
+
+                    <div class="mi-service-blueprint-visual" aria-hidden="true">
+                        <div class="mi-service-blueprint-dots"></div>
+                        <div class="mi-service-blueprint-orbit">
+                            <svg viewBox="0 0 520 420" role="presentation" focusable="false" aria-hidden="true">
+                                <defs>
+                                    <radialGradient id="sphereBase" cx="32%" cy="28%" r="75%">
+                                        <stop offset="0%" stop-color="#ffffff"/>
+                                        <stop offset="42%" stop-color="#dfe2dd"/>
+                                        <stop offset="72%" stop-color="#8a8f85"/>
+                                        <stop offset="100%" stop-color="#202421"/>
+                                    </radialGradient>
+                                    <linearGradient id="sphereGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#ffffff" stop-opacity=".98"/>
+                                        <stop offset="46%" stop-color="#f7f8f4" stop-opacity=".55"/>
+                                        <stop offset="100%" stop-color="#9dff00" stop-opacity=".92"/>
+                                    </linearGradient>
+                                    <linearGradient id="waveGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#eaff8b"/>
+                                        <stop offset="100%" stop-color="#7bd600"/>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="262" cy="198" r="176" fill="none" stroke="rgba(18,22,28,.09)" stroke-width="1.5"/>
+                                <circle cx="262" cy="198" r="118" fill="url(#sphereBase)" stroke="rgba(18,22,28,.28)" stroke-width="1.25"/>
+                                <circle cx="262" cy="198" r="118" fill="none" stroke="rgba(255,255,255,.72)" stroke-width="14"/>
+                                <path d="M180 240C211 183 273 155 315 161C362 168 403 214 383 246C367 270 332 267 300 289C269 310 221 336 188 325C153 313 148 279 180 240Z" fill="url(#waveGreen)" opacity=".92"/>
+                                <path d="M171 241C203 180 268 153 314 159C355 164 387 197 388 227C389 258 362 272 334 277C307 281 277 276 253 287C231 298 205 324 182 323C153 321 149 285 171 241Z" fill="#11161c" opacity=".82"/>
+                                <path d="M184 219C213 190 261 176 306 180C335 182 364 196 377 215" fill="none" stroke="rgba(255,255,255,.92)" stroke-linecap="round" stroke-width="9"/>
+                                <path d="M183 245C202 213 236 197 266 197C297 197 327 208 352 229" fill="none" stroke="rgba(255,255,255,.18)" stroke-linecap="round" stroke-width="3"/>
+                                <ellipse cx="254" cy="300" rx="88" ry="28" fill="#9cff00" opacity=".22" filter="blur(7px)"/>
+                            </svg>
                         </div>
+                        <span class="mi-service-blueprint-orbit-ring"></span>
+                        <span class="mi-service-blueprint-spark mi-service-blueprint-spark-one"></span>
+                        <span class="mi-service-blueprint-spark mi-service-blueprint-spark-two"></span>
+                        <span class="mi-service-blueprint-spark mi-service-blueprint-spark-three"></span>
                     </div>
                 </div>
-                <div class="mi-service-cluster-grid">
-                    <article class="mi-service-cluster-card">
-                        <span>01</span>
-                        <h5>Brand Strategy</h5>
-                        <p>Positioning, proposition, architecture, and naming to give your business a clear point of view.</p>
-                        <ul>
-                            <li><a href="brand-proposition.php">Brand Proposition</a></li>
-                            <li><a href="brand-positioning.php">Brand Positioning</a></li>
-                            <li><a href="brand-architecture.php">Brand Architecture</a></li>
-                            <li><a href="brand-naming.php">Brand Naming</a></li>
-                        </ul>
+
+                <div class="mi-service-blueprint-cards" id="service-offerings">
+                    <article class="mi-service-blueprint-card mi-service-blueprint-card-dark">
+                        <span class="mi-service-blueprint-card-num">01</span>
+                        <h5 class="text-white">STRATEGY</h5>
+                        <p>Position the brand.</p>
+                        <a class="mi-service-blueprint-card-link" href="brand-positioning.php" aria-label="Explore strategy service">
+                            <span></span>
+                        </a>
                     </article>
-                    <article class="mi-service-cluster-card">
-                        <span>02</span>
-                        <h5>Identity & Expression</h5>
-                        <p>Logo systems, visual language, and messaging that make the brand feel distinctive from day one.</p>
-                        <ul>
-                            <li><a href="brand-identity.php">Brand Identity</a></li>
-                            <li><a href="visual-brand-language.php">Visual Brand Language</a></li>
-                            <li><a href="brand-tonality-messaging.php">Tonality & Messaging</a></li>
-                            <li><a href="logo-design-brand-management.php">Logo Design & Brand Management</a></li>
-                        </ul>
+
+                    <article class="mi-service-blueprint-card">
+                        <span class="mi-service-blueprint-card-num">02</span>
+                        <h5>IDENTITY</h5>
+                        <p>Design the system.</p>
+                        <a class="mi-service-blueprint-card-link" href="brand-identity.php" aria-label="Explore identity service">
+                            <span></span>
+                        </a>
                     </article>
-                    <article class="mi-service-cluster-card">
-                        <span>03</span>
-                        <h5>Packaging & Activation</h5>
-                        <p>Execution-focused services that move the brand into packaging, communication, digital campaigns, and websites.</p>
-                        <ul>
-                            <li><a href="packaging-design.php">Packaging Design</a></li>
-                            <li><a href="communication-design.php">Communication Design</a></li>
-                            <li><a href="contactus.php?service=Digital%20Marketing">Digital Marketing</a></li>
-                            <li><a href="contactus.php?service=Website%20Design">Website & UI/UX</a></li>
-                        </ul>
+
+                    <article class="mi-service-blueprint-card">
+                        <span class="mi-service-blueprint-card-num">03</span>
+                        <h5>ACTIVATION</h5>
+                        <p>Launch with impact.</p>
+                        <a class="mi-service-blueprint-card-link" href="communication-design.php" aria-label="Explore activation service">
+                            <span></span>
+                        </a>
                     </article>
                 </div>
+            </div>
             </div>
         </div>
     </section>
     <!-- service blueprint area end -->
 
-    <!-- service matrix start -->
-    <section class="mi-service-portfolio cst-portfolio-ptb cst-portfolio-bg pt-120 pb-120 tp-panel-pin-area" data-bg-color="#050312">
+    <!-- service showcase start -->
+    <section class="mi-service-showcase pt-120 pb-120" data-bg-color="#f6f1e7">
         <div class="container container-1530">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="cst-portfolio-right tp-panel-pin mb-50">
-                        <div class="cst-portfolio-heading z-index-1">
-                            <span class="cst-section-subtitle color-white mb-15 tp_fade_anim" data-delay=".3">Core services</span>
-                            <h4 class="cst-section-title color-white mb-40 tp_fade_anim" data-delay=".5">Explore the <br>
-                                branding services <span class="d-none d-xl-inline-block"><img src="assets/img/update/about/title-shape-2.png" alt=""></span> that build <br>
-                                stronger market presence</h4>
-                            <p class="mi-service-portfolio-copy tp_fade_anim" data-delay=".6">From strategy and identity to packaging and communication, every service is designed to make the brand feel sharper, more consistent, and easier to trust.</p>
-                            <div class="cst-portfolio-btn tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">
-                                <a class="cst-btn white-t" href="portfolio.php">
-                                    <span>
-                                        <span class="text-1">
-                                            View full portfolio
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
-                                                <path d="M0.75 4.77295C0.335786 4.77295 0 5.10874 0 5.52295C0 5.93716 0.335786 6.27295 0.75 6.27295V5.52295V4.77295ZM15.2803 6.05328C15.5732 5.76039 15.5732 5.28551 15.2803 4.99262L10.5074 0.219648C10.2145 -0.0732449 9.73959 -0.0732449 9.4467 0.219648C9.15381 0.512542 9.15381 0.987415 9.4467 1.28031L13.6893 5.52295L9.4467 9.76559C9.15381 10.0585 9.15381 10.5334 9.4467 10.8263C9.73959 11.1191 10.2145 11.1191 10.5074 10.8263L15.2803 6.05328ZM0.75 5.52295V6.27295H14.75V5.52295V4.77295H0.75V5.52295Z" fill="currentColor"/>
-                                            </svg>
-                                        </span>
-                                        <span class="text-2">
-                                            View full portfolio
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
-                                                <path d="M0.75 4.77295C0.335786 4.77295 0 5.10874 0 5.52295C0 5.93716 0.335786 6.27295 0.75 6.27295V5.52295V4.77295ZM15.2803 6.05328C15.5732 5.76039 15.5732 5.28551 15.2803 4.99262L10.5074 0.219648C10.2145 -0.0732449 9.73959 -0.0732449 9.4467 0.219648C9.15381 0.512542 9.15381 0.987415 9.4467 1.28031L13.6893 5.52295L9.4467 9.76559C9.15381 10.0585 9.15381 10.5334 9.4467 10.8263C9.73959 11.1191 10.2145 11.1191 10.5074 10.8263L15.2803 6.05328ZM0.75 5.52295V6.27295H14.75V5.52295V4.77295H0.75V5.52295Z" fill="currentColor"/>
-                                            </svg>
-                                        </span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                       
-                    </div>
+            <div class="mi-service-showcase-hero">
+                <div class="mi-service-showcase-copy">
+                    <span class="mi-service-showcase-kicker pre">Core services</span>
+                    <h2 class="mi-service-showcase-title">
+                        10 services.<br>
+                        One stronger brand.
+                    </h2>
+                    <p class="mi-service-showcase-text">
+                        Strategy, identity, expression and rollout - designed to make brands clear, memorable and launch-ready.
+                    </p>
                 </div>
-                <div class="col-lg-6">
-                    <div class="cst-portfolio-wrapper">
-                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
-                            <span class="cst-portfolio-item-num">01</span>
-                            <div class="cst-portfolio-item-thumb">
-                                <a href="brand-positioning.php">
-                                    <img src="assets/img/new-images/brand-positioning2.png" alt="Brand strategy and positioning">
-                                </a>
-                            </div>
-                            <h4 class="cst-portfolio-item-title">
-                                <a href="brand-positioning.php">Brand strategy and positioning <br> for sharper market distinction.</a>
-                            </h4>
-                            <div class="cst-portfolio-item-categories">
-                                <span>Strategy</span>
-                                <span>Clarity</span>
-                            </div>
-                        </div>
-                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
-                            <span class="cst-portfolio-item-num">02</span>
-                            <div class="cst-portfolio-item-thumb">
-                                <a href="brand-identity.php">
-                                    <img src="assets/img/new-images/brand-identity2.png" alt="Brand identity design">
-                                </a>
-                            </div>
-                            <h4 class="cst-portfolio-item-title">
-                                <a href="brand-identity.php">Identity systems that make the <br> brand feel premium and consistent.</a>
-                            </h4>
-                            <div class="cst-portfolio-item-categories">
-                                <span>Identity</span>
-                                <span>Design System</span>
-                            </div>
-                        </div>
-                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
-                            <span class="cst-portfolio-item-num">03</span>
-                            <div class="cst-portfolio-item-thumb">
-                                <a href="packaging-design.php">
-                                    <img src="assets/img/new-images/packaging-design3.png" alt="Packaging design service">
-                                </a>
-                            </div>
-                            <h4 class="cst-portfolio-item-title">
-                                <a href="packaging-design.php">Packaging design built for shelf <br> impact, clarity, and trust.</a>
-                            </h4>
-                            <div class="cst-portfolio-item-categories">
-                                <span>Packaging</span>
-                                <span>Product Presence</span>
-                            </div>
-                        </div>
-                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
-                            <span class="cst-portfolio-item-num">04</span>
-                            <div class="cst-portfolio-item-thumb">
-                                <a href="communication-design.php">
-                                    <img src="assets/img/new-images/comunication.png" alt="Communication design service">
-                                </a>
-                            </div>
-                            <h4 class="cst-portfolio-item-title">
-                                <a href="communication-design.php">Communication design that carries <br> the brand across every touchpoint.</a>
-                            </h4>
-                            <div class="cst-portfolio-item-categories">
-                                <span>Communication</span>
-                                <span>Campaign Assets</span>
-                            </div>
-                        </div>
-                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
-                            <span class="cst-portfolio-item-num">05</span>
-                            <div class="cst-portfolio-item-thumb">
-                                <a href="brand-proposition.php">
-                                    <img src="assets/img/new-images/brand-proposition2.png" alt="Brand proposition service">
-                                </a>
-                            </div>
-                            <h4 class="cst-portfolio-item-title">
-                                <a href="brand-proposition.php">Brand proposition that defines <br> your value with more precision.</a>
-                            </h4>
-                            <div class="cst-portfolio-item-categories">
-                                <span>Strategy</span>
-                                <span>Value Clarity</span>
-                            </div>
-                        </div>
-                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
-                            <span class="cst-portfolio-item-num">06</span>
-                            <div class="cst-portfolio-item-thumb">
-                                <a href="visual-brand-language.php">
-                                    <img src="assets/img/new-images/brand-identity4.png" alt="Visual brand language service">
-                                </a>
-                            </div>
-                            <h4 class="cst-portfolio-item-title">
-                                <a href="visual-brand-language.php">Visual language systems that keep <br> every brand touchpoint aligned.</a>
-                            </h4>
-                            <div class="cst-portfolio-item-categories">
-                                <span>Identity</span>
-                                <span>Visual Rules</span>
-                            </div>
-                        </div>
-                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
-                            <span class="cst-portfolio-item-num">07</span>
-                            <div class="cst-portfolio-item-thumb">
-                                <a href="brand-architecture.php">
-                                    <img src="assets/img/new-images/brand-architecture2.png" alt="Brand architecture service">
-                                </a>
-                            </div>
-                            <h4 class="cst-portfolio-item-title">
-                                <a href="brand-architecture.php">Brand architecture that organizes <br> offers, sub-brands, and growth paths.</a>
-                            </h4>
-                            <div class="cst-portfolio-item-categories">
-                                <span>Structure</span>
-                                <span>Scalability</span>
-                            </div>
-                        </div>
-                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
-                            <span class="cst-portfolio-item-num">08</span>
-                            <div class="cst-portfolio-item-thumb">
-                                <a href="brand-naming.php">
-                                    <img src="assets/img/new-images/brand-naming2.png" alt="Brand naming service">
-                                </a>
-                            </div>
-                            <h4 class="cst-portfolio-item-title">
-                                <a href="brand-naming.php">Brand naming routes that feel <br> memorable, relevant, and market-ready.</a>
-                            </h4>
-                            <div class="cst-portfolio-item-categories">
-                                <span>Naming</span>
-                                <span>Verbal Identity</span>
-                            </div>
-                        </div>
-                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
-                            <span class="cst-portfolio-item-num">09</span>
-                            <div class="cst-portfolio-item-thumb">
-                                <a href="brand-tonality-messaging.php">
-                                    <img src="assets/img/new-images/brand-tonality-messaging2.png" alt="Brand tonality and messaging service">
-                                </a>
-                            </div>
-                            <h4 class="cst-portfolio-item-title">
-                                <a href="brand-tonality-messaging.php">Messaging and tone that make <br> the brand sound consistent everywhere.</a>
-                            </h4>
-                            <div class="cst-portfolio-item-categories">
-                                <span>Messaging</span>
-                                <span>Tone of Voice</span>
-                            </div>
-                        </div>
-                        <div class="cst-portfolio-item tp-panel-pin mb-50" data-end="bottom 107%">
-                            <span class="cst-portfolio-item-num">10</span>
-                            <div class="cst-portfolio-item-thumb">
-                                <a href="logo-design-brand-management.php">
-                                    <img src="assets/img/new-images/logo-design-brand-management3.png" alt="Logo design and brand management service">
-                                </a>
-                            </div>
-                            <h4 class="cst-portfolio-item-title">
-                                <a href="logo-design-brand-management.php">Logo systems and brand control <br> built for long-term consistency.</a>
-                            </h4>
-                            <div class="cst-portfolio-item-categories">
-                                <span>Logo</span>
-                                <span>Brand Management</span>
-                            </div>
-                        </div>
+
+                <div class="mi-service-showcase-visual" aria-label="Core services visual space">
+                    <span class="mi-service-showcase-glow mi-service-showcase-glow-1" aria-hidden="true"></span>
+                    <span class="mi-service-showcase-glow mi-service-showcase-glow-2" aria-hidden="true"></span>
+                    <div class="mi-service-showcase-ring mi-service-showcase-ring-1" aria-hidden="true"></div>
+                    <div class="mi-service-showcase-ring mi-service-showcase-ring-2" aria-hidden="true"></div>
+                    <img src="assets/img/new-images/service1.png" alt="Branding services visual">
+                    <div class="mi-service-showcase-badge">
+                        <span>Strategy to impact</span>
+                        <strong>+</strong>
+                        <small>Brands that stick</small>
                     </div>
                 </div>
             </div>
+
+            <div class="mi-service-showcase-grid">
+                <article class="mi-service-showcase-card">
+                    <span class="mi-service-showcase-card-num">01</span>
+                    <span class="mi-service-showcase-card-line"></span>
+                    <h3><a href="brand-positioning.php">Brand Strategy</a></h3>
+                    <a class="mi-service-showcase-card-arrow" href="brand-positioning.php" aria-label="Explore Brand Strategy">
+                        <span></span>
+                    </a>
+                </article>
+
+                <article class="mi-service-showcase-card">
+                    <span class="mi-service-showcase-card-num">02</span>
+                    <span class="mi-service-showcase-card-line"></span>
+                    <h3><a href="brand-proposition.php">Brand Proposition</a></h3>
+                    <a class="mi-service-showcase-card-arrow" href="brand-proposition.php" aria-label="Explore Brand Proposition">
+                        <span></span>
+                    </a>
+                </article>
+
+                <article class="mi-service-showcase-card">
+                    <span class="mi-service-showcase-card-num">03</span>
+                    <span class="mi-service-showcase-card-line"></span>
+                    <h3><a href="brand-positioning.php">Brand Positioning</a></h3>
+                    <a class="mi-service-showcase-card-arrow" href="brand-positioning.php" aria-label="Explore Brand Positioning">
+                        <span></span>
+                    </a>
+                </article>
+
+                <article class="mi-service-showcase-card">
+                    <span class="mi-service-showcase-card-num">04</span>
+                    <span class="mi-service-showcase-card-line"></span>
+                    <h3><a href="brand-identity.php">Brand Identity</a></h3>
+                    <a class="mi-service-showcase-card-arrow" href="brand-identity.php" aria-label="Explore Brand Identity">
+                        <span></span>
+                    </a>
+                </article>
+
+                <article class="mi-service-showcase-card">
+                    <span class="mi-service-showcase-card-num">05</span>
+                    <span class="mi-service-showcase-card-line"></span>
+                    <h3><a href="visual-brand-language.php">Visual Brand Language</a></h3>
+                    <a class="mi-service-showcase-card-arrow" href="visual-brand-language.php" aria-label="Explore Visual Brand Language">
+                        <span></span>
+                    </a>
+                </article>
+
+                <article class="mi-service-showcase-card">
+                    <span class="mi-service-showcase-card-num">06</span>
+                    <span class="mi-service-showcase-card-line"></span>
+                    <h3><a href="brand-architecture.php">Brand Architecture</a></h3>
+                    <a class="mi-service-showcase-card-arrow" href="brand-architecture.php" aria-label="Explore Brand Architecture">
+                        <span></span>
+                    </a>
+                </article>
+
+                <article class="mi-service-showcase-card">
+                    <span class="mi-service-showcase-card-num">07</span>
+                    <span class="mi-service-showcase-card-line"></span>
+                    <h3><a href="packaging-design.php">Packaging Design</a></h3>
+                    <a class="mi-service-showcase-card-arrow" href="packaging-design.php" aria-label="Explore Packaging Design">
+                        <span></span>
+                    </a>
+                </article>
+
+                <article class="mi-service-showcase-card">
+                    <span class="mi-service-showcase-card-num">08</span>
+                    <span class="mi-service-showcase-card-line"></span>
+                    <h3><a href="brand-naming.php">Brand Naming</a></h3>
+                    <a class="mi-service-showcase-card-arrow" href="brand-naming.php" aria-label="Explore Brand Naming">
+                        <span></span>
+                    </a>
+                </article>
+
+                <article class="mi-service-showcase-card">
+                    <span class="mi-service-showcase-card-num">09</span>
+                    <span class="mi-service-showcase-card-line"></span>
+                    <h3><a href="brand-tonality-messaging.php">Tonality & Messaging</a></h3>
+                    <a class="mi-service-showcase-card-arrow" href="brand-tonality-messaging.php" aria-label="Explore Tonality and Messaging">
+                        <span></span>
+                    </a>
+                </article>
+
+                <article class="mi-service-showcase-card">
+                    <span class="mi-service-showcase-card-num">10</span>
+                    <span class="mi-service-showcase-card-line"></span>
+                    <h3><a href="communication-design.php">Communication Design</a></h3>
+                    <a class="mi-service-showcase-card-arrow" href="communication-design.php" aria-label="Explore Communication Design">
+                        <span></span>
+                    </a>
+                </article>
+            </div>
         </div>
     </section>
-    <!-- service matrix end -->
+    <!-- service showcase end -->
 
     <!-- service pathway start -->
-    <section class="mi-service-pathway pb-120">
-        <div class="container">
-            <div class="mi-service-pathway-shell">
-                <div class="row g-30 align-items-stretch">
-                    <div class="col-xl-8">
-                        <div class="mi-service-pathway-panel">
-                            <span class="tp-section-subtitle text-black pre">How the work flows</span>
-                            <h4 class="tp-section-title text-black mt-20">A clean process that keeps the brand moving.</h4>
-                            <div class="mi-service-pathway-grid">
-                                <div class="mi-service-pathway-step">
-                                    <strong>01</strong>
-                                    <h5>Understand</h5>
-                                    <p>We study business goals, audience behavior, category codes, and growth intent.</p>
-                                </div>
-                                <div class="mi-service-pathway-step">
-                                    <strong>02</strong>
-                                    <h5>Shape</h5>
-                                    <p>We define strategic direction and build the right identity or communication route.</p>
-                                </div>
-                                <div class="mi-service-pathway-step">
-                                    <strong>03</strong>
-                                    <h5>Apply</h5>
-                                    <p>We move the system into packaging, content, digital assets, or rollout materials.</p>
-                                </div>
-                                <div class="mi-service-pathway-step">
-                                    <strong>04</strong>
-                                    <h5>Launch</h5>
-                                    <p>We prepare final files, guidance, and practical handover so the brand stays consistent.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="mi-service-pathway-aside">
-                            <div class="mi-service-pathway-icon" aria-hidden="true">
-                                <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-                                    <defs>
-                                        <linearGradient id="serviceGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-                                            <stop offset="0%" stop-color="#8cff00" />
-                                            <stop offset="100%" stop-color="#d7ee70" />
-                                        </linearGradient>
-                                    </defs>
-                                    <circle cx="60" cy="60" r="58" fill="none" stroke="url(#serviceGlow)" stroke-width="2" />
-                                    <path d="M32 72L50 54L64 68L88 44" fill="none" stroke="url(#serviceGlow)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
-                                    <circle cx="32" cy="72" r="5" fill="#8cff00" />
-                                    <circle cx="50" cy="54" r="5" fill="#8cff00" />
-                                    <circle cx="64" cy="68" r="5" fill="#8cff00" />
-                                    <circle cx="88" cy="44" r="5" fill="#8cff00" />
-                                </svg>
-                            </div>
-                            <h5>Best fit for brands that need more than just design files.</h5>
-                            <p>Our services are structured for launches, rebrands, growth stages, and businesses that want stronger consistency across offline and digital touchpoints.</p>
-                            <ul>
-                                <li>New brand launches</li>
-                                <li>Rebranding & repositioning</li>
-                                <li>Packaging-led product businesses</li>
-                                <li>Website and campaign rollouts</li>
-                            </ul>
-                            <a class="tp-btn-black btn-red-bg" href="contactus.php?service=Brand%20Strategy">
-                                <span class="tp-btn-black-filter d-inline-flex align-items-center">
-                                    <span class="tp-btn-black-text">Start with a discovery call</span>
-                                    <span class="tp-btn-black-circle">
-                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+   <!-- service pathway start -->
+<section class="mi-process-flow-section">
+    <div class="container">
+        <div class="mi-process-flow-wrap">
+
+            <div class="mi-process-flow-head">
+                <span class="mi-process-kicker">
+                    <i></i> HOW THE WORK FLOWS
+                </span>
+
+                <h4>A smarter process for building stronger brands.</h4>
+
+                <p>
+                    A strategic, end-to-end approach that turns insight into impact.
+                </p>
             </div>
+
+            <div class="mi-process-flow-area">
+
+                <div class="mi-process-bg-lines" aria-hidden="true">
+                    <svg viewBox="0 0 1220 360" preserveAspectRatio="none">
+                        <path class="mi-process-path-main"
+                            d="M35 275 C150 275 150 145 260 145 C375 145 355 255 475 255 C600 255 585 125 720 125 C855 125 825 255 960 255 C1090 255 1080 95 1190 95" />
+                        <path class="mi-process-path-dash"
+                            d="M290 115 C360 45 460 55 520 125" />
+                        <path class="mi-process-path-dash"
+                            d="M770 105 C845 45 940 70 990 150" />
+                    </svg>
+                </div>
+
+                <article class="mi-process-card mi-process-card-1">
+                    <span class="mi-process-number">01</span>
+
+                    <div class="mi-process-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.7"></circle>
+                            <path d="M16 16L21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+
+                    <h5>Understand</h5>
+                    <span class="mi-process-small-line"></span>
+                    <p>We study business goals, audience behavior, category codes, and growth intent.</p>
+                </article>
+
+                <article class="mi-process-card mi-process-card-2">
+                    <span class="mi-process-number">02</span>
+
+                    <div class="mi-process-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 3L17 8L12 21L7 16L12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"></path>
+                            <path d="M9.5 8.5L15.5 14.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+
+                    <h5>Shape</h5>
+                    <span class="mi-process-small-line"></span>
+                    <p>We define strategic direction and build the right identity and communication path.</p>
+                </article>
+
+                <article class="mi-process-card mi-process-card-3">
+                    <span class="mi-process-number">03</span>
+
+                    <div class="mi-process-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 4C15 4 18 6.5 18 10V14L21 17L17 21L14 18H10C6.5 18 4 15 4 12C4 7.8 7.8 4 12 4Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"></path>
+                            <path d="M9 15L15 9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+
+                    <h5>Apply</h5>
+                    <span class="mi-process-small-line"></span>
+                    <p>We move the system into packaging, content, digital assets, and rollout materials.</p>
+                </article>
+
+                <article class="mi-process-card mi-process-card-4">
+                    <span class="mi-process-number">04</span>
+
+                    <div class="mi-process-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M5 19L19 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+                            <path d="M10 5H19V14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+
+                    <h5>Launch</h5>
+                    <span class="mi-process-small-line"></span>
+                    <p>We prepare final files, guidance, and practical handover so the brand stays consistent.</p>
+                </article>
+
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- service pathway end -->
     <!-- service pathway end -->
 
     <!-- trust area start -->
     <section class="mi-service-trust">
         <div class="container">
+            <div class="mi-service-trust-shell">
             <div class="mi-service-trust-head">
                 <span class="tp-section-subtitle pre">Trusted & Proven</span>
                 <h4 class="tp-section-title text-white">Brands We’ve Helped Shape</h4>
                 <p>Strategy-led branding work, built to perform in real markets and stay consistent across every touchpoint.</p>
+            </div>
+
+            <div class="mi-service-trust-stats mi-service-trust-stats-left">
+                <div class="mi-service-trust-stat">
+                    <span class="mi-service-trust-stat-icon">👑</span>
+                    <strong>14+</strong>
+                    <span>Years in Branding</span>
+                </div>
+                <div class="mi-service-trust-stat">
+                    <span class="mi-service-trust-stat-icon">💎</span>
+                    <strong>9</strong>
+                    <span>Core Branding Services</span>
+                </div>
+                <div class="mi-service-trust-stat mi-service-trust-stat-wide">
+                    <span class="mi-service-trust-stat-icon">🚀</span>
+                    <strong>E2E</strong>
+                    <span>Strategy to Rollout Support</span>
+                </div>
             </div>
 
                 <div class="mi-service-trust-grid">
@@ -546,11 +526,11 @@ include("layouts/header.php"); ?>
                         <img src="assets/img/new-images/client/download%20(2).png" alt="Client logo">
                         <img src="assets/img/new-images/client/Dynarx%20logo.png" alt="Dynarx">
                         <img src="assets/img/new-images/client/ish.png" alt="Ish">
-                        <img src="assets/img/new-images/client/jai%20jagannath%20charitable.png" alt="Jai Jagannath Charitable">
+                        <!-- <img src="assets/img/new-images/client/jai%20jagannath%20charitable.png" alt="Jai Jagannath Charitable"> -->
                         <img src="assets/img/new-images/client/jpc%20logo.png" alt="JPC">
                         <img src="assets/img/new-images/client/Mudrika-logo.png" alt="Mudrika">
-                        <img src="assets/img/new-images/client/SRB%20LOGO.png" alt="SRB">
-                        <img src="assets/img/new-images/client/tricil%20logo.png" alt="Tricil">
+                        <!-- <img src="assets/img/new-images/client/SRB%20LOGO.png" alt="SRB"> -->
+                        <!-- <img src="assets/img/new-images/client/tricil%20logo.png" alt="Tricil"> -->
                         <img src="assets/img/new-images/client/urban%20sports%20logo.png" alt="Urban Sports">
                         <img src="assets/img/new-images/client/viraj%20prints%20logo.png" alt="Viraj Prints">
                         <img src="assets/img/new-images/client/V%20Legends%20Logo.png" alt="V Legends">
@@ -571,6 +551,7 @@ include("layouts/header.php"); ?>
                         <span>Strategy to rollout support</span>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </section>

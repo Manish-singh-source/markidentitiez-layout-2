@@ -576,7 +576,7 @@ include('layouts/header.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="tp-service-pin">
+            <div class="tp-service-pin p-2">
                 <div class="tp-service-item tp-service-panel">
                     <div class="row">
                         <div class="col-xxl-2 col-xl-2 col-lg-1 col-md-1">

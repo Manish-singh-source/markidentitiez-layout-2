@@ -15978,7 +15978,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 @media (max-width: 767px) {
   .studio-hero-bg {
-    padding-top: 170px;
+    padding-top: 70px;
   }
 }
 
@@ -16189,7 +16189,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   font-weight: 600;
   font-size: 120px;
   line-height: 0.88;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   letter-spacing: -0.04em;
   color: var(--tp-common-white);
 }
@@ -16208,7 +16208,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 @media (max-width: 767px) {
   .ai-hero-title {
-    font-size: 65px;
+    font-size: 48px;
     margin-bottom: 30px;
   }
 }
@@ -16218,7 +16218,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .ai-hero-title-box {
-  padding-left: 350px;
+  padding-left: 75px;
 }
 
 @media only screen and (min-width: 1600px) and (max-width: 1700px) {
@@ -16229,8 +16229,16 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .ai-hero-title-box {
-    padding-left: 130px;
+    padding-left:50px;
   }
+  .ai-hero-title {
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 0.88;
+    margin-bottom: 50px;
+    letter-spacing: -0.04em;
+    color: var(--tp-common-white);
+}
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -16275,20 +16283,23 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 @media (max-width: 767px) {
   .ai-hero-ptb {
-    padding-top: 180px;
+    padding-top: 180px!important;
     padding-bottom: 40px;
   }
 }
 
 .ai-hero-slider-main {
   height: 950px;
-  margin-left: 95px;
+  margin-left:0px;
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .ai-hero-slider-main {
-    margin-left: 55px;
+    margin-left: 0px;
   }
+  .ai-hero-slider-main {
+    height: 850px;
+}
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -19647,7 +19658,8 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
   .ar-about-us-4-title {
-    font-size: 70px;
+    font-size: 44px;
+    letter-spacing: -3px;
   }
 }
 
@@ -19657,6 +19669,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     flex-wrap: wrap;
     justify-content: start !important;
   }
+  
 }
 
 .ar-about-us-4-title-box p {
@@ -26576,7 +26589,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 @media (max-width: 767px) {
   .studio-showcase-wrap {
-    height: 700px;
+    height: 1580px;
     margin: 0;
   }
 }
@@ -26598,7 +26611,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 @media (max-width: 767px) {
   .studio-showcase-area {
-    margin-bottom: 80px;
+    margin-bottom: 0px;
   }
 }
 
@@ -60398,3 +60411,4 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 }
+  
