@@ -6,9 +6,9 @@
             <div class="row align-items-center">
                 <div class="col-xl-4 col-lg-4 col-md-12">
                     <div class="tp-footer-widget tp-footer-col-1 pb-40 tp_fade_anim" data-delay=".3">
-                        <h4 class="tp-footer-widget-title">Helping <br> start-ups scale & grow.</h4>
+                        <h4 class="tp-footer-widget-title">Helping <br> brands stand out & grow.</h4>
                         <div class="tp-footer-widget-social">
-                            <a href="#">
+                            <a href="https://www.facebook.com/Markidentitiez/" target="_blank" rel="noopener noreferrer">
                                 <span>
                                     <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -18,7 +18,7 @@
                                     </svg>
                                 </span>
                             </a>
-                            <a href="#">
+                            <a href="https://twitter.com/markidentitiez" target="_blank" rel="noopener noreferrer">
                                 <span>
                                     <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -28,23 +28,32 @@
                                     </svg>
                                 </span>
                             </a>
-                            <a href="#">
+                            <a href="https://www.instagram.com/markidentitiez/" target="_blank" rel="noopener noreferrer">
                                 <span>
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
-                                            d="M16.9989 10.0113C16.2575 9.87227 15.4949 9.7998 14.7168 9.7998C10.435 9.7998 6.62665 11.9938 4.19922 15.3997M14.5997 3.39941C12.0962 6.33329 8.33416 8.19931 4.12763 8.19931C3.05145 8.19931 2.00436 8.07718 1 7.84627M11.0941 17.0005C11.2946 16.0293 11.3999 15.0235 11.3999 13.9931C11.3999 8.94036 8.86738 4.47788 5 1.80078M16.9997 8.99983C16.9997 13.418 13.418 16.9997 8.99983 16.9997C4.58165 16.9997 1 13.418 1 8.99983C1 4.58165 4.58165 1 8.99983 1C13.418 1 16.9997 4.58165 16.9997 8.99983Z"
-                                            stroke="currentcolor" stroke-width="1.5" stroke-linejoin="round" />
+                                            d="M7.75 3.5H16.25C18.3211 3.5 20 5.17893 20 7.25V16.75C20 18.8211 18.3211 20.5 16.25 20.5H7.75C5.67893 20.5 4 18.8211 4 16.75V7.25C4 5.17893 5.67893 3.5 7.75 3.5Z"
+                                            stroke="currentColor" stroke-width="1.6" />
+                                        <path
+                                            d="M12 16.5C14.4853 16.5 16.5 14.4853 16.5 12C16.5 9.51472 14.4853 7.5 12 7.5C9.51472 7.5 7.5 9.51472 7.5 12C7.5 14.4853 9.51472 16.5 12 16.5Z"
+                                            stroke="currentColor" stroke-width="1.6" />
+                                        <path
+                                            d="M17.5 6.5H17.51"
+                                            stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
                                     </svg>
                                 </span>
                             </a>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/company/markidentitiez" target="_blank" rel="noopener noreferrer">
                                 <span>
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
-                                            d="M12.0586 4.94727C12.6109 4.94727 13.0586 4.49955 13.0586 3.94727C13.0586 3.39498 12.6109 2.94727 12.0586 2.94727V4.94727ZM12.0496 2.94727C11.4973 2.94727 11.0496 3.39498 11.0496 3.94727C11.0496 4.49955 11.4973 4.94727 12.0496 4.94727V2.94727ZM8 14C6.32181 14 5.16377 13.9979 4.2928 13.8808C3.45059 13.7675 3.02803 13.5636 2.73223 13.2678L1.31802 14.682C2.04735 15.4113 2.96231 15.7199 4.0263 15.8629C5.06152 16.0021 6.37835 16 8 16V14ZM0 8C0 9.62165 -0.00212373 10.9385 0.137058 11.9737C0.280107 13.0377 0.588687 13.9526 1.31802 14.682L2.73223 13.2678C2.43644 12.972 2.23246 12.5494 2.11922 11.7072C2.00212 10.8362 2 9.67819 2 8H0ZM14 8C14 9.67819 13.9979 10.8362 13.8808 11.7072C13.7675 12.5494 13.5636 12.972 13.2678 13.2678L14.682 14.682C15.4113 13.9526 15.7199 13.0377 15.8629 11.9737C16.0021 10.9385 16 9.62165 16 8H14ZM8 16C9.62165 16 10.9385 16.0021 11.9737 15.8629C13.0377 15.7199 13.9526 15.4113 14.682 14.682L13.2678 13.2678C12.972 13.5636 12.5494 13.7675 11.7072 13.8808C10.8362 13.9979 9.67819 14 8 14V16ZM8 2C9.67819 2 10.8362 2.00212 11.7072 2.11922C12.5494 2.23246 12.972 2.43644 13.2678 2.73223L14.682 1.31802C13.9526 0.588687 13.0377 0.280107 11.9737 0.137058C10.9385 -0.00212373 9.62165 0 8 0V2ZM16 8C16 6.37835 16.0021 5.06152 15.8629 4.0263C15.7199 2.96231 15.4113 2.04735 14.682 1.31802L13.2678 2.73223C13.5636 3.02803 13.7675 3.45059 13.8808 4.2928C13.9979 5.16377 14 6.32181 14 8H16ZM8 0C6.37835 0 5.06152 -0.00212373 4.0263 0.137058C2.96231 0.280107 2.04735 0.588687 1.31802 1.31802L2.73223 2.73223C3.02803 2.43644 3.45059 2.23246 4.2928 2.11922C5.16377 2.00212 6.32181 2 8 2V0ZM2 8C2 6.32181 2.00212 5.16377 2.11922 4.2928C2.23246 3.45059 2.43644 3.02803 2.73223 2.73223L1.31802 1.31802C0.588687 2.04735 0.280107 2.96231 0.137058 4.0263C-0.00212373 5.06152 0 6.37835 0 8H2ZM10.3171 8.00134C10.3171 9.28031 9.28031 10.3171 8.00134 10.3171V12.3171C10.3849 12.3171 12.3171 10.3849 12.3171 8.00134H10.3171ZM8.00134 10.3171C6.72236 10.3171 5.68555 9.28031 5.68555 8.00134H3.68555C3.68555 10.3849 5.61779 12.3171 8.00134 12.3171V10.3171ZM5.68555 8.00134C5.68555 6.72236 6.72236 5.68555 8.00134 5.68555V3.68555C5.61779 3.68555 3.68555 5.61779 3.68555 8.00134H5.68555ZM8.00134 5.68555C9.28031 5.68555 10.3171 6.72236 10.3171 8.00134H12.3171C12.3171 5.61779 10.3849 3.68555 8.00134 3.68555V5.68555ZM12.0586 2.94727H12.0496V4.94727H12.0586V2.94727Z"
-                                            fill="currentcolor" />
+                                            d="M6.75 9.5V17M6.75 6.5V6.55M10 17V12.8C10 11.45 10.9 10.5 12.05 10.5C13.2 10.5 14 11.4 14 12.8V17"
+                                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M18.5 4H5.5C4.67157 4 4 4.67157 4 5.5V18.5C4 19.3284 4.67157 20 5.5 20H18.5C19.3284 20 20 19.3284 20 18.5V5.5C20 4.67157 19.3284 4 18.5 4Z"
+                                            stroke="currentColor" stroke-width="1.6" />
                                     </svg>
                                 </span>
                             </a>
@@ -56,13 +65,11 @@
                         <h4 class="tp-footer-widget-title-sm pre mb-25">Quick links</h4>
                         <div class="tp-footer-widget-menu">
                             <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Who we are</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Projects</a></li>
+                                <li><a href="about-us.php">About Us</a></li>
+                                <li><a href="service.php">Services</a></li>
+                                <li><a href="portfolio.php">Case Studies</a></li>
                                 <li><a href="#">Blog</a></li>
-                                <li><a href="#">Pricing</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="contactus.php">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -150,6 +157,7 @@
 <script type="module" src="assets/js/distortion-img.js"></script>
 <script type="module" src="assets/js/skew-slider/index.js"></script>
 <script type="module" src="assets/js/img-revel/index.js"></script>
+<?php if (!empty($pageScripts)) echo $pageScripts; ?>
 <!-- JS here -->
 
 <!-- JS here -->

@@ -179,14 +179,15 @@ include("layouts/header.php"); ?>
 
 
     <!-- service blueprint area start -->
-    <section class="mi-service-blueprint mi-service-blueprint-v2 pt-120 pb-70">
+    <section class="mi-service-blueprint mi-service-blueprint-v2 pt-100 pb-70">
         <div class="container">
             <div class="mi-service-blueprint-shell">
             <div class="mi-service-blueprint-panel">
                 <div class="mi-service-blueprint-grid">
                     <div class="mi-service-blueprint-copy">
                         <span class="mi-service-blueprint-kicker"><i></i> SERVICE BLUEPRINT</span>
-                        <h4 class="mi-service-blueprint-title">BUILD THE BRAND.<br>SHAPE THE EXPERIENCE.</h4>
+                        <h4 class="mi-service-blueprint-title">Build The Brand.<br>
+Shape The Experience.</h4>
                         <p>We turn strategy into identity and experiences that drive real impact.</p>
                         <a class="mi-service-blueprint-cta" href="#service-offerings" aria-label="Jump to service offerings">
                             <span></span>
@@ -266,13 +267,13 @@ include("layouts/header.php"); ?>
     <!-- service blueprint area end -->
 
     <!-- service showcase start -->
-    <section class="mi-service-showcase pt-120 pb-120" data-bg-color="#f6f1e7">
+    <section class="mi-service-showcase pt-100 pb-100" data-bg-color="#f6f1e7">
         <div class="container container-1530">
             <div class="mi-service-showcase-hero">
                 <div class="mi-service-showcase-copy">
-                    <span class="mi-service-showcase-kicker pre">Core services</span>
+                   <span class="mi-service-blueprint-kicker pb-2"><i></i> Core services</span>
                     <h2 class="mi-service-showcase-title">
-                        10 services.<br>
+                        10 Services.<br>
                         One stronger brand.
                     </h2>
                     <p class="mi-service-showcase-text">
@@ -400,7 +401,7 @@ include("layouts/header.php"); ?>
                     <i></i> HOW THE WORK FLOWS
                 </span>
 
-                <h4>A smarter process for building stronger brands.</h4>
+                <h2 class="mi-service-blueprint-title">A smarter process for building stronger brands.</h2>
 
                 <p>
                     A strategic, end-to-end approach that turns insight into impact.

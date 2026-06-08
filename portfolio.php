@@ -36,6 +36,27 @@ $portfolioItems = [
         "categories" => "digital-marketing uiux",
         "labels" => ["Digital", "UI/UX Design"],
     ],
+    [
+        "title" => "Sukanya India",
+        "image" => "assets/img/new-images/portfolio/sukanya/sukanya.png",
+        "link" => "sukanyaindia.php",
+        "categories" => "digital-marketing uiux",
+        "labels" => ["Digital", "UI/UX Design"],
+    ],
+        [
+        "title" => "We Own the Move",
+        "image" => "assets/img/new-images/portfolio/wotm/wotm.png",
+        "link" => "wotm.php",
+        "categories" => "digital-marketing uiux",
+        "labels" => ["Digital", "UI/UX Design"],
+    ],
+     [
+        "title" => "Global Ocean",
+        "image" => "assets/img/new-images/portfolio/globalocan/globelocean.png",
+        "link" => "globalocean.php",
+        "categories" => "digital-marketing uiux",
+        "labels" => ["Digital", "UI/UX Design"],
+    ],
    
 ];
 include("layouts/header.php"); ?>

@@ -314,59 +314,275 @@ include('layouts/header.php'); ?>
 
             <!-- digital idea area end -->
 
+            <style>
+                .about-process-area {
+                    position: relative;
+                    overflow: hidden;
+                    background:
+                        radial-gradient(circle at 8% 12%, rgba(140, 255, 0, 0.12), transparent 24%),
+                        radial-gradient(circle at 88% 76%, rgba(140, 255, 0, 0.06), transparent 22%),
+                        #0b0b0d;
+                }
+
+                .about-process-area::before,
+                .about-process-area::after {
+                    content: "";
+                    position: absolute;
+                    pointer-events: none;
+                    z-index: 0;
+                }
+
+                .about-process-area::before {
+                    top: -150px;
+                    left: -120px;
+                    width: 360px;
+                    height: 360px;
+                    border-radius: 50%;
+                    border: 72px solid rgba(140, 255, 0, 0.08);
+                }
+
+                .about-process-area::after {
+                    right: -60px;
+                    bottom: 24px;
+                    width: 420px;
+                    height: 420px;
+                    border-radius: 50%;
+                    border: 1px solid rgba(255, 255, 255, 0.06);
+                    box-shadow:
+                        0 0 0 34px rgba(255, 255, 255, 0.04),
+                        0 0 0 74px rgba(255, 255, 255, 0.02);
+                }
+
+                .about-process-area .container {
+                    position: relative;
+                    z-index: 1;
+                }
+
+                .about-process-label {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 10px;
+                    margin-bottom: 22px;
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-weight: 700;
+                    letter-spacing: 1.5px;
+                    text-transform: uppercase;
+                }
+
+                .about-process-label::before {
+                    content: "";
+                    width: 9px;
+                    height: 9px;
+                    border-radius: 50%;
+                    background: #8cff00;
+                    box-shadow: 0 0 0 6px rgba(140, 255, 0, 0.18);
+                }
+
+                .about-process-title {
+                    margin-bottom: 0;
+                    color: #ffffff;
+                    font-size: clamp(36px, 4.6vw, 68px);
+                    font-weight: 700;
+                    line-height: 0.98;
+                    letter-spacing: -0.04em;
+                    text-transform: uppercase;
+                }
+
+                .about-process-copy {
+                    margin: 0;
+                    padding-top: 10px;
+                    color: rgba(255, 255, 255, 0.72);
+                    font-size: 18px;
+                    line-height: 1.7;
+                }
+
+                .about-process-grid {
+                    display: grid;
+                    grid-template-columns: repeat(4, minmax(0, 1fr));
+                    gap: 22px;
+                    margin-top: 28px;
+                }
+
+                .about-process-card {
+                    position: relative;
+                    min-height: 300px;
+                    padding: 28px 26px 26px;
+                    border: 1px solid rgba(255, 255, 255, 0.08);
+                    border-radius: 28px;
+                    background: rgba(255, 255, 255, 0.04);
+                    box-shadow: 0 22px 58px rgba(0, 0, 0, 0.22);
+                    backdrop-filter: blur(12px);
+                    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+                }
+
+                .about-process-card::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 5px;
+                    border-radius: 28px 28px 0 0;
+                    background: linear-gradient(90deg, #8cff00 0%, rgba(140, 255, 0, 0.22) 100%);
+                }
+
+                .about-process-step {
+                    position: absolute;
+                    top: 18px;
+                    right: 18px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 50%;
+                    background: #0b0b0d;
+                    color: #8cff00;
+                    font-size: 15px;
+                    font-weight: 800;
+                    box-shadow: 0 14px 28px rgba(17, 22, 28, 0.14);
+                }
+
+                .about-process-icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 68px;
+                    height: 68px;
+                    margin: 24px 0 28px;
+                    border-radius: 50%;
+                    border: 1px solid rgba(140, 255, 0, 0.28);
+                    background: rgba(255, 255, 255, 0.05);
+                    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.16);
+                }
+
+                .about-process-icon img {
+                    width: 34px;
+                    height: 34px;
+                    object-fit: contain;
+                }
+
+                .about-process-card h5 {
+                    margin-bottom: 12px;
+                    color: #ffffff;
+                    font-size: 22px;
+                    font-weight: 700;
+                    line-height: 1.08;
+                    text-transform: uppercase;
+                }
+
+                .about-process-card p {
+                    margin-bottom: 0;
+                    color: rgba(255, 255, 255, 0.68);
+                    font-size: 15px;
+                    line-height: 1.65;
+                }
+
+                .about-process-card:hover {
+                    transform: translateY(-8px);
+                    border-color: rgba(140, 255, 0, 0.55);
+                    box-shadow: 0 28px 70px rgba(0, 0, 0, 0.28);
+                }
+
+                .about-process-card:hover .about-process-step {
+                    background: #8cff00;
+                    color: #11161c;
+                }
+
+                .about-process-card:hover .about-process-icon {
+                    border-color: rgba(140, 255, 0, 0.72);
+                }
+
+                @media (max-width: 1199px) {
+                    .about-process-grid {
+                        grid-template-columns: repeat(2, minmax(0, 1fr));
+                    }
+                }
+
+                @media (max-width: 767px) {
+                    .about-process-area {
+                        padding-top: 90px;
+                        padding-bottom: 90px;
+                    }
+
+                    .about-process-area::before {
+                        width: 260px;
+                        height: 260px;
+                        top: -130px;
+                        left: -150px;
+                    }
+
+                    .about-process-area::after {
+                        width: 260px;
+                        height: 260px;
+                        right: -140px;
+                        bottom: -140px;
+                    }
+
+                    .about-process-title {
+                        font-size: clamp(32px, 10vw, 44px);
+                    }
+
+                    .about-process-copy {
+                        font-size: 16px;
+                    }
+
+                    .about-process-grid {
+                        grid-template-columns: 1fr;
+                    }
+
+                    .about-process-card {
+                        min-height: 260px;
+                    }
+                }
+            </style>
             <!-- process area start -->
-            <section class="mi-process-area pt-120 pb-120">
-                <div class="container">
-                    <div class="row align-items-end mb-60">
-                        <div class="col-xl-7 col-lg-8">
-                            <div class="mi-process-title-box">
-                                <span class="tp-section-subtitle pre">Our Process</span>
-                                        <h4 class="tp-section-title mi-process-title mt-20">How We Take Your Brand From Insight To Impact</h4>
-                            </div>
+            <section class="about-process-area pt-140 pb-100">
+                <div class="container container-1330">
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="about-process-label">Simple process</div>
+                            <h4 class="about-process-title">From Insight to Brand Identity</h4>
                         </div>
-                        <div class="col-xl-5 col-lg-4">
-                            <div class="mi-process-intro">
-                                <p>Every project moves through a clear, collaborative system so you always know
-                                    what is happening, why it matters, and what comes next.</p>
-                            </div>
+                        <div class="col-xl-5 offset-xl-1">
+                            <p class="about-process-copy">This section now follows the theme's process language: bold title, strong spacing, icon-led cards and a clear step-by-step progression that reads fast and feels premium.</p>
                         </div>
                     </div>
-                    <div class="mi-process-grid">
-                        <div class="mi-process-card">
-                            <span class="mi-process-number">01</span>
-                            <div class="mi-process-content">
-                                <h5>Discovery</h5>
-                                <p>We understand your business, audience, goals, competitors and current brand challenges.</p>
+
+                    <div class="about-process-grid">
+                        <article class="about-process-card">
+                            <span class="about-process-step">01</span>
+                            <div class="about-process-icon">
+                                <img src="assets/img/home-09/process/process-1.png" alt="Discovery icon">
                             </div>
-                        </div>
-                        <div class="mi-process-card">
-                            <span class="mi-process-number">02</span>
-                            <div class="mi-process-content">
-                                <h5>Strategy</h5>
-                                <p>We define positioning, messaging, visual direction and the roadmap for the project.</p>
+                            <h5>Discovery</h5>
+                            <p>We learn your goals, audience, market context and what the brand really needs to solve.</p>
+                        </article>
+                        <article class="about-process-card">
+                            <span class="about-process-step">02</span>
+                            <div class="about-process-icon">
+                                <img src="assets/img/home-09/process/process-2.png" alt="Strategy icon">
                             </div>
-                        </div>
-                        <div class="mi-process-card">
-                            <span class="mi-process-number">03</span>
-                            <div class="mi-process-content">
-                                <h5>Design</h5>
-                                <p>We create brand identity, creative layouts and digital touchpoints aligned with the strategy.</p>
+                            <h5>Strategy</h5>
+                            <p>We define the positioning, messaging and creative direction before any design work starts.</p>
+                        </article>
+                        <article class="about-process-card">
+                            <span class="about-process-step">03</span>
+                            <div class="about-process-icon">
+                                <img src="assets/img/home-09/process/process-3.png" alt="Design icon">
                             </div>
-                        </div>
-                        <div class="mi-process-card">
-                            <span class="mi-process-number">04</span>
-                            <div class="mi-process-content">
-                                <h5>Review</h5>
-                                <p>We refine the work with your feedback, making every detail sharper and more useful.</p>
+                            <h5>Design</h5>
+                            <p>We translate the strategy into a visual system, layouts and digital touchpoints that feel connected.</p>
+                        </article>
+                        <article class="about-process-card">
+                            <span class="about-process-step">04</span>
+                            <div class="about-process-icon">
+                                <img src="assets/img/home-09/process/process-4.png" alt="Delivery icon">
                             </div>
-                        </div>
-                        <div class="mi-process-card">
-                            <span class="mi-process-number">05</span>
-                            <div class="mi-process-content">
-                                <h5>Final Delivery</h5>
-                                <p>We hand over ready-to-use files, guidelines and assets prepared for launch.</p>
-                            </div>
-                        </div>
+                            <h5>Delivery</h5>
+                            <p>We refine the output, package the final files and hand over assets ready for launch.</p>
+                        </article>
                     </div>
                 </div>
             </section>
@@ -793,6 +1009,7 @@ include('layouts/header.php'); ?>
         </main>
 
 <?php include('layouts/footer.php'); ?>
+
 
 
 
