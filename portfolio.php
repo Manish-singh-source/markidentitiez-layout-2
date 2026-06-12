@@ -57,8 +57,43 @@ $portfolioItems = [
         "categories" => "digital-marketing uiux",
         "labels" => ["Digital", "UI/UX Design"],
     ],
+         [
+        "title" => "Madh Island",
+        "image" => "assets/img/new-images/portfolio/madh-island/madh.png",
+        "link" => "visitmadhisland.php",
+        "categories" => "digital-marketing uiux",
+        "labels" => ["Digital", "UI/UX Design"],
+    ],
    
 ];
+
+$portfolioHighlights = [
+    [
+        "title" => "Brand Identity",
+        "image" => "assets/img/new-images/portfolio/aakriti/aakruti.png",
+        "text" => "Logo systems, color palettes, typography and brand touchpoints that feel premium and consistent.",
+        "tag" => "Branding",
+    ],
+    [
+        "title" => "Packaging Design",
+        "image" => "assets/img/new-images/portfolio/sapphire/sapphire.png",
+        "text" => "Shelf-ready packaging visuals with strong hierarchy, product clarity and retail appeal.",
+        "tag" => "Packaging",
+    ],
+    [
+        "title" => "UI / UX Design",
+        "image" => "assets/img/new-images/portfolio/ish/ish.png",
+        "text" => "Clean digital experiences focused on structure, usability and strong conversion flow.",
+        "tag" => "UI/UX",
+    ],
+    [
+        "title" => "Digital Campaigns",
+        "image" => "assets/img/new-images/portfolio/wrappackncarry/wrap.png",
+        "text" => "Scroll-stopping social and digital creatives designed to build visibility and engagement.",
+        "tag" => "Digital",
+    ],
+];
+
 include("layouts/header.php"); ?>
 
 <style>
@@ -130,6 +165,80 @@ include("layouts/header.php"); ?>
             opacity: 1;
             transform: none;
             animation: none;
+        }
+    }
+
+    .portfolio-highlights {
+        padding-top: 35px;
+    }
+
+    .portfolio-highlight-card {
+        height: 100%;
+        border-radius: 24px;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(8px);
+        transition: transform 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+    }
+
+    .portfolio-highlight-card:hover {
+        transform: translateY(-8px);
+        border-color: rgba(215, 238, 112, 0.55);
+        background: rgba(255, 255, 255, 0.06);
+    }
+
+    .portfolio-highlight-thumb {
+        aspect-ratio: 4 / 3;
+        overflow: hidden;
+        background: #111;
+    }
+
+    .portfolio-highlight-thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.8s ease;
+    }
+
+    .portfolio-highlight-card:hover .portfolio-highlight-thumb img {
+        transform: scale(1.06);
+    }
+
+    .portfolio-highlight-content {
+        padding: 24px;
+    }
+
+    .portfolio-highlight-tag {
+        display: inline-block;
+        margin-bottom: 12px;
+        padding: 6px 12px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+        text-transform: uppercase;
+        color: #111;
+        background: linear-gradient(135deg, #d7ee70, #99cb2f);
+    }
+
+    .portfolio-highlight-title {
+        margin-bottom: 10px;
+        font-size: 24px;
+        line-height: 1.1;
+        color: #fff;
+    }
+
+    .portfolio-highlight-text {
+        margin-bottom: 0;
+        color: rgba(255, 255, 255, 0.72);
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    @media (max-width: 991px) {
+        .portfolio-highlight-card {
+            margin-bottom: 24px;
         }
     }
 </style>
