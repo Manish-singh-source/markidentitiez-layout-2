@@ -1,16 +1,42 @@
+<?php
+require_once __DIR__ . '/seo.php';
+
+$seoMeta = mi_resolve_seo_meta(
+    $title ?? '',
+    $pageMetaDescription ?? '',
+    $pageMetaKeywords ?? '',
+    $pageMetaRobots ?? '',
+    $pageMetaImage ?? ''
+);
+?>
 <!doctype html>
-<html class="no-js agntix-dark" lang="zxx">
+<html class="no-js agntix-dark" lang="en">
 
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title><?php echo htmlspecialchars($pageMetaTitle ?? $title ?? 'Mark Identitiez - Best Branding Agency', ENT_QUOTES, 'UTF-8'); ?></title>
-    <meta name="description" content="<?php echo htmlspecialchars($pageMetaDescription ?? '', ENT_QUOTES, 'UTF-8'); ?>">
-    <?php if (!empty($pageMetaKeywords)) : ?>
-    <meta name="keywords" content="<?php echo htmlspecialchars($pageMetaKeywords, ENT_QUOTES, 'UTF-8'); ?>">
-    <?php endif; ?>
+    <title><?php echo htmlspecialchars($seoMeta['title'], ENT_QUOTES, 'UTF-8'); ?></title>
+    <meta name="description" content="<?php echo htmlspecialchars($seoMeta['description'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="keywords" content="<?php echo htmlspecialchars($seoMeta['keywords'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="robots" content="<?php echo htmlspecialchars($seoMeta['robots'], ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="<?php echo htmlspecialchars($seoMeta['canonical'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="author" content="Mark Identitiez">
+    <meta name="theme-color" content="#0b0b0d">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="<?php echo htmlspecialchars($seoMeta['site_name'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:title" content="<?php echo htmlspecialchars($seoMeta['title'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:description" content="<?php echo htmlspecialchars($seoMeta['description'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:url" content="<?php echo htmlspecialchars($seoMeta['url'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:image" content="<?php echo htmlspecialchars($seoMeta['image'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:image:alt" content="<?php echo htmlspecialchars($seoMeta['site_name'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo htmlspecialchars($seoMeta['title'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($seoMeta['description'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="twitter:image" content="<?php echo htmlspecialchars($seoMeta['image'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="twitter:image:alt" content="<?php echo htmlspecialchars($seoMeta['site_name'], ENT_QUOTES, 'UTF-8'); ?>">
 
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/new-images/favicon.png">

@@ -1,5 +1,7 @@
 <?php
 
+header('X-Robots-Tag: noindex, nofollow', true);
+
 require(__DIR__ . '/PHPMailer/PHPMailerAutoload.php');
 require 'PHPMailer/class.phpmailer.php';
 require 'PHPMailer/class.smtp.php';

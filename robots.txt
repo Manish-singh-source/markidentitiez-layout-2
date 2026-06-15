@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Disallow: /PHPMailer/
+Disallow: /contact-send.php
+Disallow: /career-send.php
+Disallow: /send.php
+Disallow: /failed.php
+Disallow: /success.php
+
+Sitemap: /sitemap.php

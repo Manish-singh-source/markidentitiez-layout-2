@@ -2612,6 +2612,10 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     padding-top: 50px;
 }
 
+    .tp-service-area.pt-100 {
+        padding-top: 90px;
+    }
+
     .service-page .ai-hero-ptb {
         padding-top: 18px;
     }
@@ -2673,6 +2677,58 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     width: 450px;
     overflow: hidden;
     margin-left: 0px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .tp-about-wrap .row {
+        row-gap: 30px;
+    }
+
+    .tp-about-wrap .row > [class*="col-"] {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .tp-about-text p {
+        font-size: 36px;
+        margin-right: 0;
+    }
+
+    .tp-about-thumb {
+        width: min(100%, 450px);
+        height: auto;
+        aspect-ratio: 315 / 415;
+    }
+
+    .tp-about-thumb img {
+        height: 100%;
+        object-fit: cover;
+        margin-top: 0;
+    }
+
+    .tp-about-funcact-wrap {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .tp-about-text p {
+        font-size: 42px;
+        margin-right: 24px;
+    }
+
+    .tp-about-thumb {
+        width: 390px;
+        height: 500px;
+    }
+
+    .tp-about-funcact-wrap {
+        margin-left: 42px;
+    }
+
+    .tp-about-wrap .row {
+        align-items: flex-start;
+    }
 }
 
 @media (max-width: 767px) {

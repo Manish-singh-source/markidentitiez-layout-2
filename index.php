@@ -747,8 +747,6 @@ include('layouts/header.php'); ?>
                                     </a>
                                 </div>
                                 <!-- SERVICES -->
-
-
                             </div>
                         </div>
                         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
@@ -808,8 +806,6 @@ include('layouts/header.php'); ?>
                                     </a>
                                 </div>
                                 <!-- SERVICES -->
-
-
                             </div>
                         </div>
                         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
