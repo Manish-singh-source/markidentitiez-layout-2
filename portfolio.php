@@ -57,6 +57,13 @@ $portfolioItems = [
         "categories" => "digital-marketing uiux",
         "labels" => ["Digital", "UI/UX Design"],
     ],
+    [
+        "title" => "Aeritx",
+        "image" => "assets/img/new-images/portfolio/aeritx/aeritx.png",
+        "link" => "aeritx.php",
+        "categories" => "digital-marketing uiux",
+        "labels" => ["Digital", "UI/UX Design"],
+    ],
          [
         "title" => "Madh Island",
         "image" => "assets/img/new-images/portfolio/madh-island/madh.png",
