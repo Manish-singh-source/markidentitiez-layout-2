@@ -122,6 +122,259 @@
     <!-- footer area end -->
 
 </footer>
+<div class="mi-bottom-toggle" id="miBottomToggleLegacy" style="display:none !important;">
+    <button class="mi-bottom-toggle__fab" type="button" aria-expanded="false" aria-controls="miBottomTogglePanel"
+        aria-label="Open branding contact panel">
+        <span class="mi-bottom-toggle__fab-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 11.5C20 15.6421 16.1944 19 11.5 19C10.3672 19 9.28704 18.8013 8.2985 18.4384L4 20L5.597 16.1356C4.62529 14.9851 4 13.3235 4 11.5C4 7.35786 7.80558 4 12.5 4C17.1944 4 20 7.35786 20 11.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                <path d="M8.3 10.4H15.7M8.3 13.6H13.3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+            </svg>
+        </span>
+    </button>
+    <div class="mi-bottom-toggle__panel" id="miBottomTogglePanelLegacy" hidden>
+        <div class="mi-bottom-toggle__panel-head">
+            <div>
+                <span class="mi-bottom-toggle__label">Branding support</span>
+                <h3>Logo design, brand identity, content packaging</h3>
+            </div>
+            <button class="mi-bottom-toggle__close" type="button" aria-label="Close panel">×</button>
+        </div>
+        <p class="mi-bottom-toggle__copy">Need a logo, a clean brand identity system, or proper packaging content? Contact us and we&apos;ll shape it right.</p>
+        <div class="mi-bottom-toggle__actions">
+            <a class="mi-bottom-toggle__btn mi-bottom-toggle__btn--primary" href="contactus.php">Contact Us</a>
+            <a class="mi-bottom-toggle__btn" href="tel:+918080803374">Call Now</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .mi-bottom-toggle {
+        position: fixed !important;
+        right: 50px;
+        bottom: 100px;
+        z-index: 99999;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        gap: 10px;
+        pointer-events: none;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(12px);
+        transition: opacity .22s ease, visibility .22s ease, transform .22s ease;
+    }
+
+    .mi-bottom-toggle.mi-bottom-toggle--show {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    .mi-bottom-toggle__fab,
+    .mi-bottom-toggle__panel {
+        box-shadow: 0 18px 50px rgba(0, 0, 0, 0.32);
+    }
+
+    .mi-bottom-toggle__fab {
+        pointer-events: auto;
+        width: 44px;
+        height: 44px;
+        border: 0;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #d7ee70, #afc62d);
+        color: #111;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: transform .22s ease, box-shadow .22s ease;
+    }
+
+    .mi-bottom-toggle__fab:hover {
+        transform: translateY(-2px) scale(1.02);
+    }
+
+    .mi-bottom-toggle__fab-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #111;
+    }
+
+    .mi-bottom-toggle.is-open .mi-bottom-toggle__fab-icon {
+        transform: rotate(45deg);
+    }
+
+    .mi-bottom-toggle__panel {
+        pointer-events: auto;
+        width: min(320px, calc(100vw - 32px));
+        padding: 16px;
+        border-radius: 18px;
+        background: linear-gradient(180deg, rgba(22, 22, 24, 0.98), rgba(12, 12, 14, 0.98));
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        color: #fff;
+        transform-origin: bottom right;
+        animation: miToggleIn .2s ease;
+    }
+
+    .mi-bottom-toggle__panel-head {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .mi-bottom-toggle__label {
+        display: inline-block;
+        margin-bottom: 8px;
+        color: rgba(215, 238, 112, 0.92);
+        font-size: 11px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+    }
+
+    .mi-bottom-toggle__panel h3 {
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+        color: #ffffff;
+    }
+
+    .mi-bottom-toggle__close {
+        width: 30px;
+        height: 30px;
+        flex: 0 0 30px;
+        border: 0;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.06);
+        color: #fff;
+        font-size: 22px;
+        line-height: 1;
+        cursor: pointer;
+    }
+
+    .mi-bottom-toggle__copy {
+        margin: 12px 0 14px;
+        color: rgba(255, 255, 255, 0.82);
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .mi-bottom-toggle__actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .mi-bottom-toggle__btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 36px;
+        padding: 0 14px;
+        border-radius: 999px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: rgba(255, 255, 255, 0.03);
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        transition: transform .2s ease, background .2s ease, border-color .2s ease;
+    }
+
+    .mi-bottom-toggle__btn:hover {
+        transform: translateY(-1px);
+        border-color: rgba(215, 238, 112, 0.25);
+        background: rgba(215, 238, 112, 0.1);
+        color: #fff;
+    }
+
+    .mi-bottom-toggle__btn--primary {
+        background: linear-gradient(135deg, #d7ee70, #c5df52);
+        color: #111;
+        border-color: transparent;
+        font-weight: 600;
+    }
+
+    .mi-bottom-toggle__btn--primary:hover {
+        color: #111;
+        background: linear-gradient(135deg, #e3f57f, #d7ee70);
+    }
+
+    @keyframes miToggleIn {
+        from {
+            opacity: 0;
+            transform: translateY(8px) scale(.98);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+    }
+
+    @media (max-width: 767px) {
+        .mi-bottom-toggle {
+            right: 20px;
+            bottom: 100px;
+        }
+
+        .mi-bottom-toggle__panel {
+            padding: 16px;
+        }
+
+        .mi-bottom-toggle__actions {
+            flex-direction: column;
+        }
+
+        .mi-bottom-toggle__btn {
+            width: 100%;
+        }
+    }
+</style>
+
+<script>
+    (function () {
+        var root = document.getElementById('miBottomToggle');
+        if (!root) return;
+        var handle = root.querySelector('.mi-bottom-toggle__fab');
+        var panel = document.getElementById('miBottomTogglePanel');
+        var closeBtn = root.querySelector('.mi-bottom-toggle__close');
+        if (!handle || !panel) return;
+
+        function syncVisibility() {
+            var shouldShow = window.scrollY > 300 || root.classList.contains('is-open');
+            root.classList.toggle('mi-bottom-toggle--show', shouldShow);
+        }
+
+        function setOpen(nextOpen) {
+            root.classList.toggle('is-open', nextOpen);
+            handle.setAttribute('aria-expanded', nextOpen ? 'true' : 'false');
+            panel.hidden = !nextOpen;
+            syncVisibility();
+        }
+
+        handle.addEventListener('click', function () {
+            setOpen(root.classList.contains('is-open') ? false : true);
+        });
+
+        if (closeBtn) {
+            closeBtn.addEventListener('click', function () {
+                setOpen(false);
+            });
+        }
+
+        window.addEventListener('scroll', syncVisibility, { passive: true });
+        syncVisibility();
+
+        document.addEventListener('keydown', function (event) {
+            if (event.key === 'Escape') {
+                setOpen(false);
+            }
+        });
+    })();
+</script>
 </div>
 </div>
 <!-- JS here -->
@@ -161,6 +414,74 @@
 <!-- JS here -->
 
 <!-- JS here -->
+
+<div class="mi-bottom-toggle" id="miBottomToggle">
+    <button class="mi-bottom-toggle__fab" type="button" aria-expanded="false" aria-controls="miBottomTogglePanel"
+        aria-label="Open branding contact panel">
+        <span class="mi-bottom-toggle__fab-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 11.5C20 15.6421 16.1944 19 11.5 19C10.3672 19 9.28704 18.8013 8.2985 18.4384L4 20L5.597 16.1356C4.62529 14.9851 4 13.3235 4 11.5C4 7.35786 7.80558 4 12.5 4C17.1944 4 20 7.35786 20 11.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                <path d="M8.3 10.4H15.7M8.3 13.6H13.3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+            </svg>
+        </span>
+    </button>
+    <div class="mi-bottom-toggle__panel" id="miBottomTogglePanel" hidden>
+        <div class="mi-bottom-toggle__panel-head">
+            <div>
+                <span class="mi-bottom-toggle__label">Branding support</span>
+                <h3>Logo design, brand identity, content packaging</h3>
+            </div>
+            <button class="mi-bottom-toggle__close" type="button" aria-label="Close panel">&times;</button>
+        </div>
+        <p class="mi-bottom-toggle__copy">Need a logo, a clean brand identity system, or proper packaging content? Contact us and we&apos;ll shape it right.</p>
+        <div class="mi-bottom-toggle__actions">
+            <a class="mi-bottom-toggle__btn mi-bottom-toggle__btn--primary" href="contactus.php">Contact Us</a>
+            <a class="mi-bottom-toggle__btn" href="tel:+918080803374">Call Now</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function () {
+        var root = document.getElementById('miBottomToggle');
+        if (!root) return;
+        var handle = root.querySelector('.mi-bottom-toggle__fab');
+        var panel = document.getElementById('miBottomTogglePanel');
+        var closeBtn = root.querySelector('.mi-bottom-toggle__close');
+        if (!handle || !panel) return;
+
+        function syncVisibility() {
+            var shouldShow = window.scrollY > 300 || root.classList.contains('is-open');
+            root.classList.toggle('mi-bottom-toggle--show', shouldShow);
+        }
+
+        function setOpen(nextOpen) {
+            root.classList.toggle('is-open', nextOpen);
+            handle.setAttribute('aria-expanded', nextOpen ? 'true' : 'false');
+            panel.hidden = !nextOpen;
+            syncVisibility();
+        }
+
+        handle.addEventListener('click', function () {
+            setOpen(root.classList.contains('is-open') ? false : true);
+        });
+
+        if (closeBtn) {
+            closeBtn.addEventListener('click', function () {
+                setOpen(false);
+            });
+        }
+
+        window.addEventListener('scroll', syncVisibility, { passive: true });
+        syncVisibility();
+
+        document.addEventListener('keydown', function (event) {
+            if (event.key === 'Escape') {
+                setOpen(false);
+            }
+        });
+    })();
+</script>
 
 </body>
 
