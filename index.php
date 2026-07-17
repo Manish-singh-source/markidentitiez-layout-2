@@ -286,7 +286,7 @@ include('layouts/header.php'); ?>
         </div>
         <div class="tp-portfolio-slider__wrap slider slider--bg">
             <div class="tp-portfolio-slider__item">
-                <video src="https://digipanda.co.in/assets/video-banner.mp4" autoplay muted loop
+                <video src="./assets/video/mark.mp4" autoplay muted loop
                     playsinline preload="auto"></video>
             </div>
             <div class="tp-portfolio-slider__item">
@@ -377,7 +377,7 @@ include('layouts/header.php'); ?>
     <div class="tp-about-area pt-100 pb-120 tp-bounce-trigger">
         <div class="container">
             <div class="tp-about-box p-relative">
-                <div class="tp-about-shape-1 tp-bounce d-md-block">
+                <!-- <div class="tp-about-shape-1 tp-bounce d-md-block">
                     <div class="mi-logo-animation" aria-label="Mark Identitiez">
                         <span class="mi-logo-swoosh mi-logo-swoosh-top" aria-hidden="true"></span>
                         <span class="mi-logo-swoosh mi-logo-swoosh-bottom" aria-hidden="true"></span>
@@ -394,7 +394,7 @@ include('layouts/header.php'); ?>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="row">
                     <div class="col-xl-3">
                         <div class="tp-about-title-box">

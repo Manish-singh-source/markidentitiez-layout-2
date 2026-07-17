@@ -165,8 +165,8 @@ include('layouts/header.php'); ?>
                                     </p>
 
                                     <div class="tp_fade_anim" data-fade-from="top" data-delay=".7" data-ease="bounce">
-                                        <a class="tp-btn-red-border about-us-2" href="contactus.php">
-                                            Get in Touch
+                                        <a class="tp-btn-red-border about-us-2" href="assets/pdf/MARK PORTFOLIO PROFILE UPDATE.pdf" download>
+                                            Download Company Profile
                                         </a>
                                     </div>
                                 </div>
@@ -862,7 +862,7 @@ include('layouts/header.php'); ?>
             <!-- work area end -->
 
             <!-- testimonial area start -->
-            <div class="tp-testimonial-area tp-team-bg p-relative fix" data-bg-color="#1A1B1E">
+            <!-- <div class="tp-testimonial-area tp-team-bg p-relative fix" data-bg-color="#1A1B1E">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-6">
@@ -882,7 +882,7 @@ include('layouts/header.php'); ?>
                                 <div class="tp-team-item">
                                     <div class="tp-team-item-thumb">
                                         <a href="service.php"><img
-                                                src="assets/img/about-us/about-us-4/team/team-1.jpg" alt=""></a>
+                                                src="./assets/img/new-images/team/gopalsir.webp" alt=""></a>
                                         <div class="studio-team-content text-center">
                                             <h4 class="studio-team-title-sm"><a href="service.php">Brand Strategy</a>
                                             </h4>
@@ -946,7 +946,7 @@ include('layouts/header.php'); ?>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- testimonial area end -->
 
             <!-- about collaboration area start -->
@@ -1009,6 +1009,7 @@ include('layouts/header.php'); ?>
         </main>
 
 <?php include('layouts/footer.php'); ?>
+
 
 
 
